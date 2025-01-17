@@ -1468,7 +1468,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
-				(at 0 -8.89 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1476,8 +1476,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.com/ProductDetail/652-CDSOT23-T24CAN"
-				(at 0 -6.35 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.524 1.524)

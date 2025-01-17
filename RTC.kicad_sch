@@ -5,27 +5,49 @@
 	(uuid "21060000-b90e-48c5-a71f-8f27147c36d1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CM4IO:74LVC1G07_copy"
+		(symbol "74LVC1G07QSE-7_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 3.81 0)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "74LVC1G07_copy"
-				(at 0 -3.81 0)
+			(property "Value" "74LVC1G07QSE-7"
+				(at 21.59 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(property "Footprint" "SOT65P210X110-5N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/74LVC1G07Q.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buffers & Line Drivers Logic LVC 1 Gate SOT353 T&R 3K"
 				(at 0 0 0)
 				(effects
 					(font
@@ -34,46 +56,80 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-				(at 0 0 0)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Single Buffer Gate w/ Open Drain, Low-Voltage CMOS"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 21.59 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Single Gate Buff LVC CMOS Open Drain"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "74LVC1G07QSE-7"
+				(at 21.59 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT* SG-*"
-				(at 0 0 0)
+			(property "Mouser Part Number" "621-74LVC1G07QSE-7"
+				(at 21.59 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "74LVC1G07_copy_0_1"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1G07QSE-7?qs=P1JMDcb91o6kX7wpGC%252Bbgg%3D%3D"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "74LVC1G07QSE-7"
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74lvc1g07qse-7/diodes-incorporated?region=nac"
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC1G07QSE-7_1_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -0.635) (xy -1.27 -0.635)
+						(xy 2.9101 -0.5296) (xy 4.1801 -0.5296)
 					)
 					(stroke
 						(width 0)
@@ -85,7 +141,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 2.54 0) (xy -3.81 2.54)
+						(xy 0 3.81) (xy 0 -3.81) (xy 10.16 0) (xy 0 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -97,7 +153,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -2.54 0) (xy -1.905 -0.635) (xy -1.27 0) (xy -1.905 0.635)
+						(xy 3.5451 0.7404) (xy 2.9101 0.1054) (xy 3.5451 -0.5296) (xy 4.1801 0.1054) (xy 3.5451 0.7404)
 					)
 					(stroke
 						(width 0)
@@ -108,75 +164,93 @@
 					)
 				)
 			)
-			(symbol "74LVC1G07_copy_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
+			(symbol "74LVC1G07QSE-7_1_1_1"
+				(pin no_connect line
+					(at 2.54 6.35 270)
+					(length 3.302) hide
+					(name "NC"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 0.762 0.762)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 0 -2.54 270)
-					(length 0)
+					(at 5.08 -5.08 90)
+					(length 3.048)
 					(name "GND"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0.762 0.762)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin open_collector line
-					(at 6.35 0 180)
+				(pin passive line
+					(at 13.97 0 180)
 					(length 3.81)
-					(name "~"
+					(name ""
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0.762 0.762)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 0 2.54 90)
-					(length 0)
+					(at -3.81 -1.27 0)
+					(length 3.81)
 					(name "VCC"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0.762 0.762)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1601,12 +1675,6 @@
 		)
 	)
 	(junction
-		(at 187.96 44.45)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "098b7d9e-72bb-4fe7-9401-373c8b528ce9")
-	)
-	(junction
 		(at 137.16 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1619,34 +1687,40 @@
 		(uuid "670b26ec-701c-4e5a-85d4-c1e931cfe13b")
 	)
 	(junction
+		(at 179.07 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68c0a46a-22cd-4b3e-ab04-6405e4cfbf44")
+	)
+	(junction
 		(at 50.8 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b1b8806-8994-490b-bbae-b85bc07c358a")
 	)
 	(junction
-		(at 205.74 44.45)
-		(diameter 1.016)
+		(at 196.85 57.15)
+		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "82ad4aa0-70e2-4b00-9b2e-39efd57abc04")
+		(uuid "98c023e9-b673-48e0-ab1e-e7e0033fb123")
 	)
 	(junction
-		(at 187.96 57.15)
-		(diameter 1.016)
+		(at 179.07 44.45)
+		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b339cad8-5aaa-406a-b703-4287faab3d3e")
-	)
-	(junction
-		(at 205.74 57.15)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "c72cde0e-35d9-41f1-923b-de231b7e45ca")
+		(uuid "b7a7c00b-0357-4b12-acdd-2414b28c642f")
 	)
 	(junction
 		(at 162.56 44.45)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "d15d67b1-48c7-4043-8ae6-9deb6c209775")
+	)
+	(junction
+		(at 196.85 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f042bf85-d2cd-4ae5-9baa-ad838e5accfe")
 	)
 	(junction
 		(at 93.98 119.38)
@@ -1668,23 +1742,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 57.15) (xy 187.96 57.15)
+			(xy 167.64 57.15) (xy 179.07 57.15)
 		)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(uuid "025befd0-ae12-4735-9c08-84dae2fef80e")
-	)
-	(wire
-		(pts
-			(xy 219.71 44.45) (xy 219.71 54.61)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "1335d6ab-dbc9-448f-b82e-32d4f122e466")
 	)
 	(wire
 		(pts
@@ -1718,23 +1782,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 44.45) (xy 187.96 45.72)
+			(xy 179.07 44.45) (xy 179.07 45.72)
 		)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(uuid "1d12514e-99be-4283-af67-d86da03b4436")
-	)
-	(wire
-		(pts
-			(xy 205.74 44.45) (xy 219.71 44.45)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "21238b8f-05a3-4f78-9b3a-f5c210aa0d7f")
 	)
 	(polyline
 		(pts
@@ -1758,6 +1812,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 44.45) (xy 209.55 44.45)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "23412974-6727-4ce9-860c-8c96f812a3a3")
+	)
+	(wire
+		(pts
 			(xy 58.42 55.88) (xy 58.42 58.42)
 		)
 		(stroke
@@ -1768,13 +1832,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 44.45) (xy 205.74 44.45)
+			(xy 179.07 57.15) (xy 184.15 57.15)
 		)
 		(stroke
 			(width 0)
 			(type solid)
 		)
-		(uuid "26e1af5e-909c-4ab1-b78d-ec24d0e4058c")
+		(uuid "2696f2e9-f0b0-4483-b8f1-985a26c00e6f")
 	)
 	(wire
 		(pts
@@ -1785,16 +1849,6 @@
 			(type default)
 		)
 		(uuid "2d478262-1a97-4cff-95aa-252c559365ef")
-	)
-	(wire
-		(pts
-			(xy 219.71 59.69) (xy 219.71 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eac9307-389f-48a2-9efe-3fff3b23b861")
 	)
 	(polyline
 		(pts
@@ -1818,7 +1872,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 57.15) (xy 187.96 53.34)
+			(xy 179.07 57.15) (xy 179.07 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1828,7 +1882,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 57.15) (xy 205.74 53.34)
+			(xy 196.85 57.15) (xy 196.85 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1898,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 44.45) (xy 187.96 44.45)
+			(xy 162.56 44.45) (xy 179.07 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1915,6 +1969,26 @@
 			(type dash)
 		)
 		(uuid "6e307891-c3f4-4e88-8ae3-67e08853648d")
+	)
+	(wire
+		(pts
+			(xy 196.85 57.15) (xy 212.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "71fff74b-ee41-46c2-a126-7a17f3ee863a")
+	)
+	(wire
+		(pts
+			(xy 220.98 63.5) (xy 220.98 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd6a9ab-0d95-42ac-be14-f6a8b30f4b45")
 	)
 	(polyline
 		(pts
@@ -1968,16 +2042,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 57.15) (xy 245.11 57.15)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "99b88903-ecbb-4942-9659-a1db0a4d495d")
-	)
-	(wire
-		(pts
 			(xy 110.49 137.16) (xy 109.22 137.16)
 		)
 		(stroke
@@ -1988,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 57.15) (xy 205.74 57.15)
+			(xy 191.77 57.15) (xy 196.85 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2008,6 +2072,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 58.42) (xy 245.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b44f6f68-1abd-46c8-b635-f4baf2cdaa0d")
+	)
+	(wire
+		(pts
 			(xy 92.71 48.26) (xy 101.6 48.26)
 		)
 		(stroke
@@ -2015,6 +2089,16 @@
 			(type solid)
 		)
 		(uuid "b8cae481-2e26-4d36-8e79-a45ece88dcf1")
+	)
+	(wire
+		(pts
+			(xy 212.09 59.69) (xy 209.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ceb7da-a3aa-48ae-9c1a-0011caf90ed6")
 	)
 	(wire
 		(pts
@@ -2056,16 +2140,6 @@
 		)
 		(uuid "c0bfb95d-0a38-4fd5-a07b-1d688aeea032")
 	)
-	(wire
-		(pts
-			(xy 187.96 57.15) (xy 193.04 57.15)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "c3478135-f88e-4eee-a929-d0c154d19cf4")
-	)
 	(polyline
 		(pts
 			(xy 265.43 87.63) (xy 265.43 34.29)
@@ -2078,6 +2152,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 44.45) (xy 196.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "cc9a2b62-21f2-4490-ae31-598788d41ff9")
+	)
+	(wire
+		(pts
 			(xy 99.06 134.62) (xy 110.49 134.62)
 		)
 		(stroke
@@ -2085,16 +2169,6 @@
 			(type default)
 		)
 		(uuid "da76b80e-27e8-48de-a195-eb4de9ba1e31")
-	)
-	(wire
-		(pts
-			(xy 205.74 57.15) (xy 212.09 57.15)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "db848817-927f-447d-94c5-fa8a29ebc000")
 	)
 	(wire
 		(pts
@@ -2138,6 +2212,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 59.69) (xy 209.55 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ee563b-9bfb-471f-8939-67e6a5a3c549")
+	)
+	(wire
+		(pts
 			(xy 99.06 144.78) (xy 99.06 146.05)
 		)
 		(stroke
@@ -2158,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 44.45) (xy 205.74 45.72)
+			(xy 196.85 44.45) (xy 196.85 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2292,7 +2376,7 @@
 		)
 		(uuid "a64bc75b-c362-482a-925a-2aa79841f9f3")
 	)
-	(text "RTC alarms can be used to wake up the Compute module\nNB an Alarm triggering while already awake will cause a reset \nThis can be used as a watchdog reset "
+	(text "RTC alarms can be used to wake up the CM4 when off or shutdown.\nIf CM4 is already awake when alarm triggers, CM4 is reset.\nThis can be used as watchdog reset\n"
 		(exclude_from_sim no)
 		(at 38.1 82.55 0)
 		(effects
@@ -2326,7 +2410,7 @@
 		(uuid "f6ba46d7-3769-4ad5-8981-5c1248e6c9d8")
 	)
 	(label "nRTC_INT"
-		(at 171.45 57.15 0)
+		(at 167.64 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2397,7 +2481,7 @@
 	)
 	(hierarchical_label "GLOBAL_EN"
 		(shape input)
-		(at 245.11 57.15 0)
+		(at 245.11 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2581,7 +2665,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 219.71 64.77 0)
+		(at 220.98 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2590,7 +2674,7 @@
 		(fields_autoplaced yes)
 		(uuid "267e3ee0-d83d-419f-abed-1ef926585c4b")
 		(property "Reference" "#PWR043"
-			(at 219.71 71.12 0)
+			(at 220.98 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2683,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 69.85 0)
+			(at 220.98 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 64.77 0)
+			(at 220.98 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 64.77 0)
+			(at 220.98 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2709,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 64.77 0)
+			(at 220.98 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,7 +2921,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 187.96 49.53 180)
+		(at 179.07 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2845,7 +2929,7 @@
 		(dnp no)
 		(uuid "3382c63f-5723-4a36-9f54-6a6bc9c442e8")
 		(property "Reference" "R17"
-			(at 191.135 50.8 0)
+			(at 182.245 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2937,7 @@
 			)
 		)
 		(property "Value" "510K 1%"
-			(at 193.675 48.26 0)
+			(at 184.785 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2861,7 +2945,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 189.738 49.53 90)
+			(at 180.848 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,7 +2954,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 187.96 49.53 0)
+			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +2963,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 49.53 0)
+			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +2972,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 187.96 49.53 0)
+			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +2981,7 @@
 			)
 		)
 		(property "Field5" "1458807"
-			(at 187.96 49.53 0)
+			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2906,7 +2990,7 @@
 			)
 		)
 		(property "Field7" "Rohm"
-			(at 187.96 49.53 0)
+			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +2999,7 @@
 			)
 		)
 		(property "Field6" "MCR01MZPF5103"
-			(at 187.96 49.53 0)
+			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +3008,7 @@
 			)
 		)
 		(property "Part Description" "Resistor 510K M1005 1% 63mW"
-			(at 187.96 49.53 0)
+			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,6 +3256,156 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/576572c3-1ae4-4f9d-a2fe-756d060003c8"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "74LVC1G07QSE-7_1")
+		(lib_id "74LVC1G07QSE-7:74LVC1G07QSE-7")
+		(at 215.9 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "416b44ce-a25e-44c4-978a-acd7036e0c11")
+		(property "Reference" "IC7"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G07QSE-7"
+			(at 220.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT65P210X110-5N"
+			(at 237.49 153.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/74LVC1G07Q.pdf"
+			(at 237.49 253.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buffers & Line Drivers Logic LVC 1 Gate SOT353 T&R 3K"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 237.49 453.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 237.49 553.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC1G07QSE-7"
+			(at 237.49 653.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-74LVC1G07QSE-7"
+			(at 237.49 753.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1G07QSE-7?qs=P1JMDcb91o6kX7wpGC%252Bbgg%3D%3D"
+			(at 237.49 853.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "74LVC1G07QSE-7"
+			(at 237.49 953.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74lvc1g07qse-7/diodes-incorporated?region=nac"
+			(at 237.49 1053.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "823b9150-79a3-4dbe-ae46-721f255962ca")
+		)
+		(pin "1"
+			(uuid "193228b4-d23f-4360-bcb9-4ae5771a3a84")
+		)
+		(pin "5"
+			(uuid "c66fa417-cce2-4c18-a605-ac6934fb12c4")
+		)
+		(pin "3"
+			(uuid "06082718-895e-4718-ba4e-75129ac7f180")
+		)
+		(pin "2"
+			(uuid "34381e19-819e-4d44-8479-c45da396cb6f")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/576572c3-1ae4-4f9d-a2fe-756d060003c8"
+					(reference "IC7")
 					(unit 1)
 				)
 			)
@@ -3532,7 +3766,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 49.53 180)
+		(at 196.85 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3540,7 +3774,7 @@
 		(dnp no)
 		(uuid "9b62f707-337a-4326-9ced-0eaee96572ef")
 		(property "Reference" "R18"
-			(at 208.915 50.8 0)
+			(at 200.025 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3782,7 @@
 			)
 		)
 		(property "Value" "510K 1%"
-			(at 211.455 48.26 0)
+			(at 202.565 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3790,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 207.518 49.53 90)
+			(at 198.628 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3799,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 205.74 49.53 0)
+			(at 196.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3808,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 49.53 0)
+			(at 196.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +3817,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 205.74 49.53 0)
+			(at 196.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +3826,7 @@
 			)
 		)
 		(property "Field5" "1458807"
-			(at 205.74 49.53 0)
+			(at 196.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,7 +3835,7 @@
 			)
 		)
 		(property "Field7" "Rohm"
-			(at 205.74 49.53 0)
+			(at 196.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,7 +3844,7 @@
 			)
 		)
 		(property "Field6" "MCR01MZPF5103"
-			(at 205.74 49.53 0)
+			(at 196.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,7 +3853,7 @@
 			)
 		)
 		(property "Part Description" "Resistor 510K M1005 1% 63mW"
-			(at 205.74 49.53 0)
+			(at 196.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,126 +4056,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CM4IO:74LVC1G07_copy")
-		(at 219.71 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb10701b-fbcc-4b97-804c-cc1cf7d35b06")
-		(property "Reference" "U11"
-			(at 222.885 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC1G07SE-7"
-			(at 229.235 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 219.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/74LVC1G07.pdf"
-			(at 219.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 219.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "2425492"
-			(at 219.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "74LVC1G07SE-7"
-			(at 219.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Diodes"
-			(at 219.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element Open Drain Output SOT-353"
-			(at 219.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1620470a-6c56-4330-9904-1aa1a7a37881")
-		)
-		(pin "3"
-			(uuid "f5b76054-5145-4b8f-83d6-f70b709c9a3a")
-		)
-		(pin "4"
-			(uuid "4f5b6594-9d2d-47ce-8e10-661ecd93a6a5")
-		)
-		(pin "5"
-			(uuid "bded4fec-03b7-4c69-9f0b-bda8ab4a6f27")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/576572c3-1ae4-4f9d-a2fe-756d060003c8"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 196.85 57.15 270)
+		(at 187.96 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3949,7 +4065,7 @@
 		(dnp no)
 		(uuid "cb2a593e-b558-449d-95da-8f84d8abd9d4")
 		(property "Reference" "C23"
-			(at 198.12 60.96 90)
+			(at 182.626 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +4074,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 190.5 60.96 90)
+			(at 189.23 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +4083,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 193.04 58.1152 0)
+			(at 184.15 58.1152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,7 +4092,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
-			(at 196.85 57.15 0)
+			(at 187.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +4101,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 57.15 0)
+			(at 187.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +4110,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 196.85 57.15 0)
+			(at 187.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +4119,7 @@
 			)
 		)
 		(property "Field5" "2611911"
-			(at 196.85 57.15 0)
+			(at 187.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,7 +4128,7 @@
 			)
 		)
 		(property "Field6" "RM EMK105 B7104KV-F"
-			(at 196.85 57.15 0)
+			(at 187.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +4137,7 @@
 			)
 		)
 		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
-			(at 196.85 57.15 0)
+			(at 187.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,7 +4146,7 @@
 			)
 		)
 		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 196.85 57.15 0)
+			(at 187.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4039,7 +4155,7 @@
 			)
 		)
 		(property "Field8" "110091611"
-			(at 196.85 57.15 0)
+			(at 187.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -9,4 +9,6 @@
   (lib (name "TPS2066TDGNRQ1")(type "KiCad")(uri "${KIPRJMOD}/PiBoard_Lib/USB_PWR_TPS2066TDGNRQ1.kicad_sym")(options "")(descr ""))
   (lib (name "3-2172091-2")(type "KiCad")(uri "${KIPRJMOD}/PiBoard_Lib/USB_M8_3-2172091-2.kicad_sym")(options "")(descr ""))
   (lib (name "74LVC1G07QSE-7")(type "KiCad")(uri "${KIPRJMOD}/PiBoard_Lib/Buffer_Diode_74LVC1G07QSE-7.kicad_sym")(options "")(descr ""))
+  (lib (name "AP64501QSP-13")(type "KiCad")(uri "${KIPRJMOD}/PiBoard_Lib/5V_PWR_AP64501QSP-13.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2553QDBVRQ1")(type "KiCad")(uri "${KIPRJMOD}/PiBoard_Lib/HDMI_PWR_TPS2553QDBVRQ1.kicad_sym")(options "")(descr ""))
 )
