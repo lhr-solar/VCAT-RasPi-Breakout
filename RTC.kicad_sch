@@ -1091,6 +1091,9 @@
 			)
 		)
 		(symbol "Diode:BAT54C"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3503,7 +3506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.farnell.com/datasheets/2861240.pdf?_ga=2.129831176.54358802.1587372871-1787849031.1568210898&_gac=1.175311126.1587399424.EAIaIQobChMInOvF07P36AIVw7HtCh0NWwCeEAAYAyAAEgI0YfD_BwE"
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
 			(at 39.37 52.832 0)
 			(effects
 				(font
@@ -3512,7 +3515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "dual schottky barrier diode, common cathode"
 			(at 39.37 50.8 0)
 			(effects
 				(font
