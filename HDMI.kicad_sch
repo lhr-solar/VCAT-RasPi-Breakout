@@ -5012,12 +5012,6 @@
 		(uuid "27a8fbce-0633-408b-8f21-4a4eebcc07fb")
 	)
 	(junction
-		(at 201.93 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b15c74a-e577-4dc1-8a69-0e687ba4251c")
-	)
-	(junction
 		(at 45.72 130.81)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -6035,16 +6029,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 133.35) (xy 212.09 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9222f747-d093-4334-a4f6-8ce9249f004b")
-	)
-	(wire
-		(pts
 			(xy 146.05 120.65) (xy 152.4 120.65)
 		)
 		(stroke
@@ -6235,7 +6219,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 133.35) (xy 201.93 133.35)
+			(xy 185.42 133.35) (xy 212.09 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6425,16 +6409,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 146.05) (xy 201.93 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef70bce4-3553-42e4-81ef-3e1d432f7e47")
-	)
-	(wire
-		(pts
 			(xy 109.22 107.95) (xy 111.76 107.95)
 		)
 		(stroke
@@ -6472,16 +6446,6 @@
 			(type default)
 		)
 		(uuid "f4e6a99c-0a2c-46aa-b6d4-c825ebd7217b")
-	)
-	(wire
-		(pts
-			(xy 201.93 133.35) (xy 201.93 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f84d540b-993a-4a80-8822-fcab6f6be6ad")
 	)
 	(wire
 		(pts
@@ -7287,7 +7251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf"
 			(at 81.28 127 0)
 			(effects
 				(font
@@ -8370,197 +8334,6 @@
 			(project ""
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 201.93 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "860de205-884f-46a0-977e-49a232a1895c")
-		(property "Reference" "C44"
-			(at 204.851 141.0716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 204.851 143.383 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 202.8952 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "2611911"
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "RM EMK105 B7104KV-F"
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "110091611"
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afd27bc1-a236-436b-a28e-b221273debaa")
-		)
-		(pin "2"
-			(uuid "4e2ad2d6-ef21-433f-a6ea-113bb7b0b7ce")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1"
-					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 201.93 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "888b5f17-23d8-42f7-83ae-b51c9c18e47a")
-		(property "Reference" "#PWR063"
-			(at 201.93 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 201.93 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b01a86e0-3670-4573-9345-ce03f8341ae9")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)

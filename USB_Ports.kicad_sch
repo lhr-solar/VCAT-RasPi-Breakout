@@ -1670,7 +1670,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 121.92) (xy 111.76 121.92)
+			(xy 99.06 121.92) (xy 100.33 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2430,7 +2430,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 114.3) (xy 111.76 114.3)
+			(xy 99.06 114.3) (xy 100.33 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2577,6 +2577,16 @@
 			(type default)
 		)
 		(uuid "c8ce42c9-d6ab-4f42-8a85-303459176bc1")
+	)
+	(wire
+		(pts
+			(xy 107.95 121.92) (xy 115.57 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95e7627-5036-4102-86ad-176dadaa0c4a")
 	)
 	(wire
 		(pts
@@ -2737,6 +2747,16 @@
 			(type default)
 		)
 		(uuid "e54349cf-9759-4ef6-9098-7394f9a18a37")
+	)
+	(wire
+		(pts
+			(xy 107.95 114.3) (xy 115.57 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d15944-f78b-4bd9-a5b1-4862abc5b38f")
 	)
 	(wire
 		(pts
@@ -2964,7 +2984,7 @@
 		(uuid "342135fd-9db4-4fac-af70-8dac38209d36")
 	)
 	(label "VBUS3"
-		(at 111.76 114.3 180)
+		(at 115.57 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3008,7 +3028,7 @@
 		(uuid "c6865694-e133-42c5-ab78-24ddc6915a41")
 	)
 	(label "VBUS4"
-		(at 111.76 121.92 180)
+		(at 115.57 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5655,6 +5675,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 104.14 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85de33c0-2658-4d65-95d3-b6be41e111ae")
+		(property "Reference" "F4"
+			(at 100.076 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500mA"
+			(at 105.918 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 123.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85d9f6a6-1073-4083-9cdd-1743755d2848")
+		)
+		(pin "2"
+			(uuid "7c4f14f9-bc7e-4378-9818-bc776c1e95b2")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/9db2d452-e488-4d0d-9fba-1e3727141806"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 190.5 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86863545-f2de-435b-b319-e8ed6d6c65fd")
+		(property "Reference" "#PWR027"
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 190.373 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 190.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "081c236b-bd7f-45e6-9db6-35422f00764e")
+		)
+		(instances
+			(project ""
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/9db2d452-e488-4d0d-9fba-1e3727141806"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 167.64 115.57 0)
 		(unit 1)
@@ -5781,6 +5934,74 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/9db2d452-e488-4d0d-9fba-1e3727141806"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 104.14 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c99c63c-47b1-4c90-9218-deca636ae4d4")
+		(property "Reference" "F3"
+			(at 104.14 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500mA"
+			(at 104.14 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 104.14 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acff477c-c4ac-429d-8d88-8bd273e7a6f4")
+		)
+		(pin "2"
+			(uuid "871aa16c-1cb7-426e-8026-52e9f18c080d")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/9db2d452-e488-4d0d-9fba-1e3727141806"
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -6054,72 +6275,6 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/9db2d452-e488-4d0d-9fba-1e3727141806"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 190.5 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aaa3fd81-a324-40d7-8f6c-b1b0fa3ba0b1")
-		(property "Reference" "#PWR027"
-			(at 190.5 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 190.373 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 190.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cd321b1-a6a5-4a69-9c84-9987569a7839")
-		)
-		(instances
-			(project ""
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/9db2d452-e488-4d0d-9fba-1e3727141806"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
