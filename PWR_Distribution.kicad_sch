@@ -3445,6 +3445,19 @@
 		)
 		(uuid "406260ca-87e1-4bea-a802-6592969dc632")
 	)
+	(text "Est. max power draw \n= 15W (pi) + 3 * (1.5W) (USB lines) + 1.5W (HDMI) + 0.6W (CAN) \n= 21.6W (rest of board draws negligible power)\n"
+		(exclude_from_sim no)
+		(at 188.468 122.682 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "67cd7ab5-fb16-4bde-a190-1c6a51456695")
+	)
 	(text "+5v @ 5A PSU ( 7.5v-28v Input )"
 		(exclude_from_sim no)
 		(at 86.36 93.98 0)
@@ -3490,7 +3503,7 @@
 	)
 	(text "Current lim(A) = 12/Rilim(k)\n1.7A = 12/7k ohms"
 		(exclude_from_sim no)
-		(at 155.702 78.74 0)
+		(at 147.066 73.152 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3501,7 +3514,6 @@
 	)
 	(label "RTN"
 		(at 85.09 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3512,7 +3524,6 @@
 	)
 	(label "RTN"
 		(at 99.06 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3523,7 +3534,6 @@
 	)
 	(label "RTN"
 		(at 146.05 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3534,7 +3544,6 @@
 	)
 	(label "UVLO"
 		(at 74.93 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3545,7 +3554,6 @@
 	)
 	(label "OVP"
 		(at 74.93 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3556,7 +3564,6 @@
 	)
 	(label "Fault"
 		(at 137.16 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3567,7 +3574,6 @@
 	)
 	(label "OVP"
 		(at 85.09 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3578,7 +3584,6 @@
 	)
 	(label "RTN"
 		(at 85.09 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3589,7 +3594,6 @@
 	)
 	(label "RTN"
 		(at 74.93 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3600,7 +3604,6 @@
 	)
 	(label "UVLO"
 		(at 85.09 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3611,7 +3614,6 @@
 	)
 	(label "Fault"
 		(at 251.46 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3623,7 +3625,6 @@
 	(hierarchical_label "+12V_PWR"
 		(shape input)
 		(at 209.55 39.37 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3635,7 +3636,6 @@
 	(hierarchical_label "+5V_PWR"
 		(shape output)
 		(at 170.18 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3647,7 +3647,6 @@
 	(hierarchical_label "+12V_PWR"
 		(shape input)
 		(at 34.29 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3659,7 +3658,6 @@
 	(hierarchical_label "+5V_PWR"
 		(shape input)
 		(at 229.87 39.37 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3671,7 +3669,6 @@
 	(hierarchical_label "+12V_PWR"
 		(shape output)
 		(at 144.78 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3786,7 +3783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 67.31 43.18 0)
 			(effects
 				(font
@@ -3796,15 +3793,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805100KFKEAC"
 			(at 67.31 43.18 0)
 			(effects
 				(font
@@ -4344,7 +4332,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "12V Green LED"
 			(at 212.5472 58.4962 90)
 			(effects
 				(font
@@ -4362,7 +4350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/216/APTD2012LCGCK-1102037.pdf"
 			(at 209.55 57.15 0)
 			(effects
 				(font
@@ -4371,7 +4359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green LED, Vf 1.9V, If 2mA"
 			(at 209.55 57.15 0)
 			(effects
 				(font
@@ -4391,51 +4379,6 @@
 		)
 		(property "P/N" "APTD2012LCGCK"
 			(at 209.55 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vf" "1.9V"
-			(at 209.55 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "If" "2mA"
-			(at 209.55 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "604-APTD2012LCGCK"
-			(at 209.55 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Inventory" "Y"
-			(at 209.55 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
-			(at 209.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4693,7 +4636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 209.55 48.26 0)
 			(effects
 				(font
@@ -4711,34 +4654,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW080522K1FKEA"
-			(at 209.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805-22.1K-E3"
-			(at 209.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Inventory" "Y"
-			(at 209.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080522K1FKEA?qs=fIsz7OpyEY%2F1GKOToH8JbQ%3D%3D"
+		(property "P/N" ""
 			(at 209.55 48.26 0)
 			(effects
 				(font
@@ -4849,7 +4765,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "10u"
 			(at 50.8 43.688 0)
 			(effects
 				(font
@@ -4867,7 +4783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf"
 			(at 48.26 41.91 0)
 			(effects
 				(font
@@ -4885,16 +4801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 48.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" ""
+		(property "P/N" "TMK212BBJ106MGHT"
 			(at 48.26 41.91 0)
 			(effects
 				(font
@@ -4937,7 +4844,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 80.01 51.435 0)
 			(effects
 				(font
@@ -4955,7 +4862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 77.47 49.53 0)
 			(effects
 				(font
@@ -4965,15 +4872,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
 			(at 77.47 49.53 0)
 			(effects
 				(font
@@ -5366,7 +5264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "200"
 			(at 69.85 54.6099 0)
 			(effects
 				(font
@@ -5384,7 +5282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/cr-1858361.pdf"
 			(at 67.31 53.34 0)
 			(effects
 				(font
@@ -5394,6 +5292,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CR0805-JW-201ELF"
 			(at 67.31 53.34 0)
 			(effects
 				(font
@@ -5505,7 +5412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 143.51 53.975 0)
 			(effects
 				(font
@@ -5523,7 +5430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 139.7 52.07 0)
 			(effects
 				(font
@@ -5533,15 +5440,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 139.7 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
 			(at 139.7 52.07 0)
 			(effects
 				(font
@@ -6245,33 +6143,6 @@
 				(hide yes)
 			)
 		)
-		(property "Inventory" ""
-			(at 60.96 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PESD15VL1BA-T/R"
-			(at 60.96 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Nexperia/PESD15VL1BA115?qs=LOCUfHb8d9vibm295AC%252Bdg%3D%3D"
-			(at 60.96 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0e0afffe-8d8f-4e51-b480-f199977d8e49")
 		)
@@ -6373,7 +6244,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "10u"
 			(at 146.05 40.005 0)
 			(effects
 				(font
@@ -6401,15 +6272,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
 			(at 142.24 38.1 0)
 			(effects
 				(font
@@ -6699,7 +6561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1k"
 			(at 69.85 65.405 0)
 			(effects
 				(font
@@ -6717,7 +6579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 67.31 63.5 0)
 			(effects
 				(font
@@ -6727,15 +6589,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
 			(at 67.31 63.5 0)
 			(effects
 				(font
@@ -7509,7 +7362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 123.19 39.37 0)
 			(effects
 				(font
@@ -7519,15 +7372,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805100KFKEAC"
 			(at 123.19 39.37 0)
 			(effects
 				(font
@@ -7637,7 +7481,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbc01fca-96a4-4830-b9b4-c02f73441d16")
 		(property "Reference" "R43"
-			(at 130.81 53.975 0)
+			(at 130.81 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,8 +7489,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7.5K"
-			(at 130.81 56.515 0)
+		(property "Value" "6.6k"
+			(at 130.81 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,16 +7525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
-			(at 128.27 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW080510K0FKEAC"
+		(property "P/N" ""
 			(at 128.27 54.61 0)
 			(effects
 				(font

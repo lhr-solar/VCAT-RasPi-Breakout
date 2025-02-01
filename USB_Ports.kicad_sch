@@ -2963,7 +2963,6 @@
 	)
 	(label "VBUS3"
 		(at 151.13 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2974,7 +2973,6 @@
 	)
 	(label "VBUS2"
 		(at 215.9 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2985,7 +2983,6 @@
 	)
 	(label "VBUS3"
 		(at 115.57 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2996,7 +2993,6 @@
 	)
 	(label "VBUS2"
 		(at 115.57 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3007,7 +3003,6 @@
 	)
 	(label "VBUS1"
 		(at 151.13 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3018,7 +3013,6 @@
 	)
 	(label "VBUS1"
 		(at 115.57 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3029,7 +3023,6 @@
 	)
 	(label "VBUS4"
 		(at 115.57 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3040,7 +3033,6 @@
 	)
 	(label "VBUS4"
 		(at 215.9 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3052,7 +3044,6 @@
 	(hierarchical_label "OC4"
 		(shape input)
 		(at 102.87 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3064,7 +3055,6 @@
 	(hierarchical_label "USB_3N"
 		(shape input)
 		(at 187.96 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3076,7 +3066,6 @@
 	(hierarchical_label "USB_3P"
 		(shape input)
 		(at 187.96 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3088,7 +3077,6 @@
 	(hierarchical_label "EN4"
 		(shape input)
 		(at 64.77 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3100,7 +3088,6 @@
 	(hierarchical_label "OC3"
 		(shape input)
 		(at 102.87 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3112,7 +3099,6 @@
 	(hierarchical_label "USB_2N"
 		(shape input)
 		(at 252.73 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3124,7 +3110,6 @@
 	(hierarchical_label "USB_4P"
 		(shape input)
 		(at 252.73 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3136,7 +3121,6 @@
 	(hierarchical_label "+5V_PWR"
 		(shape input)
 		(at 49.53 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3148,7 +3132,6 @@
 	(hierarchical_label "EN2"
 		(shape input)
 		(at 64.77 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3160,7 +3143,6 @@
 	(hierarchical_label "USB_2P"
 		(shape input)
 		(at 252.73 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3172,7 +3154,6 @@
 	(hierarchical_label "USB_1P"
 		(shape input)
 		(at 187.96 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3184,7 +3165,6 @@
 	(hierarchical_label "+5V_PWR"
 		(shape input)
 		(at 49.53 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3196,7 +3176,6 @@
 	(hierarchical_label "OC2"
 		(shape input)
 		(at 102.87 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3208,7 +3187,6 @@
 	(hierarchical_label "EN3"
 		(shape input)
 		(at 64.77 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3220,7 +3198,6 @@
 	(hierarchical_label "EN1"
 		(shape input)
 		(at 64.77 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3232,7 +3209,6 @@
 	(hierarchical_label "USB_1N"
 		(shape input)
 		(at 187.96 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3244,7 +3220,6 @@
 	(hierarchical_label "OC1"
 		(shape input)
 		(at 102.87 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3256,7 +3231,6 @@
 	(hierarchical_label "USB_4N"
 		(shape input)
 		(at 252.73 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -664,7 +664,6 @@
 	)
 	(label "Board_En"
 		(at 97.79 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -675,7 +674,6 @@
 	)
 	(label "Board_En"
 		(at 187.96 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

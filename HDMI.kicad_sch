@@ -6519,7 +6519,6 @@
 	)
 	(label "HDMI0_D0_P"
 		(at 140.97 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6530,7 +6529,6 @@
 	)
 	(label "HDMI0_D2_N"
 		(at 31.75 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6541,7 +6539,6 @@
 	)
 	(label "HDMI0_HOTPLUG"
 		(at 140.97 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6552,7 +6549,6 @@
 	)
 	(label "HDMI0_D1_N"
 		(at 140.97 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6563,7 +6559,6 @@
 	)
 	(label "HDMI0_D0_N"
 		(at 31.75 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6574,7 +6569,6 @@
 	)
 	(label "HDMI0_SCL"
 		(at 140.97 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6585,7 +6579,6 @@
 	)
 	(label "HDMI0_D2_N"
 		(at 140.97 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6596,7 +6589,6 @@
 	)
 	(label "HDMI0_D1_N"
 		(at 31.75 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6607,7 +6599,6 @@
 	)
 	(label "HDMI0_D0_N"
 		(at 140.97 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6618,7 +6609,6 @@
 	)
 	(label "HDMI_5v"
 		(at 160.02 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6629,7 +6619,6 @@
 	)
 	(label "HDMI0_CK_N"
 		(at 140.97 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6640,7 +6629,6 @@
 	)
 	(label "HDMI0_D2_P"
 		(at 140.97 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6651,7 +6639,6 @@
 	)
 	(label "HDMI0_CK_N"
 		(at 31.75 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6662,7 +6649,6 @@
 	)
 	(label "HDMI0_D2_P"
 		(at 31.75 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6673,7 +6659,6 @@
 	)
 	(label "HDMI0_SDA"
 		(at 128.27 163.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6684,7 +6669,6 @@
 	)
 	(label "HDMI0_D0_P"
 		(at 31.75 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6695,7 +6679,6 @@
 	)
 	(label "HDMI0_CEC"
 		(at 140.97 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6706,7 +6689,6 @@
 	)
 	(label "HDMI0_CK_P"
 		(at 140.97 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6717,7 +6699,6 @@
 	)
 	(label "HDMI0_CK_P"
 		(at 31.75 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6728,7 +6709,6 @@
 	)
 	(label "HDMI0_SDA"
 		(at 140.97 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6739,7 +6719,6 @@
 	)
 	(label "HDMI0_D1_P"
 		(at 140.97 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6750,7 +6729,6 @@
 	)
 	(label "HDMI_5v"
 		(at 212.09 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6761,7 +6739,6 @@
 	)
 	(label "HDMI0_HOTPLUG"
 		(at 128.27 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6772,7 +6749,6 @@
 	)
 	(label "HDMI0_CEC"
 		(at 128.27 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6783,7 +6759,6 @@
 	)
 	(label "HDMI0_SCL"
 		(at 31.75 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6794,7 +6769,6 @@
 	)
 	(label "HDMI0_D1_P"
 		(at 31.75 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6806,7 +6780,6 @@
 	(hierarchical_label "+5V_PWR"
 		(shape input)
 		(at 146.05 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6818,7 +6791,6 @@
 	(hierarchical_label "USB2_N"
 		(shape bidirectional)
 		(at 115.57 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6830,7 +6802,6 @@
 	(hierarchical_label "USBOTG_ID"
 		(shape input)
 		(at 115.57 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6842,7 +6813,6 @@
 	(hierarchical_label "GLOBAL_EN"
 		(shape input)
 		(at 137.16 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6854,7 +6824,6 @@
 	(hierarchical_label "USB2_P"
 		(shape bidirectional)
 		(at 115.57 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
