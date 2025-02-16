@@ -4175,6 +4175,12 @@
 		(uuid "7f9867a0-8a3e-4219-8d33-0053dfa52514")
 	)
 	(junction
+		(at 50.8 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81051740-3636-495a-9384-25b6ef076698")
+	)
+	(junction
 		(at 162.56 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4215,12 +4221,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99098ea9-7971-4e81-b9ce-af2c57d8b7f4")
-	)
-	(junction
-		(at 50.8 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c448bb5-0167-40e6-a783-2944c779679e")
 	)
 	(junction
 		(at 167.64 57.15)
@@ -4500,16 +4500,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 39.37) (xy 167.64 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a715a02-41e5-4df7-b69a-f70839d5273d")
-	)
-	(wire
-		(pts
 			(xy 118.11 151.13) (xy 118.11 152.4)
 		)
 		(stroke
@@ -4700,16 +4690,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 26.67) (xy 243.84 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "398ea358-8bf3-4579-a106-2f9cafe209f8")
-	)
-	(wire
-		(pts
 			(xy 26.67 165.1) (xy 40.64 165.1)
 		)
 		(stroke
@@ -4730,7 +4710,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 170.18) (xy 39.37 179.07)
+			(xy 39.37 170.18) (xy 39.37 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4780,7 +4760,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 179.07) (xy 50.8 179.07)
+			(xy 39.37 180.34) (xy 50.8 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4797,16 +4777,6 @@
 			(type default)
 		)
 		(uuid "3f1cc02b-757d-40dc-9e9d-9e196655ac02")
-	)
-	(wire
-		(pts
-			(xy 50.8 177.8) (xy 50.8 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43270e6d-7622-4259-b158-7aa958fc0abc")
 	)
 	(wire
 		(pts
@@ -5037,6 +5007,16 @@
 			(type default)
 		)
 		(uuid "60dcaeee-2981-445d-9164-940e318622b0")
+	)
+	(wire
+		(pts
+			(xy 50.8 180.34) (xy 50.8 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614159f9-cbae-41ef-a237-c5a9a6917b11")
 	)
 	(wire
 		(pts
@@ -5530,6 +5510,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 177.8) (xy 50.8 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a6557d-4924-4127-a4bd-aefad92cc556")
+	)
+	(wire
+		(pts
 			(xy 217.17 26.67) (xy 222.25 26.67)
 		)
 		(stroke
@@ -5740,6 +5730,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 39.37) (xy 167.64 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e67d41-a0e8-45fc-941b-e78c9e12afc4")
+	)
+	(wire
+		(pts
 			(xy 53.34 39.37) (xy 53.34 40.64)
 		)
 		(stroke
@@ -5807,16 +5807,6 @@
 			(type default)
 		)
 		(uuid "c041e75c-7e7c-4912-b125-571f47e5bff6")
-	)
-	(wire
-		(pts
-			(xy 50.8 179.07) (xy 50.8 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f0f8f6-ec1e-455e-b514-8c475c813e58")
 	)
 	(wire
 		(pts
@@ -6250,7 +6240,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 139.7) (xy 49.53 139.7)
+			(xy 50.8 144.78) (xy 49.53 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6270,7 +6260,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 139.7) (xy 50.8 157.48)
+			(xy 243.84 26.67) (xy 243.84 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8fb841-ce5d-4805-95f2-02a46433716d")
+	)
+	(wire
+		(pts
+			(xy 50.8 144.78) (xy 50.8 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6451,9 +6451,9 @@
 		)
 		(uuid "687a7f4c-bf02-4a9e-9103-de15e628e62c")
 	)
-	(text "3.3 to 1.1 LDO"
+	(text "5 to 1.1 LDO for the USB Hub"
 		(exclude_from_sim no)
-		(at 218.44 19.05 0)
+		(at 222.504 17.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6463,7 +6463,7 @@
 	)
 	(text "If a cable in plugged into the microUSB socket the CM4 becomes a usb device"
 		(exclude_from_sim no)
-		(at 13.462 137.16 0)
+		(at 13.97 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6567,7 +6567,7 @@
 	)
 	(hierarchical_label "+3.3V_PWR"
 		(shape input)
-		(at 49.53 139.7 180)
+		(at 49.53 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6682,7 +6682,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 u"
+		(property "Value" "1u"
 			(at 93.726 68.834 0)
 			(effects
 				(font
@@ -6691,7 +6691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 101.2952 71.12 0)
 			(effects
 				(font
@@ -6700,7 +6700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf"
 			(at 100.33 67.31 0)
 			(effects
 				(font
@@ -6709,7 +6709,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1u 10%"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105K5PACTU"
 			(at 100.33 67.31 0)
 			(effects
 				(font
@@ -6801,76 +6810,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 243.84 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07ce612e-e487-4917-830a-b0c0f09fe8ab")
-		(property "Reference" "C2"
-			(at 247.65 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 n"
-			(at 247.65 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 244.8052 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 243.84 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f877937e-3b0a-4ed0-898e-4e218b4cb280")
-		)
-		(pin "2"
-			(uuid "d9a0717d-1f3f-474b-9885-a80a218279a8")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 50.8 182.88 0)
@@ -6938,6 +6877,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 156.21 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ff7a529-96d0-495b-acd0-24dd04ca867a")
+		(property "Reference" "FB5"
+			(at 159.766 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 165.354 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+			(at 154.432 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/418/9/ENG_DS_1773178_3_A1-3474112.pdf"
+			(at 156.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead 220Ω 100MHz"
+			(at 156.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" " BMC-Q2CY0220H "
+			(at 156.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f021569-1501-4ea9-bb7b-c58310417215")
+		)
+		(pin "1"
+			(uuid "189972c5-4ec9-4fc9-9d72-6088b5eb6ea5")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "FB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V1")
 		(at 156.21 21.59 0)
 		(unit 1)
@@ -6998,6 +7014,84 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1414aca3-5765-4d76-8e5f-2ef41a6e591c")
+		(property "Reference" "C49"
+			(at 160.528 34.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 160.528 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 168.6052 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 167.64 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 0.1u 20%"
+			(at 167.64 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 167.64 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb2a00db-b957-49c5-a6a2-f9b567ac0f46")
+		)
+		(pin "2"
+			(uuid "0f93583c-9941-47d5-99ef-83200500c874")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -7072,85 +7166,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 110.49 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15500057-f878-4843-81b8-6d9a80fe4086")
-		(property "Reference" "C48"
-			(at 113.538 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 113.538 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.4552 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1cd3176f-9b3f-4a6a-9d25-2d653b091c48")
-		)
-		(pin "1"
-			(uuid "5681a2f4-2392-4467-a694-dffdb78f2de8")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 27.94 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18cc3606-d036-42f3-82c9-6bcdc57f370e")
-		(property "Reference" "C44"
-			(at 31.75 34.2899 0)
+		(uuid "16054356-9f29-4d5e-8886-b4fce3da274a")
+		(property "Reference" "C4"
+			(at 20.828 34.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7159,7 +7183,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 31.75 36.8299 0)
+			(at 20.828 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 28.9052 39.37 0)
 			(effects
 				(font
@@ -7176,7 +7200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 27.94 35.56 0)
 			(effects
 				(font
@@ -7185,8 +7209,96 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 0.1u 20%"
 			(at 27.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 27.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7fc737d-d3cb-4b80-a841-61d6c7c1a3ab")
+		)
+		(pin "2"
+			(uuid "cd4abfae-f62b-49c4-b9ab-c1aabaf53ec2")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 33.02 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18ce1326-72ca-4a2a-aa74-acbe9abe6499")
+		(property "Reference" "R33"
+			(at 35.56 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 35.56 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 31.242 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73G.pdf"
+			(at 33.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 2.2k M1005 0.5% 63mW"
+			(at 33.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "2019-RK73G1ETTP2201DTR-ND"
+			(at 33.02 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7195,15 +7307,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8f987cef-640e-4d5a-8c15-6d86a6d89ad3")
+			(uuid "f03053b1-8f26-463a-88bc-4b2decd9a411")
 		)
 		(pin "1"
-			(uuid "dd809dd4-20df-461e-9641-093bbedbc617")
+			(uuid "335df1a2-e194-4bab-be09-12560fa47979")
 		)
 		(instances
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C44")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -7279,6 +7391,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 40.64 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e1c9a0b-e651-44e0-9f44-044bba693d23")
+		(property "Reference" "C38"
+			(at 33.528 34.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 33.528 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 41.6052 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 40.64 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 0.1u 20%"
+			(at 40.64 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 40.64 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6920e475-cbad-45a5-af8d-001f887a5f08")
+		)
+		(pin "2"
+			(uuid "7ccf6b0a-40dc-489f-8225-4ccfce1edbdf")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_USB:FSUSB42MUX")
 		(at 50.8 167.64 0)
 		(unit 1)
@@ -7333,6 +7523,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "FSUSB42MUX"
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "51482938-5cf5-4436-8c55-c37677e71818")
 		)
@@ -7367,146 +7566,6 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 87.63 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35732a80-8640-4a83-9625-90b1c2009b00")
-		(property "Reference" "C66"
-			(at 91.44 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 91.44 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.5952 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 87.63 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3812757e-4ee2-42c8-bf01-ad78bd42ba1e")
-		)
-		(pin "1"
-			(uuid "f250303b-ae17-4890-9373-1c1d5dcd549c")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 99.06 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b89ab06-f7a3-4c04-a409-d7a60db5d1b7")
-		(property "Reference" "C67"
-			(at 102.87 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 102.87 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.0252 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2d9910ba-7959-46b2-a4a4-904fc3d144a9")
-		)
-		(pin "1"
-			(uuid "36cc05f1-0999-4b3b-82fd-14f70833a8c9")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -7565,6 +7624,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "TPD4EUSB30"
+			(at 36.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52f115c6-0db1-437d-b874-0fb8bd779a41")
 		)
@@ -7605,16 +7673,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 29.21 179.07 180)
+		(lib_id "Device:C")
+		(at 64.77 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4062f8f6-664d-4b6f-87e3-34460e548200")
-		(property "Reference" "R29"
-			(at 34.925 180.34 0)
+		(uuid "3f61eb45-912a-4522-89f3-dfa8d2cbb01c")
+		(property "Reference" "C40"
+			(at 57.658 34.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,8 +7690,87 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K 1%"
-			(at 38.735 177.8 0)
+		(property "Value" "100n"
+			(at 57.658 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 65.7352 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 64.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 0.1u 20%"
+			(at 64.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 64.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7a021ab-0b01-4713-a42f-802ddbdf410d")
+		)
+		(pin "2"
+			(uuid "c1e808a2-1469-4c64-9f9b-fd09bcc60374")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 29.21 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40338f02-877a-4ae2-868a-323271dfb975")
+		(property "Reference" "R36"
+			(at 31.75 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 31.75 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,7 +7779,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 30.988 179.07 90)
+			(at 27.432 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7640,7 +7787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73G.pdf"
 			(at 29.21 179.07 0)
 			(effects
 				(font
@@ -7649,7 +7796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 2.2k M1005 0.5% 63mW"
 			(at 29.21 179.07 0)
 			(effects
 				(font
@@ -7658,123 +7805,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "P/N" "2019-RK73G1ETTP2201DTR-ND"
 			(at 29.21 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "9239278"
-			(at 29.21 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "KOA EUROPE GMBH"
-			(at 29.21 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "RK73G1ETQTP2201D         "
-			(at 29.21 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
-			(at 29.21 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "120889581"
-			(at 29.21 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ef0cb3f-ce35-433b-baf5-e95dd7da050c")
-		)
-		(pin "2"
-			(uuid "b31c3130-1ca7-4b80-b6de-07e8dbc48c57")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 167.64 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41f0b64c-e533-4ff0-a829-18a5bf824cc5")
-		(property "Reference" "C53"
-			(at 171.45 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 171.45 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.6052 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 167.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7783,289 +7815,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "7b69bfe8-8cf9-4170-8810-298302474d08")
+			(uuid "b3b823b0-110d-481b-858a-ac50f12d23d1")
 		)
 		(pin "1"
-			(uuid "3c6f4660-158f-4fd4-ae2e-2b6aef00fdeb")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 140.97 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "440e5066-c17e-41d4-9422-c34395c31c3b")
-		(property "Reference" "R19"
-			(at 115.824 138.684 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10 k"
-			(at 120.904 138.684 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 142.748 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cf0e2bd-c235-4a75-ad25-5b901aa89d91")
-		)
-		(pin "2"
-			(uuid "f9329998-829d-4f42-b27b-699f6c5e444b")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4828b488-5ff8-4036-ba12-d78efb5400e8")
-		(property "Reference" "R9"
-			(at 115.316 80.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k 1%"
-			(at 121.666 80.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 84.328 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d12ed2f3-2977-4269-8cd3-a6dfa61f19c4")
-		)
-		(pin "2"
-			(uuid "5605a23a-7fa8-4d2f-a08b-7971e3f0a21f")
+			(uuid "85b39800-534a-4cf2-8d23-188de8616235")
 		)
 		(instances
 			(project ""
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 156.21 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48a9dfda-4950-4a8d-9e0e-0d6b6fa70e2a")
-		(property "Reference" "C52"
-			(at 160.02 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 160.02 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.1752 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 156.21 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7208fc34-1324-476e-8d39-f4c5a14e2c1c")
-		)
-		(pin "1"
-			(uuid "b7b6c731-cb2b-408c-9ea0-cef29168c816")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4aee44da-27fa-44da-86f2-45d30dbff4b3")
-		(property "Reference" "R11"
-			(at 120.65 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k 1%"
-			(at 120.65 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.332 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "813a5b57-eb16-4b20-99eb-9c9328726c0f")
-		)
-		(pin "2"
-			(uuid "166d544e-3d14-4bd8-8bf4-1d444a749a70")
-		)
-		(instances
-			(project ""
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "R11")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -8079,9 +7837,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4e3f0711-46a1-4070-821a-eac3827ee4bc")
+		(fields_autoplaced yes)
+		(uuid "4259308e-9605-43f4-9c2d-ecf8fda4b46b")
 		(property "Reference" "R22"
-			(at 223.012 66.04 0)
+			(at 223.52 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8090,7 +7849,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 223.012 68.58 0)
+			(at 223.52 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +7857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 219.202 67.31 90)
 			(effects
 				(font
@@ -8107,7 +7866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 220.98 67.31 0)
 			(effects
 				(font
@@ -8116,7 +7875,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 4.7k 1%"
+			(at 220.98 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08054K70FKEAC"
 			(at 220.98 67.31 0)
 			(effects
 				(font
@@ -8126,84 +7894,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c1a01bd7-2046-4ade-863b-fe05db0e0a65")
+			(uuid "8bd3b283-8ac5-41c8-9af5-c98944fc3464")
 		)
 		(pin "1"
-			(uuid "286072fa-e325-46a2-98a8-bd490b0fcd11")
+			(uuid "1b98b9f8-16d4-4e7a-ab87-d58ba43c5fcd")
 		)
 		(instances
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 196.85 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f15b27b-6f65-47a1-9c98-72a68a07b3a8")
-		(property "Reference" "R14"
-			(at 198.882 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 198.882 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.072 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 196.85 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5d3444d-2a75-4f7f-bc53-103abb11d31d")
-		)
-		(pin "1"
-			(uuid "6bee78d6-b7d8-4e95-961a-ba223ba02f49")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8217,10 +7916,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f8ec1a7-ba7b-4838-ad1b-9cffe3e56d12")
-		(property "Reference" "C47"
-			(at 57.15 34.2899 0)
+		(uuid "46e5bfa8-5452-4d71-b97c-a53418993818")
+		(property "Reference" "C39"
+			(at 46.228 34.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8229,7 +7927,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 57.15 36.8299 0)
+			(at 46.228 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,7 +7935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 54.3052 39.37 0)
 			(effects
 				(font
@@ -8246,7 +7944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 53.34 35.56 0)
 			(effects
 				(font
@@ -8255,7 +7953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 0.1u 20%"
 			(at 53.34 35.56 0)
 			(effects
 				(font
@@ -8264,16 +7962,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "76422881-ac93-4ac9-94da-bbd373a99663")
+		(property "P/N" "C0805C104M5RACTU"
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "ea271c38-c84f-442b-82f1-ae11b3cd57ca")
+			(uuid "19c67873-729c-4a80-8377-adb474e41bb4")
+		)
+		(pin "2"
+			(uuid "bf8b844a-daf0-40b5-98e3-244731952e8f")
 		)
 		(instances
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C47")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -8307,7 +8014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 107.442 156.21 90)
 			(effects
 				(font
@@ -8316,7 +8023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 109.22 156.21 0)
 			(effects
 				(font
@@ -8325,7 +8032,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 4.7k 1%"
+			(at 109.22 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08054K70FKEAC"
 			(at 109.22 156.21 0)
 			(effects
 				(font
@@ -8344,6 +8060,84 @@
 			(project ""
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "519aa75c-f6da-4519-b580-2c0c4fa1abc3")
+		(property "Reference" "C47"
+			(at 137.668 34.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 137.668 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 145.7452 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 0.1u 20%"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb3ede5f-e7af-4a08-bc26-0608971c1188")
+		)
+		(pin "2"
+			(uuid "6ce4bc48-c0fa-41df-a923-f2da63d3db5f")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -8433,7 +8227,7 @@
 				)
 			)
 		)
-		(property "Value" "90.9k 1%"
+		(property "Value" "90.9k"
 			(at 109.22 67.31 90)
 			(effects
 				(font
@@ -8441,7 +8235,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 109.22 64.008 90)
 			(effects
 				(font
@@ -8450,7 +8244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 109.22 62.23 0)
 			(effects
 				(font
@@ -8459,8 +8253,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 90.9k 1%"
 			(at 109.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW120690K9FKEA"
+			(at 109.22 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,6 +8287,161 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 64.77 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60747ec0-7819-4a42-b9bb-3d65b4f41a8b")
+		(property "Reference" "FB6"
+			(at 68.326 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 73.914 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+			(at 62.992 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/418/9/ENG_DS_1773178_3_A1-3474112.pdf"
+			(at 64.77 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead 220Ω 100MHz"
+			(at 64.77 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" " BMC-Q2CY0220H "
+			(at 64.77 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "642861c5-fbcf-4f90-87fb-e32adfe78dae")
+		)
+		(pin "1"
+			(uuid "04c99e14-3711-45f1-a363-c22abb77debc")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "FB6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62a5717d-2015-4b3b-b9f3-7ec9875d2804")
+		(property "Reference" "C42"
+			(at 80.518 34.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 80.518 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 88.5952 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 87.63 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 0.1u 20%"
+			(at 87.63 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 87.63 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3624530-11af-484b-9f09-bbd6cb4a957f")
+		)
+		(pin "2"
+			(uuid "33e0b8cf-8435-4320-a0cc-17ae6d865ee9")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 53.34 114.3 0)
 		(unit 1)
@@ -8501,7 +8459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25 p"
+		(property "Value" "25p"
 			(at 45.212 115.316 0)
 			(effects
 				(font
@@ -8510,7 +8468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.3052 118.11 0)
 			(effects
 				(font
@@ -8519,7 +8477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H270JB01-01.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/upy_np0x7r_mv_100_to_630v-3461223.pdf"
 			(at 53.34 114.3 0)
 			(effects
 				(font
@@ -8528,7 +8486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor 25p 5%"
 			(at 53.34 114.3 0)
 			(effects
 				(font
@@ -8537,52 +8495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "UCAP00738 "
-			(at 53.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "490-17672-1-ND"
-			(at 53.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "GJM1555C1H270JB01D"
-			(at 53.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Murata"
-			(at 53.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	27pF 5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 53.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Digikey"
+		(property "P/N" "CC0603JRNPO9BN250"
 			(at 53.34 114.3 0)
 			(effects
 				(font
@@ -8601,6 +8514,84 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 156.21 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67e4c20e-a469-44e2-a648-602ff6fdcda9")
+		(property "Reference" "C48"
+			(at 149.098 34.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 149.098 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 157.1752 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 156.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 0.1u 20%"
+			(at 156.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 156.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34d3e420-01b1-479e-94f3-c0ec3fa00550")
+		)
+		(pin "2"
+			(uuid "f3e43986-bc4f-40a8-bbce-7301464825ac")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -8675,15 +8666,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 33.02 156.21 0)
+		(at 209.55 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "704ae258-2eeb-42bc-979f-681cee2c0b57")
-		(property "Reference" "R33"
-			(at 34.798 155.0416 0)
+		(fields_autoplaced yes)
+		(uuid "7102b66f-1f84-4857-b2aa-2409c7afdef1")
+		(property "Reference" "R21"
+			(at 212.09 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,8 +8683,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K 1%"
-			(at 34.798 157.353 0)
+		(property "Value" "4.7k"
+			(at 212.09 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,8 +8692,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 31.242 156.21 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 207.772 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8709,8 +8701,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 33.02 156.21 0)
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+			(at 209.55 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8718,8 +8710,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 33.02 156.21 0)
+		(property "Description" "Resistor 4.7k 1%"
+			(at 209.55 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8727,111 +8719,59 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
-			(at 33.02 156.21 0)
+		(property "P/N" "CRCW08054K70FKEAC"
+			(at 209.55 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Field5" "9239278"
-			(at 33.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "KOA EUROPE GMBH"
-			(at 33.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "RK73G1ETQTP2201D         "
-			(at 33.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
-			(at 33.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "120889581"
-			(at 33.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "992ebd37-00d0-4e69-824b-0d7daa3049ee")
 		)
 		(pin "2"
-			(uuid "bcb8e174-05cf-42c2-9168-cca443486e2e")
+			(uuid "9f72cc0b-d5b4-4246-ad34-5246fd18ee6b")
+		)
+		(pin "1"
+			(uuid "93de0ac2-2de9-4c9d-99be-36d2e44cdd96")
 		)
 		(instances
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "R33")
+					(reference "R21")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 64.77 25.4 180)
+		(lib_id "Device:C")
+		(at 243.84 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "70cba597-4aec-4b44-a228-dc64991a04c3")
-		(property "Reference" "FB6"
-			(at 73.66 28.448 0)
+		(uuid "78c0fdc0-c849-47fd-bcc3-9bddf38d1aec")
+		(property "Reference" "C2"
+			(at 236.728 32.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "FerriteBead"
-			(at 73.66 25.908 0)
+		(property "Value" "100n"
+			(at 236.728 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 66.548 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/418/9/ENG_DS_1773178_3_A1-3474112.pdf"
-			(at 64.77 25.4 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 244.8052 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8839,8 +8779,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead"
-			(at 64.77 25.4 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 243.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8848,8 +8788,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" " BMC-Q2CY0220H "
-			(at 64.77 25.4 90)
+		(property "Description" "Capacitor 0.1u 20%"
+			(at 243.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8857,24 +8797,103 @@
 				(hide yes)
 			)
 		)
-		(property "Spec" "220Ω 100MHz"
-			(at 73.406 22.352 0)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 243.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "13403e5e-ee7e-463b-a549-f6f82c5dcb23")
 		)
 		(pin "1"
-			(uuid "78e1e5e5-852c-42e0-a09f-66d6e8d5ff95")
+			(uuid "8016797d-0b66-4620-b61d-ca75ce31cb1f")
+		)
+		(pin "2"
+			(uuid "8b0436a5-aee7-44a3-885d-a43e347fb9e1")
 		)
 		(instances
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "FB6")
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110.49 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7915e027-ab03-4d2a-9ac3-e52ff41d8854")
+		(property "Reference" "C45"
+			(at 103.378 34.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 103.378 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 111.4552 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 110.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 0.1u 20%"
+			(at 110.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 110.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1617f81c-605f-43ba-a15e-7c2adb83aa6f")
+		)
+		(pin "2"
+			(uuid "28e38b12-09d3-474a-ab89-cb86c3547142")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -9008,6 +9027,85 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 231.14 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c016e92-3761-4804-a9e1-c5280f70e2ea")
+		(property "Reference" "R23"
+			(at 233.68 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 233.68 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 229.362 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 4.7k 1%"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08054K70FKEAC"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ebbd1ca9-cbfc-47ad-93a1-824f279c004e")
+		)
+		(pin "1"
+			(uuid "af382aa0-ee71-4b30-a50a-0e904812526d")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -9265,6 +9363,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "TLV71311PDBV"
+			(at 231.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "df17432a-d854-4c7d-bf71-516c2370ad65")
 		)
@@ -9284,76 +9391,6 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 64.77 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f94ae91-7b9e-4a26-86d2-8d6efd028e66")
-		(property "Reference" "C4"
-			(at 68.58 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 68.58 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 65.7352 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 64.77 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "83260137-168c-414d-b1f9-cbc872b8c64f")
-		)
-		(pin "1"
-			(uuid "c6747a97-f057-40e0-8f01-3df885df5b5a")
-		)
-		(instances
-			(project ""
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9427,112 +9464,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 179.07 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9739e0e3-69af-4341-9a54-c3ed3d9b8a6c")
-		(property "Reference" "C64"
-			(at 182.118 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 182.118 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.0352 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 179.07 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6ec3977-509d-4d0c-9bb7-076f6a0bbd8e")
-		)
-		(pin "1"
-			(uuid "0fd513ba-d0e9-4464-9085-f2fb1adbf08d")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 231.14 67.31 0)
+		(at 118.11 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9c80cd64-034f-44e4-8d3d-425f010fe284")
-		(property "Reference" "R23"
-			(at 233.172 66.04 0)
+		(fields_autoplaced yes)
+		(uuid "97c26723-431f-4831-ac60-5fd390aa95d1")
+		(property "Reference" "R11"
+			(at 120.65 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 233.172 68.58 0)
+		(property "Value" "10k"
+			(at 120.65 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 229.362 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 67.31 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 119.888 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9540,8 +9500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 231.14 67.31 0)
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+			(at 118.11 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,85 +9509,34 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "2c312ed9-4573-4e4a-9628-c5bb3914d77d")
+		(property "Description" "Resistor 10k 1%"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "6a7b026d-5e24-4261-9ff4-fd828285fb89")
+			(uuid "35c82d1c-e62e-4cbc-a4e3-f873012fd677")
+		)
+		(pin "2"
+			(uuid "f6f8f396-32a1-4cd5-88e5-54796b741a4f")
 		)
 		(instances
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 209.55 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ed45bc5-54fc-48e2-8dd4-6b2f1a238b37")
-		(property "Reference" "R21"
-			(at 211.582 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 211.582 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.772 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 209.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a1c77dd-5ad4-490a-8234-3d05616122b0")
-		)
-		(pin "1"
-			(uuid "05b81601-0357-4418-9049-f09b22d26bd9")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "R21")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9642,7 +9551,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a02d2533-b9dc-45b9-96f4-2fa51fba4643")
 		(property "Reference" "#PWR020"
 			(at 118.11 77.47 0)
@@ -9654,7 +9562,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 76.2 0)
+			(at 121.666 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9701,6 +9609,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 133.35 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aad35117-eee1-4246-a1f9-8c2f74f24042")
+		(property "Reference" "C46"
+			(at 126.238 34.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 126.238 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 134.3152 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 133.35 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 0.1u 20%"
+			(at 133.35 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 133.35 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04da1898-bcb0-48d5-8141-e826aa44d41d")
+		)
+		(pin "2"
+			(uuid "525e38bc-1cc8-489c-b4dd-09d6ee432052")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 179.07 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aee600b0-61a0-4a15-9468-cf6d340a08d5")
+		(property "Reference" "C50"
+			(at 171.958 34.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 171.958 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 180.0352 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 179.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 0.1u 20%"
+			(at 179.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 179.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42b8b5ae-426e-4693-982f-2487d97ca54e")
+		)
+		(pin "2"
+			(uuid "c9337e16-514f-4d48-bd4e-231c65f69ce8")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_OTG")
 		(at 85.09 154.94 0)
 		(mirror y)
@@ -9726,7 +9790,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_Micro-B_Molex-105017-0001"
 			(at 81.28 156.21 0)
 			(effects
 				(font
@@ -9735,7 +9799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/105/105017/1050170001_sd.pdf"
 			(at 81.28 156.21 0)
 			(effects
 				(font
@@ -9744,7 +9808,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB mini/micro connector"
+		(property "Description" "USB micro connector"
+			(at 85.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "105017-0001"
 			(at 85.09 154.94 0)
 			(effects
 				(font
@@ -9781,224 +9854,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 156.21 25.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1771281-d770-46f6-8d17-1c7a2119d541")
-		(property "Reference" "FB5"
-			(at 165.1 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 165.1 25.908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.988 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/418/9/ENG_DS_1773178_3_A1-3474112.pdf"
-			(at 156.21 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 156.21 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" " BMC-Q2CY0220H "
-			(at 156.21 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Spec" "220Ω 100MHz"
-			(at 164.846 22.352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5151c9c2-7fc7-4f66-86bf-1556e153b457")
-		)
-		(pin "1"
-			(uuid "09367d90-ff1c-4157-bff2-6cbfe5b93878")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "FB5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 96.52 114.3 0)
+		(at 217.17 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b4ed6e9a-7e27-4e45-a4b3-5bc7a8213721")
-		(property "Reference" "C28"
-			(at 99.441 113.1316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "25 p"
-			(at 99.441 115.443 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 97.4852 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H270JB01-01.pdf"
-			(at 96.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "UCAP00738 "
-			(at 96.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "490-17672-1-ND"
-			(at 96.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "GJM1555C1H270JB01D"
-			(at 96.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Murata"
-			(at 96.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	27pF 5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 96.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Digikey"
-			(at 96.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "863ea9ec-2abb-4900-9c86-b54a3dd10700")
-		)
-		(pin "2"
-			(uuid "844b6c56-c80a-4f5b-b8d2-02c6ec2beb3b")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 133.35 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc8742e9-525f-4560-afdc-e60a268dc390")
-		(property "Reference" "C49"
-			(at 137.16 34.2899 0)
+		(uuid "b4c02327-cdab-4f5f-b665-220e0267d0d4")
+		(property "Reference" "C1"
+			(at 210.058 32.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10007,7 +9872,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 137.16 36.8299 0)
+			(at 210.058 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10015,8 +9880,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 134.3152 39.37 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 218.1352 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10024,8 +9889,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 133.35 35.56 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 217.17 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10033,8 +9898,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 133.35 35.56 0)
+		(property "Description" "Capacitor 0.1u 20%"
+			(at 217.17 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10042,16 +9907,180 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "a9214243-47c3-490b-ba7e-582c5efb5802")
+		(property "P/N" "C0805C104M5RACTU"
+			(at 217.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "33c20ed9-b10f-4c09-ba2a-4f34bdccf81c")
+			(uuid "a564952a-97c2-4bab-9a6e-7e41e56fe1df")
+		)
+		(pin "2"
+			(uuid "813b72e9-4a47-4952-a348-f504a66abb10")
 		)
 		(instances
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C49")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5bd74d6-eacb-4c1e-9ccc-ef3f95e4ae65")
+		(property "Reference" "R9"
+			(at 118.11 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 118.11 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 118.11 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 10k 1%"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18b67e43-0fca-4906-8c91-bbdd9d0a5886")
+		)
+		(pin "2"
+			(uuid "95555f6e-d638-4661-ac0b-ff8bc007bb1f")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b82a0ae6-6fef-4b36-80ba-c5d34da90295")
+		(property "Reference" "C41"
+			(at 69.088 34.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 69.088 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 77.1652 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 0.1u 20%"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b733159-a068-41ed-8c6c-aefb40bc9f34")
+		)
+		(pin "2"
+			(uuid "7619fd23-9991-48c8-9603-0236462ba39d")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -10075,7 +10104,7 @@
 				)
 			)
 		)
-		(property "Value" "1 M"
+		(property "Value" "1M"
 			(at 74.93 92.71 90)
 			(effects
 				(font
@@ -10083,7 +10112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 74.93 98.298 90)
 			(effects
 				(font
@@ -10092,7 +10121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 74.93 96.52 0)
 			(effects
 				(font
@@ -10101,8 +10130,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1M 1%"
 			(at 74.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051M00FKEA"
+			(at 74.93 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,6 +10423,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 119.38 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c25c46c4-e949-410b-89f1-e78c9bf8169d")
+		(property "Reference" "R19"
+			(at 119.38 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 119.38 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 119.38 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+			(at 119.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 10k 1%"
+			(at 119.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC"
+			(at 119.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70a52b51-3b64-4621-90d9-3a0aaeaf6506")
+		)
+		(pin "2"
+			(uuid "84ef6f5f-681e-4068-a480-ca5e3752e541")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
 		(at 217.17 40.64 0)
@@ -10453,16 +10568,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 217.17 34.29 0)
+		(at 96.52 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c72dd48a-583b-4f3e-a096-0fdff664a47b")
-		(property "Reference" "C1"
-			(at 220.98 33.0199 0)
+		(uuid "cf31783f-8e44-405f-83b2-ffab605f5490")
+		(property "Reference" "C28"
+			(at 99.822 113.2586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10470,8 +10584,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 n"
-			(at 220.98 35.5599 0)
+		(property "Value" "25p"
+			(at 99.822 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10479,8 +10593,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 218.1352 38.1 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 97.4852 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10488,8 +10602,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 217.17 34.29 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/upy_np0x7r_mv_100_to_630v-3461223.pdf"
+			(at 96.52 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10497,8 +10611,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 217.17 34.29 0)
+		(property "Description" "Capacitor 25p 5%"
+			(at 96.52 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CC0603JRNPO9BN250"
+			(at 96.52 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10507,155 +10630,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc6ef22f-26b0-4184-b732-19aa6bbc1824")
+			(uuid "7563025c-4a75-4cdf-ba2a-c15faa2c9809")
 		)
 		(pin "2"
-			(uuid "0e94ee21-7d1e-4024-9eb2-cd2d7f7d8fec")
+			(uuid "a7d982f3-d918-4287-8551-83571ed1e053")
 		)
 		(instances
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9a7822e-59c5-492a-b2f3-a312e216bc18")
-		(property "Reference" "R13"
-			(at 120.65 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 120.65 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.332 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "675b778c-a785-4bb4-9821-b5a4b0d2099a")
-		)
-		(pin "1"
-			(uuid "c1314b34-2878-4562-8f6d-7ac5354acbdc")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 76.2 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce2cebf6-3863-440d-9b24-6e7ddca81707")
-		(property "Reference" "C65"
-			(at 80.01 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 80.01 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.1652 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 76.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "66061bc6-d6e0-434e-9145-1feeacb105a5")
-		)
-		(pin "1"
-			(uuid "4c049ff6-fbe6-43cd-ab46-3ba4d1aded7f")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C65")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -10722,76 +10705,6 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
 					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 40.64 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6c9f87e-59e8-4b93-bb22-6468eeec81d0")
-		(property "Reference" "C46"
-			(at 44.45 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 44.45 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.6052 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 40.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "472e0472-3ddf-4f52-a237-2dac1a04ba5d")
-		)
-		(pin "1"
-			(uuid "1b953940-c497-449b-b117-cd48166d8452")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -10933,16 +10846,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 144.78 35.56 0)
+		(at 99.06 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e75029ea-0197-45ac-8d2d-8475450f6052")
-		(property "Reference" "C51"
-			(at 148.59 34.2899 0)
+		(uuid "e21e3cc3-8a42-476e-9cfc-839400633053")
+		(property "Reference" "C44"
+			(at 91.948 34.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10951,7 +10863,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 148.59 36.8299 0)
+			(at 91.948 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10959,8 +10871,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 145.7452 39.37 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 100.0252 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10968,8 +10880,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 144.78 35.56 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 99.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10977,8 +10889,96 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 144.78 35.56 0)
+		(property "Description" "Capacitor 0.1u 20%"
+			(at 99.06 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 99.06 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dcbe4ce-1fe8-4eeb-8dba-068f41ccea0e")
+		)
+		(pin "2"
+			(uuid "92024c06-e4c1-49ef-bf2a-a00ee0641dff")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7960566-5ae5-4b5f-a14c-ab92742650cc")
+		(property "Reference" "R13"
+			(at 120.65 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 120.65 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 116.332 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 4.7k 1%"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08054K70FKEAC"
+			(at 118.11 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10987,15 +10987,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e99be9b7-3e68-4335-b035-fcad5c4b1ec6")
+			(uuid "5340797f-9a06-46ea-902a-523914f485bd")
 		)
 		(pin "1"
-			(uuid "e9b7c6e0-4b40-4e52-84ce-3a471862ab57")
+			(uuid "23b8cf8d-2601-4574-a4f5-3678dd422526")
 		)
 		(instances
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
-					(reference "C51")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11068,6 +11068,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 196.85 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fca4432f-e349-46e2-bad1-739cf2c6ce40")
+		(property "Reference" "R14"
+			(at 199.39 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 199.39 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 195.072 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+			(at 196.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 4.7k 1%"
+			(at 196.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08054K70FKEAC"
+			(at 196.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87aa7118-c787-446d-bf5d-ef6bf545c681")
+		)
+		(pin "1"
+			(uuid "a5590136-23ea-4384-a575-fe97f4712eea")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ABM8AIG-24.000MHZ-12-2Z-T3:ABM8AIG-24.000MHZ-12-2Z-T3")
 		(at 59.69 107.95 0)
 		(unit 1)
@@ -11085,7 +11164,7 @@
 				)
 			)
 		)
-		(property "Value" "24.000MHz XTAL"
+		(property "Value" "24MHz Crystal"
 			(at 74.93 102.87 0)
 			(effects
 				(font
@@ -11093,7 +11172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ABM8AIG25000MHZ122ZT3"
+		(property "Footprint" "Controls_Pi:ABM8AIG25000MHZ122ZT3"
 			(at 86.36 202.87 0)
 			(effects
 				(font
@@ -11122,68 +11201,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.8"
-			(at 86.36 502.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ABRACON"
-			(at 86.36 602.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ABM8AIG-24.000MHZ-12-2Z-T3"
+		(property "P/N" "ABM8AIG-24.000MHZ-12-2Z-T3"
 			(at 86.36 702.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "815-M8AIG-24-12-2ZT3"
-			(at 86.36 802.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM8AIG-24000MHZ-12-2Z-T3?qs=gG6m684uYP5orUQEAtjKng%3D%3D"
-			(at 86.36 902.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 86.36 1002.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 86.36 1102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
