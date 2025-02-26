@@ -264,7 +264,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 27.94 -1.27 180)
 					(length 5.08)
 					(name "SW"
@@ -1336,6 +1336,447 @@
 				)
 			)
 		)
+		(symbol "LM76202QPWPRQ1:LM76202QPWPRQ1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "LM76202QPWPRQ1"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOP65P640X120-17N"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm76202-q1"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "60V 2.2A ideal diode with integrated FET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LM76202QPWPRQ1"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-LM76202QPWPRQ1"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM76202QPWPRQ1?qs=B6kkDfuK7%2FDO3IObrBgfZg%3D%3D"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "LM76202QPWPRQ1"
+				(at 26.67 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lm76202qpwprq1/texas-instruments"
+				(at 26.67 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LM76202QPWPRQ1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "IN_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -15.24 180)
+					(length 5.08)
+					(name "IMON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -12.7 180)
+					(length 5.08)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -10.16 180)
+					(length 5.08)
+					(name "DVDT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "~{FLT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "OUT_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "OUT_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -30.48 90)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "IN_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "UVLO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "OVP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "RTN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -17.78 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -1648,382 +2089,6 @@
 				)
 			)
 		)
-		(symbol "utsvt-chips:LM76202QPWPRQ1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM76202QPWPRQ1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "UTSVT_ICs:SOP65P640X120-17N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm76202-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1724336215335&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm76202-q1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "60V 2.2A ideal diode with integrated FET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "P/N" "LM76202QPWPRQ1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM76202QPWPRQ1_1_1"
-				(rectangle
-					(start -8.89 -2.54)
-					(end 11.43 -30.48)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -13.97 -5.08 0)
-					(length 5.08)
-					(name "IN_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -20.32 180)
-					(length 5.08)
-					(name "IMON"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -17.78 180)
-					(length 5.08)
-					(name "ILIM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -15.24 180)
-					(length 5.08)
-					(name "DVDT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -12.7 180)
-					(length 5.08)
-					(name "NC_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -10.16 180)
-					(length 5.08)
-					(name "~{FLT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -7.62 180)
-					(length 5.08)
-					(name "OUT_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -5.08 180)
-					(length 5.08)
-					(name "OUT_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -35.56 90)
-					(length 5.08)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -7.62 0)
-					(length 5.08)
-					(name "IN_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -10.16 0)
-					(length 5.08)
-					(name "UVLO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -12.7 0)
-					(length 5.08)
-					(name "NC_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -15.24 0)
-					(length 5.08)
-					(name "OVP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -17.78 0)
-					(length 5.08)
-					(name "MODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -20.32 0)
-					(length 5.08)
-					(name "~{SHDN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -22.86 0)
-					(length 5.08)
-					(name "RTN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -22.86 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "utsvt-connectors:CarPowerConnector"
 			(pin_names
 				(offset 1.016)
@@ -2200,6 +2265,18 @@
 		(uuid "60b69fcb-ee24-490d-bc6c-8f620231244c")
 	)
 	(junction
+		(at 120.65 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b4f31b6-44aa-4963-8a89-14d1cefa195d")
+	)
+	(junction
+		(at 90.17 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cdd21e6-722b-47ba-b8a5-027db26a9bc3")
+	)
+	(junction
 		(at 134.62 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2260,22 +2337,10 @@
 		(uuid "ba3ad673-dd64-41fa-bcb8-6b2531dfa019")
 	)
 	(junction
-		(at 90.17 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdd75855-77c8-4e41-9291-f670fd438527")
-	)
-	(junction
 		(at 147.32 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4994e88-2723-48c3-950d-5e3a29db71ef")
-	)
-	(junction
-		(at 120.65 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcd9f2f8-6432-4296-8579-d2ef40e50b55")
 	)
 	(junction
 		(at 35.56 116.84)
@@ -2583,16 +2648,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 58.42) (xy 139.7 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43daa7ee-10cb-4b0b-ab7e-5a09c1711ac5")
-	)
-	(wire
-		(pts
 			(xy 81.28 115.57) (xy 81.28 113.03)
 		)
 		(stroke
@@ -2630,6 +2685,16 @@
 			(type default)
 		)
 		(uuid "50298c7f-73f0-41f5-9738-c45e00f1efe5")
+	)
+	(wire
+		(pts
+			(xy 120.65 48.26) (xy 139.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f98cf3-4b50-4b57-a36a-42057a50319a")
 	)
 	(wire
 		(pts
@@ -2800,6 +2865,16 @@
 			(type default)
 		)
 		(uuid "6fc458a2-e84a-4f75-a92e-6e53aa8cc0b6")
+	)
+	(wire
+		(pts
+			(xy 128.27 58.42) (xy 139.7 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71096d2d-f324-4e8a-95f9-af9f27ca39e8")
 	)
 	(wire
 		(pts
@@ -3033,6 +3108,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 38.1) (xy 120.65 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22b3e9c-32e9-48f2-8bf5-cecc29c8ce9c")
+	)
+	(wire
+		(pts
 			(xy 60.96 45.72) (xy 60.96 46.99)
 		)
 		(stroke
@@ -3093,7 +3178,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 38.1) (xy 120.65 40.64)
+			(xy 120.65 34.29) (xy 120.65 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3243,16 +3328,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 34.29) (xy 120.65 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de880f3b-d70c-410c-91e2-67e1aacff197")
-	)
-	(wire
-		(pts
 			(xy 209.55 39.37) (xy 209.55 44.45)
 		)
 		(stroke
@@ -3310,16 +3385,6 @@
 			(type default)
 		)
 		(uuid "ee91dfe9-b8aa-41a3-89f9-247bb4f0dd2a")
-	)
-	(wire
-		(pts
-			(xy 120.65 48.26) (xy 139.7 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eed99dc3-bcdc-4eeb-8d11-f116efbc589a")
 	)
 	(wire
 		(pts
@@ -3675,7 +3740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 79.502 128.27 90)
 			(effects
 				(font
@@ -3684,7 +3749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_AA_51_RoHS_L_3-3003024.pdf"
 			(at 81.28 128.27 0)
 			(effects
 				(font
@@ -3702,7 +3767,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW060315K8FKEAC"
+		(property "P/N" "AA0805FR-0715K8L"
 			(at 81.28 128.27 0)
 			(effects
 				(font
@@ -3899,7 +3964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 93.6752 137.16 0)
 			(effects
 				(font
@@ -3908,7 +3973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28548/vjw1bcbascomseries.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 92.71 133.35 0)
 			(effects
 				(font
@@ -3926,7 +3991,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "VJ0402A330JXACW1BC"
+		(property "P/N" "C0805C330J5RACTU"
 			(at 92.71 133.35 0)
 			(effects
 				(font
@@ -4989,7 +5054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 116.332 120.65 90)
 			(effects
 				(font
@@ -4998,7 +5063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
 			(at 118.11 120.65 0)
 			(effects
 				(font
@@ -5016,7 +5081,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW060352K3FKEA"
+		(property "P/N" "RC0805FR-0752K3L"
 			(at 118.11 120.65 0)
 			(effects
 				(font
@@ -5433,6 +5498,131 @@
 		)
 	)
 	(symbol
+		(lib_id "LM76202QPWPRQ1:LM76202QPWPRQ1")
+		(at 90.17 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78b9722f-6c31-4403-8092-c22bf707277c")
+		(property "Reference" "IC8"
+			(at 105.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM76202QPWPRQ1"
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Controls_Pi:SOP65P640X120-17N"
+			(at 116.84 133.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm76202-q1"
+			(at 116.84 233.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V 2.2A ideal diode with integrated FET"
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "LM76202QPWPRQ1"
+			(at 116.84 633.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "c7f7913e-b203-407c-9e7a-efaafe5e205f")
+		)
+		(pin "5"
+			(uuid "910ee45f-60c4-41a2-b055-714c7d34fe88")
+		)
+		(pin "16"
+			(uuid "4883f6c5-3b2b-4663-ad2a-91d37467ac15")
+		)
+		(pin "2"
+			(uuid "89fce2ee-f5c4-4481-b6bc-c42bd9bd97bd")
+		)
+		(pin "4"
+			(uuid "a02d90fc-3ca2-44b7-88de-07a40282627d")
+		)
+		(pin "15"
+			(uuid "48a3121d-ed5e-4db2-b045-0bacf2d6cb0f")
+		)
+		(pin "8"
+			(uuid "c1aaaf2b-23e8-498f-acaf-66a2e28ebad0")
+		)
+		(pin "13"
+			(uuid "b281641c-9723-4aab-934e-c6828024d831")
+		)
+		(pin "9"
+			(uuid "53cde1de-9ce5-4233-bc7e-aa24579ce7d8")
+		)
+		(pin "14"
+			(uuid "c5401692-ccae-4d2d-b254-9d112bde7a79")
+		)
+		(pin "10"
+			(uuid "ffb26bc0-3cf5-4fa4-aeee-55d392d8e004")
+		)
+		(pin "7"
+			(uuid "17269c2d-2485-4dc6-8bd5-97d97fec398b")
+		)
+		(pin "17"
+			(uuid "0acca591-e1e2-42af-ba90-f0c4df669508")
+		)
+		(pin "11"
+			(uuid "077b7608-b9a3-4930-b455-a7128a1ce0a1")
+		)
+		(pin "1"
+			(uuid "cc199220-7017-44b1-8990-475c6d1b85ce")
+		)
+		(pin "3"
+			(uuid "8ccabd64-3cbf-41b6-876a-880f124b2ac9")
+		)
+		(pin "6"
+			(uuid "4eb02e37-6185-4f57-8790-fe93fd152103")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
+					(reference "IC8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 97.79 115.57 90)
 		(unit 1)
@@ -5458,7 +5648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Controls_Pi:INDPM110100X540N"
 			(at 97.79 115.57 0)
 			(effects
 				(font
@@ -5467,7 +5657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/Bourns_03202023_SRP1050WA_Data_Sheet-3135147.pdf"
 			(at 97.79 115.57 0)
 			(effects
 				(font
@@ -5477,6 +5667,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 97.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" " SRP1050WA-4R7M "
 			(at 97.79 115.57 0)
 			(effects
 				(font
@@ -5738,7 +5937,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
 			(at 33.02 40.64 0)
 			(effects
 				(font
@@ -5747,7 +5946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500215?display=pdf"
 			(at 33.02 40.64 0)
 			(effects
 				(font
@@ -5757,6 +5956,15 @@
 			)
 		)
 		(property "Description" "Connection to the car's low power bus"
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500215"
 			(at 33.02 40.64 0)
 			(effects
 				(font
@@ -5841,6 +6049,72 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 273.05 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d5925a7-c543-4f2d-9bbc-1263dd863fee")
+		(property "Reference" "TP3"
+			(at 274.5232 59.2328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 274.5232 61.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 278.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6915e8fe-e8f1-439a-a444-b7c2f64ea289")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6349,72 +6623,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 273.05 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b74477db-0469-4e10-8f97-a8111b7e8376")
-		(property "Reference" "TP10"
-			(at 274.5232 59.2328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 274.5232 61.5442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 278.13 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 273.05 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e79d239-c18f-4764-8705-186f6b59f080")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 67.31 63.5 0)
 		(unit 1)
@@ -6635,6 +6843,76 @@
 				(hide yes)
 			)
 		)
+		(property "Height" "1.63"
+			(at 77.47 509.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 77.47 609.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AP64501QSP-13"
+			(at 77.47 709.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-AP64501QSP-13"
+			(at 77.47 809.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP64501QSP-13?qs=IS%252B4QmGtzzqtXRaIlE2s%2FA%3D%3D"
+			(at 77.47 909.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 77.47 1009.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 77.47 1109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "af2892be-ec1d-43eb-a190-a15afff16d8b")
 		)
@@ -6822,128 +7100,6 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "utsvt-chips:LM76202QPWPRQ1")
-		(at 104.14 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d948e4fd-b3c6-4601-a72b-548eee0144fd")
-		(property "Reference" "U7"
-			(at 105.41 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM76202QPWPRQ1"
-			(at 105.41 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UTSVT_ICs:SOP65P640X120-17N"
-			(at 104.14 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm76202-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1724336215335&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm76202-q1"
-			(at 104.14 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V 2.2A ideal diode with integrated FET"
-			(at 104.14 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "LM76202QPWPRQ1"
-			(at 104.14 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "a9f1f9d6-58c1-4bb6-8ea3-15d1e4e30f71")
-		)
-		(pin "9"
-			(uuid "e57376f9-45f0-47fb-ba44-782d2cfe15cf")
-		)
-		(pin "13"
-			(uuid "50e9da92-e7e8-45a2-af6c-2acbc2a2ac26")
-		)
-		(pin "7"
-			(uuid "4516f95d-d7f2-444b-8c57-32bf3ec3279e")
-		)
-		(pin "8"
-			(uuid "9733640d-7084-4589-b2a8-15e799337459")
-		)
-		(pin "16"
-			(uuid "f3e9482c-bced-48aa-93e5-71f3ab181806")
-		)
-		(pin "1"
-			(uuid "39daa52d-2450-49cb-9598-81742e1ae60e")
-		)
-		(pin "11"
-			(uuid "55e15866-7a18-4cd2-b61f-c932e38c7089")
-		)
-		(pin "10"
-			(uuid "64f04aa3-b2af-4a19-aac2-521a408852f2")
-		)
-		(pin "6"
-			(uuid "68b62b7c-47ba-4185-a596-f0405d8a09fb")
-		)
-		(pin "5"
-			(uuid "c56fc6d3-0931-4984-8291-6c773635e7b3")
-		)
-		(pin "14"
-			(uuid "019779e0-c8d2-4d1b-9dd3-bcf4652d3a7b")
-		)
-		(pin "15"
-			(uuid "8d477c31-1289-4742-9a39-e5c7e8b19e37")
-		)
-		(pin "4"
-			(uuid "3fdb1784-8308-4afc-8c42-3eb361b210df")
-		)
-		(pin "17"
-			(uuid "255c8769-ddf4-4075-9001-7f71be5d6586")
-		)
-		(pin "3"
-			(uuid "8abb9269-035a-4188-af0a-d7c4a5b0a96a")
-		)
-		(pin "2"
-			(uuid "01379a7e-d899-4eea-88e6-d5dce2c5431f")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
-					(reference "U7")
 					(unit 1)
 				)
 			)

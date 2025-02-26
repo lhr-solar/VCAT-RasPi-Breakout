@@ -624,7 +624,7 @@
 	)
 	(text "Connectors\n-------\nCAN Connector"
 		(exclude_from_sim no)
-		(at 172.974 122.174 0)
+		(at 170.942 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -633,9 +633,9 @@
 		)
 		(uuid "7b34183f-44ea-4ea3-91f6-39af0fb290e1")
 	)
-	(text "Connectors\n-------\n40way RPI\nJumpers"
+	(text "Connectors\n-------\n40way RPI\nJumpers\n\nWireless En Switch\nFlash Switch"
 		(exclude_from_sim no)
-		(at 137.922 127.508 0)
+		(at 132.08 132.334 0)
 		(effects
 			(font
 				(size 1.27 1.27)

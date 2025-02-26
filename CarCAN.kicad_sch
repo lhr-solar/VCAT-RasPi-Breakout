@@ -5,6 +5,135 @@
 	(uuid "408b3027-c228-4f28-a61c-458fcae1d3b7")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J2"
+				(at 8.636 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CarCANConnector"
+				(at 8.636 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+				(at -0.508 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500215?display=pdf"
+				(at 1.778 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at -0.254 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P/N" "436500215"
+				(at -0.254 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "CAN_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "CAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1188,6 +1317,285 @@
 				)
 			)
 		)
+		(symbol "TCAN337DCNR:TCAN337DCNR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TCAN337DCNR"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT65P280X145-8N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/TCAN337"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3-V CAN Transceivers"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TCAN337DCNR"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TCAN337DCNR"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCAN337DCNR?qs=gMfM3zrbS4r1ZrvbjcW09A%3D%3D"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "TCAN337DCNR"
+				(at 24.13 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tcan337dcnr/texas-instruments?region=nac"
+				(at 24.13 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TCAN337DCNR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "FAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1401,409 +1809,6 @@
 				)
 			)
 		)
-		(symbol "utsvt-chips:TCAN337DCNR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TCAN337DCNR"
-				(at 24.13 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT65P280X145-8N"
-				(at 24.13 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/TCAN337"
-				(at 24.13 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.3-V CAN Transceivers"
-				(at 15.24 -11.938 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.45"
-				(at 24.13 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-TCAN337DCNR"
-				(at 24.13 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCAN337DCNR?qs=gMfM3zrbS4r1ZrvbjcW09A%3D%3D"
-				(at 24.13 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TCAN337DCNR"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TCAN337DCNR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "FAULT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "CANL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -5.08 180)
-					(length 5.08)
-					(name "CANH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -7.62 180)
-					(length 5.08)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "utsvt-connectors:CANConnector"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "CANConnector"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.81 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Connection to the car's CAN bus."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CANConnector_0_1"
-				(rectangle
-					(start 3.81 5.08)
-					(end -3.81 -5.08)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "CANConnector_1_1"
-				(pin power_in line
-					(at 8.89 3.81 180)
-					(length 5.08)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 1.27 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -1.27 180)
-					(length 5.08)
-					(name "CAN_H"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -3.81 180)
-					(length 5.08)
-					(name "CAN_L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-	)
-	(junction
-		(at 63.5 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11b02b0d-837a-4b2a-a72a-775daaed65b7")
 	)
 	(junction
 		(at 41.91 76.2)
@@ -1824,10 +1829,28 @@
 		(uuid "403e6e1c-6754-4cd5-b912-a38331f9abe9")
 	)
 	(junction
+		(at 130.81 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "583f0753-741d-49c6-9985-a584b5ca811d")
+	)
+	(junction
+		(at 133.35 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "681681e4-66cd-48f5-8685-8b6b81f01de3")
+	)
+	(junction
 		(at 96.52 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77369506-f5d1-4803-a263-fc06da903426")
+	)
+	(junction
+		(at 62.23 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86cbc24c-135c-4f24-ba81-673ea4b2fd9b")
 	)
 	(junction
 		(at 39.37 119.38)
@@ -1854,10 +1877,10 @@
 		(uuid "d3d064e3-5cc1-4452-9cd8-1c49057031fc")
 	)
 	(junction
-		(at 63.5 66.04)
+		(at 62.23 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f2e12556-1eec-4504-b9f2-908bbc0ae168")
+		(uuid "d98e8b36-87c6-4e6c-affd-ffd990376402")
 	)
 	(junction
 		(at 118.11 119.38)
@@ -1874,10 +1897,6 @@
 		(uuid "10eb5145-2a72-41b9-b147-4755540c1f05")
 	)
 	(no_connect
-		(at 165.1 124.46)
-		(uuid "288d20cf-1466-4d67-b251-1186289194ed")
-	)
-	(no_connect
 		(at 81.28 74.93)
 		(uuid "29b0e469-bb65-49a7-bd2b-78a141400c0b")
 	)
@@ -1892,10 +1911,6 @@
 	(no_connect
 		(at 111.76 69.85)
 		(uuid "ae484ead-9205-4e8a-9c30-4c0a4390bb4f")
-	)
-	(no_connect
-		(at 165.1 121.92)
-		(uuid "b58edbbf-26ce-4470-8af0-49286d4fb6b0")
 	)
 	(no_connect
 		(at 111.76 72.39)
@@ -1993,6 +2008,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 76.2) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b5f1e1-0434-45c1-9f22-a9fbc1500b79")
+	)
+	(wire
+		(pts
 			(xy 41.91 76.2) (xy 46.99 76.2)
 		)
 		(stroke
@@ -2003,7 +2028,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 74.93) (xy 63.5 76.2)
+			(xy 62.23 74.93) (xy 62.23 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2023,7 +2048,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 67.31) (xy 63.5 66.04)
+			(xy 62.23 67.31) (xy 62.23 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2063,13 +2088,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 116.84) (xy 165.1 116.84)
+			(xy 120.65 116.84) (xy 130.81 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3111613a-debc-42c8-9323-1dee72a6c54f")
+	)
+	(wire
+		(pts
+			(xy 133.35 119.38) (xy 135.89 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339f2b8a-e5ce-4cc9-99d2-123f18481201")
 	)
 	(wire
 		(pts
@@ -2080,6 +2115,16 @@
 			(type default)
 		)
 		(uuid "35a3f111-0b98-41bf-9cb6-da4ae70a9f3d")
+	)
+	(wire
+		(pts
+			(xy 62.23 66.04) (xy 74.93 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361ddce8-689b-4b15-8963-7f964c8d54ed")
 	)
 	(wire
 		(pts
@@ -2113,7 +2158,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 119.38) (xy 165.1 119.38)
+			(xy 118.11 119.38) (xy 133.35 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2173,6 +2218,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 106.68) (xy 130.81 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a17efc7-ff45-4e1b-8bb8-b66f5145800e")
+	)
+	(wire
+		(pts
 			(xy 146.05 134.62) (xy 146.05 130.81)
 		)
 		(stroke
@@ -2193,7 +2248,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 66.04) (xy 63.5 66.04)
+			(xy 54.61 66.04) (xy 62.23 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2283,6 +2338,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 106.68) (xy 130.81 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864c76b9-37e3-401e-ad04-70a7facd613f")
+	)
+	(wire
+		(pts
+			(xy 130.81 116.84) (xy 135.89 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a27bb72-8dc2-4fe1-8e49-cc101b483653")
+	)
+	(wire
+		(pts
 			(xy 120.65 80.01) (xy 124.46 80.01)
 		)
 		(stroke
@@ -2300,16 +2375,6 @@
 			(type default)
 		)
 		(uuid "8f3de4fc-e41d-4b6d-990e-47e20bfb06de")
-	)
-	(wire
-		(pts
-			(xy 74.93 76.2) (xy 63.5 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97bf665f-cb5c-4cad-89a0-428271486aad")
 	)
 	(wire
 		(pts
@@ -2363,6 +2428,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 109.22) (xy 133.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee0fc6d-ed87-497d-b0a4-2e14e4d367a2")
+	)
+	(wire
+		(pts
 			(xy 90.17 114.3) (xy 96.52 114.3)
 		)
 		(stroke
@@ -2390,16 +2465,6 @@
 			(type default)
 		)
 		(uuid "bc51d325-b33c-4dcd-a786-12425b166739")
-	)
-	(wire
-		(pts
-			(xy 63.5 66.04) (xy 74.93 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd9757d9-832c-4d6e-872c-6e91b75cb201")
 	)
 	(wire
 		(pts
@@ -2473,7 +2538,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 76.2) (xy 63.5 76.2)
+			(xy 54.61 76.2) (xy 62.23 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2551,15 +2616,15 @@
 		)
 		(uuid "ff1d0d6b-2df6-4e67-93b8-e2eb5a4c8ce7")
 	)
-	(text "Need to redo capacitor values once crystal is finalized."
-		(exclude_from_sim no)
-		(at 45.72 61.976 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+	(wire
+		(pts
+			(xy 135.89 109.22) (xy 133.35 109.22)
 		)
-		(uuid "1e3ee06e-8f6f-43d5-9d41-03be28e03f36")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5c5b2c-5279-46ff-82b6-637dd813cd4d")
 	)
 	(text "No need to use the RX notification pins as\nthat will be also conveyed on the interrupt pin"
 		(exclude_from_sim no)
@@ -2760,9 +2825,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0d6c70a9-825a-4f2f-b8d2-7907f48a5833")
+		(uuid "0507d240-a99e-43a6-a37b-2f613ecc51cc")
 		(property "Reference" "C25"
-			(at 50.8 79.756 90)
+			(at 51.054 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,14 +2835,14 @@
 			)
 		)
 		(property "Value" "22 pF"
-			(at 50.8 82.296 90)
+			(at 51.054 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 54.61 75.2348 0)
 			(effects
 				(font
@@ -2786,7 +2851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1007_X8R_ULTRA_150C_SMD-3316375.pdf"
 			(at 50.8 76.2 0)
 			(effects
 				(font
@@ -2804,11 +2869,20 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0805C220J5HACTU"
+			(at 50.8 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "8d0127b4-2c59-402a-b8e5-c9df9f400833")
+			(uuid "39066dad-9bb3-4449-9674-dd1e1c5aaccc")
 		)
 		(pin "2"
-			(uuid "56b459a7-07ba-4f0e-b241-877ab2a87688")
+			(uuid "384db418-1e02-45fd-af2c-d313dd8fbb8a")
 		)
 		(instances
 			(project "PiBoard"
@@ -2880,104 +2954,6 @@
 			(project ""
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/bb44eb34-b37d-4f19-ab49-17b4958492c8"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "utsvt-chips:TCAN337DCNR")
-		(at 62.23 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3058b7d4-8caf-45b2-a8e4-acf067ff3d08")
-		(property "Reference" "IC1"
-			(at 76.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TCAN337DCNR"
-			(at 76.2 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UTSVT_ICs:SOT65P280X145-8N"
-			(at 86.36 209.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/TCAN337"
-			(at 86.36 309.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3-V CAN Transceivers"
-			(at 77.47 126.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "TCAN337DCNR"
-			(at 86.36 909.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1306ef7c-ba30-4784-a9fa-95c4a6209571")
-		)
-		(pin "7"
-			(uuid "65bd1032-d8c8-4cf6-83fd-e6fd89bf1611")
-		)
-		(pin "2"
-			(uuid "5e7c40c7-c2cd-4fa2-9173-77e0a12a3d0b")
-		)
-		(pin "4"
-			(uuid "09864b85-8c4e-432d-b205-a39b51194c1e")
-		)
-		(pin "3"
-			(uuid "c4824569-63c2-4c9a-8b8a-8a0e26895346")
-		)
-		(pin "8"
-			(uuid "1a3bb0e1-22db-4f38-b868-4cfef9410557")
-		)
-		(pin "6"
-			(uuid "b7e9deb8-c563-4578-8e5f-72bbf66946b4")
-		)
-		(pin "5"
-			(uuid "16c103bb-90df-4c9a-94b7-ef233ac3e165")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/bb44eb34-b37d-4f19-ab49-17b4958492c8"
-					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -3241,7 +3217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 54.61 65.0748 0)
 			(effects
 				(font
@@ -3250,7 +3226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1007_X8R_ULTRA_150C_SMD-3316375.pdf"
 			(at 50.8 66.04 0)
 			(effects
 				(font
@@ -3261,6 +3237,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C220J5HACTU"
+			(at 50.8 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,6 +3550,104 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/bb44eb34-b37d-4f19-ab49-17b4958492c8"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TCAN337DCNR:TCAN337DCNR")
+		(at 62.23 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9778fdba-1bb6-4c66-ba2d-3b2f2988ef0c")
+		(property "Reference" "IC1"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCAN337DCNR"
+			(at 76.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Controls_Pi:SOT65P280X145-8N"
+			(at 86.36 209.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/TCAN337"
+			(at 86.36 309.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3-V CAN Transceiver"
+			(at 62.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TCAN337DCNR"
+			(at 86.36 709.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a818eda-1336-435e-9787-96b2ae6a57fb")
+		)
+		(pin "5"
+			(uuid "2af22ace-bd06-4e6e-8854-ca9ccc758474")
+		)
+		(pin "8"
+			(uuid "683521f5-0ab1-4086-9847-c03cee1b6f94")
+		)
+		(pin "3"
+			(uuid "90b125c7-8398-47ee-8647-9230a6317783")
+		)
+		(pin "4"
+			(uuid "3656ed09-dd73-4c0e-83d6-7dbfd9b0b3a1")
+		)
+		(pin "7"
+			(uuid "eca56e03-d330-4c65-8a41-b2f8986fe598")
+		)
+		(pin "6"
+			(uuid "d7207e1c-9cb5-4463-a4bb-34bbfe34a4ad")
+		)
+		(pin "1"
+			(uuid "d7549c03-4f45-454d-bf84-4a46c8dc7ba2")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/bb44eb34-b37d-4f19-ab49-17b4958492c8"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -4062,53 +4145,62 @@
 		)
 	)
 	(symbol
-		(lib_id "utsvt-connectors:CANConnector")
-		(at 173.99 120.65 180)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 140.97 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cef15c5e-dc27-45d1-a1fb-5a0475e312b7")
+		(uuid "d13e87ed-c63a-4ae9-8aac-bec872ee7fbe")
 		(property "Reference" "J2"
-			(at 179.07 119.3799 0)
+			(at 149.606 116.84 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "CANConnector"
-			(at 179.07 121.9199 0)
+		(property "Value" "CarCANConnector"
+			(at 149.606 119.38 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical"
-			(at 173.99 111.76 0)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 140.462 113.792 0)
 			(effects
 				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 128.27 0)
-			(effects
-				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "Connection to the car's CAN bus."
-			(at 173.99 120.65 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500215?display=pdf"
+			(at 142.748 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.716 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500215"
+			(at 140.716 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,19 +4209,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "b42f9b56-f58f-4468-9171-8e57119c126d")
-		)
-		(pin "3"
-			(uuid "ef493ccb-0eda-47d9-8938-a57fbc2bbe52")
+			(uuid "40acf1a1-ce52-4309-a50c-86ccc3850227")
 		)
 		(pin "1"
-			(uuid "3d978f30-b55b-4b3e-a5ae-10c57eb59ab1")
-		)
-		(pin "4"
-			(uuid "2982a791-50a6-4156-887a-17c4bc45b792")
+			(uuid "8e959309-4e06-4507-b7d1-88232821ea13")
 		)
 		(instances
-			(project "PiBoard"
+			(project ""
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/bb44eb34-b37d-4f19-ab49-17b4958492c8"
 					(reference "J2")
 					(unit 1)
@@ -4271,7 +4357,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 63.5 71.12 270)
+		(at 62.23 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4280,7 +4366,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9056f7a-818d-463b-bed8-6bc3b1ae6b92")
 		(property "Reference" "Y4"
-			(at 67.31 69.8499 90)
+			(at 66.04 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +4375,7 @@
 			)
 		)
 		(property "Value" "8 MHz"
-			(at 67.31 72.3899 90)
+			(at 66.04 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,8 +4383,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.5 71.12 0)
+		(property "Footprint" "Controls_Pi:ABM3"
+			(at 62.23 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,8 +4392,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 63.5 71.12 0)
+		(property "Datasheet" "https://abracon.com/Resonators/abm3.pdf"
+			(at 62.23 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,8 +4401,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal"
-			(at 63.5 71.12 0)
+		(property "Description" "Crystal 8MHz 18pF 140 Ohms"
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "ABM3-8.000MHZ-D2Y-T"
+			(at 62.23 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,6 +4429,85 @@
 			(project ""
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/bb44eb34-b37d-4f19-ab49-17b4958492c8"
 					(reference "Y4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 140.97 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb11155b-c65f-4240-8910-117df6406a1e")
+		(property "Reference" "J11"
+			(at 149.606 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CarCANConnector"
+			(at 149.606 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 140.462 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500215?display=pdf"
+			(at 142.748 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.716 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500215"
+			(at 140.716 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55ed1b22-0544-4d75-9876-9baaf2514cd3")
+		)
+		(pin "1"
+			(uuid "06ef69b7-ccf3-4a45-8554-976e2cd8bb77")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/bb44eb34-b37d-4f19-ab49-17b4958492c8"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -4375,7 +4549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/sdr-e.pdf"
 			(at 242.57 115.57 0)
 			(effects
 				(font

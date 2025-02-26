@@ -501,10 +501,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -525,7 +525,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -537,23 +537,65 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "P/N",
           "name": "P/N",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "P/N"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -604,6 +646,10 @@
       "CM4 GPIO"
     ],
     [
+      "556cd50d-7ae0-44b7-8ac9-f0bc160f8797",
+      "USB_Ports"
+    ],
+    [
       "576572c3-1ae4-4f9d-a2fe-756d060003c8",
       "RTC and Fan"
     ],
@@ -618,10 +664,6 @@
     [
       "0c1fd794-8ba7-4f58-ad3e-1ee234c84a43",
       "Power Distribution"
-    ],
-    [
-      "9db2d452-e488-4d0d-9fba-1e3727141806",
-      "USB_Ports"
     ],
     [
       "2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1",
