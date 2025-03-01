@@ -13093,86 +13093,6 @@
 			)
 			(uuid "a0432d39-733a-42d1-b2da-af8d3e6a7ad3")
 		)
-		(pin "USB_2P" input
-			(at 208.28 97.79 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "402fefab-039a-4e1a-8c88-90fc59cdbda3")
-		)
-		(pin "USB_2N" input
-			(at 208.28 110.49 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e65801ae-1840-42e1-9cc7-c67a29c36ef9")
-		)
-		(pin "USB_1N" input
-			(at 208.28 107.95 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "aeb814f1-f66e-41d4-b7cb-7a70fdd419da")
-		)
-		(pin "USB_1P" input
-			(at 208.28 95.25 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "992adfef-4ba0-42b5-affd-d98f5884eb7d")
-		)
-		(pin "USB_4P" input
-			(at 208.28 102.87 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9d434da6-543e-4ba8-a518-7685d5e02a8b")
-		)
-		(pin "USB_4N" input
-			(at 208.28 115.57 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "334f9939-4492-4a5a-89ac-5817f6aeb5ba")
-		)
-		(pin "USB_3N" input
-			(at 208.28 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "28328404-1f59-4432-8f14-2de881e02e50")
-		)
-		(pin "OC1" input
-			(at 208.28 82.55 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1cf10848-45a4-4240-b90b-9e5ac0f63d67")
-		)
 		(pin "EN1" input
 			(at 208.28 69.85 180)
 			(effects
@@ -13182,16 +13102,6 @@
 				(justify left)
 			)
 			(uuid "5fb4e9a8-ca38-4d3c-a16c-be62d371c911")
-		)
-		(pin "OC2" input
-			(at 208.28 85.09 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0dfd40f1-77d7-48f7-adad-bfab8d10c254")
 		)
 		(pin "EN2" input
 			(at 208.28 72.39 180)
@@ -13223,17 +13133,17 @@
 			)
 			(uuid "6e363d5a-6e76-408f-8974-4aa0d6084cd2")
 		)
-		(pin "OC3" input
-			(at 208.28 87.63 180)
+		(pin "USB_4N" bidirectional
+			(at 208.28 115.57 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f03c87ad-ea5f-4cce-b10d-f50478e1e5f2")
+			(uuid "07633204-5361-4f71-bcc9-60105df66b41")
 		)
-		(pin "OC4" input
+		(pin "OC4" output
 			(at 208.28 90.17 180)
 			(effects
 				(font
@@ -13241,9 +13151,79 @@
 				)
 				(justify left)
 			)
-			(uuid "94a5f38d-21c9-49ae-bf24-58f6d1cc7501")
+			(uuid "23f6666c-3633-47b0-b3ea-9fe10a3a9109")
 		)
-		(pin "USB_3P" input
+		(pin "OC3" output
+			(at 208.28 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ffa48ec2-cb80-4218-ae9c-2b62f582d523")
+		)
+		(pin "OC2" output
+			(at 208.28 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2b98738-0813-4334-ad32-8cec7392a565")
+		)
+		(pin "OC1" output
+			(at 208.28 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6eb699f5-c102-4a3e-860c-5a54463f94c8")
+		)
+		(pin "USB_4P" bidirectional
+			(at 208.28 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3638e3a3-ed87-4c84-8186-efd8b405aa2d")
+		)
+		(pin "USB_2P" bidirectional
+			(at 208.28 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "306a5032-02f2-4628-baaf-07f44f9b5784")
+		)
+		(pin "USB_2N" bidirectional
+			(at 208.28 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c391b79e-e173-4761-97a3-25c8a9d861f2")
+		)
+		(pin "USB_1P" bidirectional
+			(at 208.28 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3495732b-e0f9-4b15-858a-6a7b3c08f3ef")
+		)
+		(pin "USB_3P" bidirectional
 			(at 208.28 100.33 180)
 			(effects
 				(font
@@ -13251,7 +13231,27 @@
 				)
 				(justify left)
 			)
-			(uuid "f55121cd-1247-4fe4-91d8-9ae98bcea790")
+			(uuid "312df3d1-4a96-43aa-8af5-3d7fc643b14c")
+		)
+		(pin "USB_3N" bidirectional
+			(at 208.28 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cd47f8be-fd12-4029-904f-ef58753f8d35")
+		)
+		(pin "USB_1N" bidirectional
+			(at 208.28 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eebfe517-e8a7-43f5-adca-786bc6c8db8c")
 		)
 		(instances
 			(project "PiBoard"
