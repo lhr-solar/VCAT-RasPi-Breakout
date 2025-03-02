@@ -129,7 +129,7 @@
 					(type none)
 				)
 			)
-			(pin power_out line
+			(pin output line
 				(at 0 0 0)
 				(length 5.08)
 				(name "RED"
@@ -147,7 +147,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin output line
 				(at 0 -2.54 0)
 				(length 5.08)
 				(name "BLK"

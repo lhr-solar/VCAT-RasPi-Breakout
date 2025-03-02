@@ -382,13 +382,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 134.62) (xy 116.84 134.62)
+			(xy 102.87 134.62) (xy 116.84 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3401a30f-072f-4045-873d-3dfc6c64ab03")
+		(uuid "1a9321f1-2d6f-4b1e-91db-326a1392be9d")
 	)
 	(wire
 		(pts
@@ -542,16 +542,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 127) (xy 64.77 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db0ae708-6ec6-4427-a58a-d41c142bbd11")
-	)
-	(wire
-		(pts
 			(xy 187.96 36.83) (xy 199.39 36.83)
 		)
 		(stroke
@@ -622,7 +612,7 @@
 		)
 		(uuid "74e36807-fe81-4b39-962e-f66316017ded")
 	)
-	(text "Connectors\n-------\nCAN Connector"
+	(text "Connectors\n-------\n2x CAN Connector"
 		(exclude_from_sim no)
 		(at 170.942 124.46 0)
 		(effects
@@ -633,7 +623,7 @@
 		)
 		(uuid "7b34183f-44ea-4ea3-91f6-39af0fb290e1")
 	)
-	(text "Connectors\n-------\n40way RPI\nJumpers\n\nWireless En Switch\nFlash Switch"
+	(text "Connectors\n-------\n40way GPIO Conn\n\nWireless En Switch\nFlash Switch"
 		(exclude_from_sim no)
 		(at 132.08 132.334 0)
 		(effects
@@ -644,7 +634,7 @@
 		)
 		(uuid "9c1f38b9-9013-4c8e-b404-a4ceca28a3b9")
 	)
-	(text "Connectors\n-------\nFAN"
+	(text "Connectors\n-------\n4pin FAN"
 		(exclude_from_sim no)
 		(at 71.374 146.304 0)
 		(effects
@@ -667,7 +657,7 @@
 		(uuid "cfcb8281-6387-4e60-b4b4-050a992ba265")
 	)
 	(label "Board_En"
-		(at 97.79 134.62 0)
+		(at 102.87 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -945,72 +935,6 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
 					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 53.34 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71459767-49cc-49a6-94ea-0d0e3c76360f")
-		(property "Reference" "#PWR077"
-			(at 53.34 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 53.34 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 53.34 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c500e1fb-a926-4a05-94fd-0efa386d9e96")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
-					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -1756,16 +1680,6 @@
 			)
 			(uuid "2d356f1e-ae93-4cdd-b618-a2944e1b68f0")
 		)
-		(pin "GLOBAL_EN" input
-			(at 88.9 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6d2fa6ed-eb96-4836-b744-540b22e67008")
-		)
 		(pin "+3.3V_PWR" input
 			(at 64.77 130.81 180)
 			(effects
@@ -1775,16 +1689,6 @@
 				(justify left)
 			)
 			(uuid "956b9209-4776-49e2-8527-cb75116c7a1a")
-		)
-		(pin "+5V_PWR" input
-			(at 64.77 127 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "74467c48-7888-4aeb-8706-bb28bb6eaca7")
 		)
 		(pin "+12V_PWR" input
 			(at 64.77 123.19 180)

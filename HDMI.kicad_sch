@@ -5750,6 +5750,12 @@
 		(uuid "c5759cc9-0e76-44d4-a1cb-0b5d65174c6d")
 	)
 	(junction
+		(at 157.48 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5b638f8-c6c8-44e9-bfb7-06e0dad9e96a")
+	)
+	(junction
 		(at 34.29 146.05)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -5862,6 +5868,10 @@
 	(no_connect
 		(at 36.83 158.75)
 		(uuid "502b999e-8434-498d-a1ec-208289ab9648")
+	)
+	(no_connect
+		(at 142.24 139.7)
+		(uuid "51128e73-1d49-409d-8091-b01777d107c0")
 	)
 	(no_connect
 		(at 97.79 92.71)
@@ -5998,6 +6008,10 @@
 	(no_connect
 		(at 97.79 158.75)
 		(uuid "db32c8e1-5e43-4c5d-a8bc-daf16804ff46")
+	)
+	(no_connect
+		(at 172.72 139.7)
+		(uuid "e12ea675-feff-4353-b1b6-849b18ba2a49")
 	)
 	(no_connect
 		(at 97.79 82.55)
@@ -6221,6 +6235,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 134.62) (xy 140.97 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6938d6-864f-4bc0-bd30-b9a0febc622c")
+	)
+	(wire
+		(pts
 			(xy 246.38 149.86) (xy 248.92 149.86)
 		)
 		(stroke
@@ -6258,6 +6282,16 @@
 			(type solid)
 		)
 		(uuid "2560f5bd-6dcd-4887-b047-25418f9f907b")
+	)
+	(wire
+		(pts
+			(xy 140.97 134.62) (xy 140.97 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2610e56d-60f0-4fa1-bcbb-17adfb17fd48")
 	)
 	(wire
 		(pts
@@ -6578,6 +6612,16 @@
 			(type solid)
 		)
 		(uuid "55fdb7b9-e134-45b4-b3df-232a6a646c6f")
+	)
+	(wire
+		(pts
+			(xy 140.97 144.78) (xy 157.48 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576f4d0d-7e04-425b-bb2f-3969b3d45257")
 	)
 	(wire
 		(pts
@@ -7041,6 +7085,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 134.62) (xy 173.99 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29e578f-097e-4976-9470-45cf4aff5d30")
+	)
+	(wire
+		(pts
 			(xy 172.72 60.96) (xy 189.23 60.96)
 		)
 		(stroke
@@ -7301,7 +7355,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 137.16) (xy 172.72 137.16)
+			(xy 172.72 137.16) (xy 189.23 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7318,6 +7372,16 @@
 			(type solid)
 		)
 		(uuid "e31a637b-ecb2-45c2-a15d-6d88d36beb44")
+	)
+	(wire
+		(pts
+			(xy 172.72 134.62) (xy 173.99 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37ceac7-0aaa-4b4f-bcff-603e86b63cfd")
 	)
 	(wire
 		(pts
@@ -7428,6 +7492,16 @@
 			(type solid)
 		)
 		(uuid "f568b67d-77b0-43d9-9b56-bba6e383c44b")
+	)
+	(wire
+		(pts
+			(xy 173.99 144.78) (xy 157.48 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb361b04-d001-4bfe-b497-199b3469bd68")
 	)
 	(wire
 		(pts
@@ -9333,7 +9407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DQA(R-PUSON-N10)"
+		(property "Footprint" "Controls_Pi:DQA_R-PUSON-N10_"
 			(at 168.91 224.46 0)
 			(effects
 				(font
@@ -9466,6 +9540,72 @@
 			(project ""
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b7748a2-8f2b-4a86-be6f-9033707f9416")
+		(property "Reference" "#PWR095"
+			(at 157.48 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72b49383-663a-407e-8368-27ca37216bfd")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
