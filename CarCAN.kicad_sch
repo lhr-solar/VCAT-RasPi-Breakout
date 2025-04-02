@@ -2670,6 +2670,7 @@
 	)
 	(label "Fault"
 		(at 232.41 116.84 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2680,6 +2681,7 @@
 	)
 	(label "CAN_TX"
 		(at 71.12 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2690,6 +2692,7 @@
 	)
 	(label "CAN_RX"
 		(at 71.12 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2700,6 +2703,7 @@
 	)
 	(label "CAN_TX"
 		(at 161.29 39.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2710,6 +2714,7 @@
 	)
 	(label "Fault"
 		(at 125.73 124.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2720,6 +2725,7 @@
 	)
 	(label "CAN_RX"
 		(at 161.29 36.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2731,6 +2737,7 @@
 	(hierarchical_label "+3.3V_PWR"
 		(shape input)
 		(at 133.35 21.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2742,6 +2749,7 @@
 	(hierarchical_label "+3.3V_PWR"
 		(shape input)
 		(at 171.45 67.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2753,6 +2761,7 @@
 	(hierarchical_label "CAN_SPI_CLK"
 		(shape input)
 		(at 99.06 44.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2764,6 +2773,7 @@
 	(hierarchical_label "CAN_INTR"
 		(shape output)
 		(at 158.75 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2775,6 +2785,7 @@
 	(hierarchical_label "CAN_SPI_MOSI"
 		(shape input)
 		(at 99.06 36.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2786,6 +2797,7 @@
 	(hierarchical_label "CAN_SPI_CS"
 		(shape input)
 		(at 99.06 41.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2797,6 +2809,7 @@
 	(hierarchical_label "+3.3V_PWR"
 		(shape input)
 		(at 105.41 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2808,6 +2821,7 @@
 	(hierarchical_label "CAN_SPI_MISO"
 		(shape output)
 		(at 99.06 39.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2819,6 +2833,7 @@
 	(hierarchical_label "+3.3V_PWR"
 		(shape input)
 		(at 50.8 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
