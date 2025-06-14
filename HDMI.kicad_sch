@@ -7575,6 +7575,16 @@
 		)
 		(uuid cee944a9-0d73-49b9-8cd2-2897d63f4567)
 	)
+	(text "I think it should be ok, as long\nas they are in N/P pairs\n- Mika\n"
+		(exclude_from_sim no)
+		(at 213.868 98.806 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3984b5bb-38d5-46a2-8e73-91c491e13e41")
+	)
 	(text "ESD Protection Diodes for HDMI\n"
 		(exclude_from_sim no)
 		(at 162.052 43.434 0)
