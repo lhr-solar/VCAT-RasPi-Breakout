@@ -954,15 +954,15 @@
 			(pintype "passive")
 			(uuid "74bb645f-1aeb-4a51-a297-345cd8c2084d")
 		)
-		(model "3-2172091-2.stp"
+		(model "${KIPRJMOD}/3D Models/USB.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 -17.5 6)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -4642,6 +4642,39 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "${MODELS}/DF40C-100DS.stp"
+			(offset
+				(xyz -0.5 27.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 180 0)
+			)
+		)
+		(model "${MODELS}/DF40C-100DS.stp"
+			(offset
+				(xyz 33.5 15 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${MODELS}/cm-min.step"
+			(offset
+				(xyz 52.5 -3.5 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -5160,7 +5193,7 @@
 			(pintype "passive")
 			(uuid "20c96fc4-5d3e-4bf2-8303-7651a2412f40")
 		)
-		(model "ABM8AIG-24.000MHZ-12-2Z-T3.stp"
+		(model "${MODELS}/ABM8AIG-25.000MHZ-12-2Z-T3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6604,7 +6637,7 @@
 			(pintype "passive")
 			(uuid "b94baf37-41b0-499e-9525-70101377a542")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3SL-1002P.wrl"
+		(model "${MODELS}/B3SL_100[]P.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6612,7 +6645,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -6986,7 +7019,7 @@
 			(pintype "passive")
 			(uuid "fe4c3bdb-4772-403e-b883-2bacde8a9b3f")
 		)
-		(model "CL-SB-22B-12T.stp"
+		(model "${MODELS}/CL-SB-22B-12T.stp"
 			(offset
 				(xyz 0 -0.1199999955 3.499999947)
 			)
@@ -7252,7 +7285,7 @@
 			(pintype "passive")
 			(uuid "b8ec96f4-3710-4113-bdaf-fe34ec75529f")
 		)
-		(model "ABM38000MHZD2YT.stp"
+		(model "${MODELS}/ABM3-8.000MHZ-D2Y-T.STEP"
 			(offset
 				(xyz 0 0 0.2499999962)
 			)
@@ -9915,6 +9948,17 @@
 			(pintype "output")
 			(uuid "4877ebb3-564c-4712-8120-8108550cc5eb")
 		)
+		(model "${MODELS}/530470210.stp"
+			(offset
+				(xyz -0.5 1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 180)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -10471,15 +10515,15 @@
 			(pintype "passive")
 			(uuid "fa0fe3ff-8ebf-4fb9-884f-5bf85080da7d")
 		)
-		(model "3-2172091-2.stp"
+		(model "${KIPRJMOD}/3D Models/USB.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2 -17.5 6.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -14601,7 +14645,7 @@
 			(remove_unused_layers no)
 			(uuid "b287e448-a4a9-4e25-8d4c-5c3ea0ee79e8")
 		)
-		(model "MX50019NQ1.stp"
+		(model "${MODELS}/MX50019NQ1.stp"
 			(offset
 				(xyz -6.749999899 -7.300000081 5.929999739)
 			)
@@ -15411,7 +15455,7 @@
 			(pintype "passive")
 			(uuid "47e8c45b-56b5-48c9-9a6c-64eb66694c09")
 		)
-		(model "LM76202QPWPRQ1.stp"
+		(model "${MODELS}/LM76202QPWPRQ1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15419,7 +15463,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -15728,7 +15772,7 @@
 			(pintype "passive")
 			(uuid "71c3ec2d-0790-40f8-a627-490f46f3ba26")
 		)
-		(model "ESD204DQAR.stp"
+		(model "${MODELS}/ESD204DQAR.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15736,7 +15780,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -17474,15 +17518,15 @@
 			(pintype "passive")
 			(uuid "28a8f1fd-faba-4e72-8e45-61c555355c22")
 		)
-		(model "3-2172091-2.stp"
+		(model "${KIPRJMOD}/3D Models/USB.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 -17.5 6)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -17889,15 +17933,15 @@
 			(pintype "passive")
 			(uuid "f809e40a-e8bf-4b76-8d85-731ffadfcde6")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/3D Models/1x2vert.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 2 10)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 180)
 			)
 		)
 	)
@@ -18718,7 +18762,7 @@
 			(pintype "passive")
 			(uuid "a84e8fc8-b887-4cba-b306-86ec5e1213a0")
 		)
-		(model "AP64501QSP-13.stp"
+		(model "${MODELS}/AP64501QSP-13.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19261,7 +19305,7 @@
 			(pintype "passive")
 			(uuid "17514476-f30a-42c6-9cbd-e1be4eb607a9")
 		)
-		(model "ESD204DQAR.stp"
+		(model "${MODELS}/ESD204DQAR.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19269,7 +19313,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -20256,7 +20300,7 @@
 			(pintype "passive+no_connect")
 			(uuid "77858db2-e12e-43cc-870c-abaf17963b26")
 		)
-		(model "TCAN337DCNR.stp"
+		(model "${MODELS}/DCN0008A.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21831,15 +21875,15 @@
 			(pintype "passive")
 			(uuid "cc960eac-5cac-454a-82b0-1097976e132c")
 		)
-		(model "3-2172091-2.stp"
+		(model "${KIPRJMOD}/3D Models/USB.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 -17.5 6)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -22604,7 +22648,7 @@
 			(pintype "power_out")
 			(uuid "beaa8b4c-1b60-4c7b-b4bd-8557da246f9c")
 		)
-		(model "TPS2553QDBVRQ1.stp"
+		(model "${MODELS}/DBV0006A.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28856,7 +28900,7 @@
 			(pintype "passive")
 			(uuid "27885780-6ff2-4956-9685-2f3267220c7d")
 		)
-		(model "SRP1050WA-4R7M.stp"
+		(model "${MODELS}/SRP1050WA-4R7M.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29238,7 +29282,7 @@
 			(pintype "passive+no_connect")
 			(uuid "3b2b00e9-cc81-4b77-b29d-9624a2ff799f")
 		)
-		(model "CL-SB-22B-12T.stp"
+		(model "${MODELS}/CL-SB-22B-12T.stp"
 			(offset
 				(xyz 0 -0.1199999955 3.499999947)
 			)
@@ -34089,6 +34133,17 @@
 			(pintype "power_in")
 			(uuid "1e0e5df4-007f-4bab-a931-b33e8155728f")
 		)
+		(model "${MODELS}/PAP64_4P15X4P15_TEX.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -35667,15 +35722,15 @@
 			(pintype "passive")
 			(uuid "8c0d42e7-e54a-49e3-913d-cf59a1cbbbf1")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/3D Models/1x2vert.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 2 10)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 180)
 			)
 		)
 	)
@@ -36307,15 +36362,15 @@
 			(pintype "power_out")
 			(uuid "8e632436-9efe-4d7f-af4b-aaaba08357b2")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl"
+		(model "${MODELS}/1x2vert.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 2 10)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 180)
 			)
 		)
 	)
@@ -38024,7 +38079,7 @@
 			(pintype "passive")
 			(uuid "2acb7c6f-8cdb-4dd9-af26-5426f6d54f2b")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3SL-1002P.wrl"
+		(model "${MODELS}/B3SL_100[]P.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38032,7 +38087,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -38338,7 +38393,7 @@
 			(pintype "passive")
 			(uuid "dc21e15d-af10-494c-8483-e6b7ce1f7cf5")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3SL-1002P.wrl"
+		(model "${MODELS}/B3SL_100[]P.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38346,7 +38401,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -40192,9 +40247,9 @@
 			(pintype "passive")
 			(uuid "60b50f95-dfa5-4eac-9965-3097cfb42a49")
 		)
-		(model "TPD4E05U06DQAR.stp"
+		(model "${MODELS}/TPD4E05U06DQAR.STEP"
 			(offset
-				(xyz 0 0 0.5299999634)
+				(xyz 0 0 0.03)
 			)
 			(scale
 				(xyz 1 1 1)
