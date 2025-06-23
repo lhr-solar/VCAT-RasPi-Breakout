@@ -3199,7 +3199,7 @@
 		)
 		(uuid "557430c4-492d-4ff9-8a8d-3e2d50a2318e")
 	)
-	(hierarchical_label "+12V_PWR"
+	(hierarchical_label "+24V_PWR"
 		(shape input)
 		(at 233.68 118.11 180)
 		(fields_autoplaced yes)

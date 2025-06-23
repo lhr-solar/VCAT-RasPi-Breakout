@@ -1082,7 +1082,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a94f79c4-d941-4f8a-b958-a538b49e7a5a")
 		(property "Reference" "#PWR066"
 			(at 77.47 48.26 0)
@@ -1093,12 +1092,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 77.47 39.37 0)
+		(property "Value" "+24V"
+			(at 74.676 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1291,7 +1291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+24V"
 			(at 58.42 118.11 0)
 			(effects
 				(font
@@ -1378,7 +1378,7 @@
 			)
 			(uuid "2d8b38a8-cad7-4f0c-b2ea-6998ad45f4d6")
 		)
-		(pin "+12V_PWR" output
+		(pin "+24V_PWR" output
 			(at 71.12 44.45 0)
 			(effects
 				(font
@@ -1692,7 +1692,7 @@
 			)
 			(uuid "956b9209-4776-49e2-8527-cb75116c7a1a")
 		)
-		(pin "+12V_PWR" input
+		(pin "+24V_PWR" input
 			(at 64.77 123.19 180)
 			(effects
 				(font

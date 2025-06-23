@@ -3503,6 +3503,18 @@
 		)
 		(uuid "67cd7ab5-fb16-4bde-a190-1c6a51456695")
 	)
+	(text "Should be ok for 24V?"
+		(exclude_from_sim no)
+		(at 108.204 102.108 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "6a217245-ebc2-4c74-ab13-e8b3c1d1c39b")
+	)
 	(text "+5v @ 5A PSU ( 7.5v-28v Input )"
 		(exclude_from_sim no)
 		(at 86.36 93.98 0)
@@ -3513,6 +3525,18 @@
 			(justify right bottom)
 		)
 		(uuid "84a4577d-ffbb-4a51-b4e3-924767fd9de0")
+	)
+	(text "NEEDS TO CHANGE TO 24V"
+		(exclude_from_sim no)
+		(at 155.448 65.024 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "a4788835-6902-43c9-b451-b46f3b74116a")
 	)
 	(text "RTN!=GND \nConecting GND to RTN turns off RPP!"
 		(exclude_from_sim no)
@@ -3668,7 +3692,7 @@
 		)
 		(uuid "f9ecb5bb-2acc-480f-be54-1d94f9948220")
 	)
-	(hierarchical_label "+12V_PWR"
+	(hierarchical_label "+24V_PWR"
 		(shape input)
 		(at 209.55 39.37 90)
 		(fields_autoplaced yes)
@@ -3692,7 +3716,7 @@
 		)
 		(uuid "083d9ee1-154e-4802-befc-a7c5b5fececf")
 	)
-	(hierarchical_label "+12V_PWR"
+	(hierarchical_label "+24V_PWR"
 		(shape input)
 		(at 34.29 116.84 180)
 		(fields_autoplaced yes)
@@ -3716,7 +3740,7 @@
 		)
 		(uuid "6528de58-7be2-4a66-a590-8fb1e952aafe")
 	)
-	(hierarchical_label "+12V_PWR"
+	(hierarchical_label "+24V_PWR"
 		(shape output)
 		(at 144.78 29.21 0)
 		(fields_autoplaced yes)
@@ -4393,12 +4417,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V_EXT"
-			(at 46.99 30.48 0)
+		(property "Value" "+24V_EXT"
+			(at 49.53 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4813,7 +4838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "10k"
 			(at 211.328 49.403 0)
 			(effects
 				(font
@@ -5879,7 +5904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V_EXT"
+		(property "Value" "+24V_EXT"
 			(at 77.47 40.64 0)
 			(effects
 				(font
@@ -7049,7 +7074,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "12k"
 			(at 253.238 49.403 0)
 			(effects
 				(font
@@ -7206,7 +7231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V_EXT"
+		(property "Value" "+24V_EXT"
 			(at 251.46 34.29 0)
 			(effects
 				(font
