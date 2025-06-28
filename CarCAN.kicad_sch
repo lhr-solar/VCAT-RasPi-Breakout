@@ -8,30 +8,29 @@
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J2"
-				(at 8.636 0 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "CarCANConnector"
-				(at 8.636 -2.54 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-				(at -0.508 3.048 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39,8 +38,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500215?display=pdf"
-				(at 1.778 7.112 0)
+			(property "Datasheet" "~"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -49,16 +48,7 @@
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at -0.254 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "P/N" "436500215"
-				(at -0.254 8.382 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -87,7 +77,7 @@
 			(symbol "Conn_01x02_1_1"
 				(rectangle
 					(start -1.27 1.27)
-					(end 7.62 -3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -96,17 +86,39 @@
 						(type background)
 					)
 				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "CAN_L"
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -117,14 +129,14 @@
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "CAN_H"
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -493,6 +505,15 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1200,7 +1221,7 @@
 				(offset 0)
 				(hide yes)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "JP"
@@ -2893,7 +2914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1007_X8R_ULTRA_150C_SMD-3316375.pdf"
+		(property "Datasheet" "~"
 			(at 87.63 63.5 0)
 			(effects
 				(font
@@ -3037,7 +3058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "~"
 			(at 161.29 73.66 0)
 			(effects
 				(font
@@ -3046,7 +3067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0.1u 20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 161.29 73.66 0)
 			(effects
 				(font
@@ -3116,7 +3137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/216/APTD2012LSURCK-1101937.pdf"
+		(property "Datasheet" "~"
 			(at 232.41 137.16 0)
 			(effects
 				(font
@@ -3125,7 +3146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red LED Vf 1.75, If 2mA"
+		(property "Description" "Light emitting diode"
 			(at 232.41 137.16 0)
 			(effects
 				(font
@@ -3135,6 +3156,15 @@
 			)
 		)
 		(property "P/N" "APTD2012LSURCK "
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 232.41 137.16 0)
 			(effects
 				(font
@@ -3192,7 +3222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 127 134.62 0)
 			(effects
 				(font
@@ -3201,7 +3231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 120 1%"
+		(property "Description" "Resistor"
 			(at 127 134.62 0)
 			(effects
 				(font
@@ -3268,7 +3298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1007_X8R_ULTRA_150C_SMD-3316375.pdf"
+		(property "Datasheet" "~"
 			(at 87.63 53.34 0)
 			(effects
 				(font
@@ -3347,7 +3377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+		(property "Datasheet" "~"
 			(at 113.03 118.11 0)
 			(effects
 				(font
@@ -3356,7 +3386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 10k 1%"
+		(property "Description" "Resistor"
 			(at 113.03 118.11 0)
 			(effects
 				(font
@@ -3643,7 +3673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3-V CAN Transceiver"
+		(property "Description" "3.3-V CAN Transceivers"
 			(at 78.74 124.46 0)
 			(effects
 				(font
@@ -3654,6 +3684,76 @@
 		)
 		(property "P/N" "TCAN337DCNR"
 			(at 102.87 719.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 102.87 519.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 102.87 619.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TCAN337DCNR"
+			(at 102.87 719.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TCAN337DCNR"
+			(at 102.87 819.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCAN337DCNR?qs=gMfM3zrbS4r1ZrvbjcW09A%3D%3D"
+			(at 102.87 919.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TCAN337DCNR"
+			(at 102.87 1019.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tcan337dcnr/texas-instruments?region=nac"
+			(at 102.87 1119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +3977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "~"
 			(at 176.53 31.75 0)
 			(effects
 				(font
@@ -3886,7 +3986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0.1u 20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 176.53 31.75 0)
 			(effects
 				(font
@@ -4024,7 +4124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP2515-Family-Data-Sheet-DS20001801K.pdf"
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf"
 			(at 135.89 72.39 0)
 			(effects
 				(font
@@ -4194,10 +4294,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d13e87ed-c63a-4ae9-8aac-bec872ee7fbe")
 		(property "Reference" "J2"
-			(at 166.116 127 0)
+			(at 160.02 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +4305,7 @@
 			)
 		)
 		(property "Value" "CarCANConnector"
-			(at 166.116 129.54 0)
+			(at 160.02 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +4322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500215?display=pdf"
+		(property "Datasheet" "~"
 			(at 159.258 119.888 0)
 			(effects
 				(font
@@ -4434,7 +4533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/Resonators/abm3.pdf"
+		(property "Datasheet" "~"
 			(at 99.06 58.42 0)
 			(effects
 				(font
@@ -4443,7 +4542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Crystal 8MHz 18pF 140 Ohms"
+		(property "Description" "Two pin crystal"
 			(at 99.06 58.42 0)
 			(effects
 				(font
@@ -4484,10 +4583,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb11155b-c65f-4240-8910-117df6406a1e")
 		(property "Reference" "J11"
-			(at 166.116 116.84 0)
+			(at 160.02 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4496,7 +4594,7 @@
 			)
 		)
 		(property "Value" "CarCANConnector"
-			(at 166.116 119.38 0)
+			(at 160.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +4611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500215?display=pdf"
+		(property "Datasheet" "~"
 			(at 159.258 109.728 0)
 			(effects
 				(font
@@ -4591,7 +4689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/sdr-e.pdf"
+		(property "Datasheet" "~"
 			(at 232.41 128.27 0)
 			(effects
 				(font
@@ -4668,7 +4766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+		(property "Datasheet" "~"
 			(at 153.67 67.31 0)
 			(effects
 				(font
@@ -4677,7 +4775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 10k 1%"
+		(property "Description" "Resistor"
 			(at 153.67 67.31 0)
 			(effects
 				(font
@@ -4746,7 +4844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "~"
 			(at 55.88 137.16 0)
 			(effects
 				(font
@@ -4755,7 +4853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0.1u 20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 55.88 137.16 0)
 			(effects
 				(font

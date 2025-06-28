@@ -643,6 +643,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 45.72) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71b36db-3536-4232-bd4c-08212540d2be")
+	)
+	(wire
+		(pts
 			(xy 161.29 130.81) (xy 167.64 130.81)
 		)
 		(stroke
@@ -670,6 +680,16 @@
 			(type default)
 		)
 		(uuid "f563e087-987a-40cc-badc-b05bc5a52c45")
+	)
+	(label "Board_En"
+		(at 121.92 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11eca67d-b1be-4e64-b42e-723678f3bffe")
 	)
 	(label "Board_En"
 		(at 102.87 134.62 0)
@@ -1816,6 +1836,16 @@
 		(pin "+5V_PWR" input
 			(at 133.35 38.1 180)
 			(uuid "37bee8cf-cf06-4213-bcf5-2eb54fdad6dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GLOBAL_EN" input
+			(at 133.35 45.72 180)
+			(uuid "4664b754-7b15-4ad4-a675-34262059a042")
 			(effects
 				(font
 					(size 1.27 1.27)

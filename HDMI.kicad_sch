@@ -4843,107 +4843,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND_1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TPD4E05U06DQAR:TPD4E05U06DQAR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8163,7 +8062,6 @@
 		(uuid "daf77e04-f703-4f4c-821d-70e102202b83")
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 228.6 63.5 0)
 		(unit 1)
@@ -8289,6 +8187,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field4" "Hirose"
+			(at -72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" "2x DF40C-100DS-0.4V"
+			(at -72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "30"
@@ -9033,7 +8947,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 100.33 170.18 0)
 		(unit 1)
@@ -9230,6 +9143,76 @@
 				(hide yes)
 			)
 		)
+		(property "Height" "1.45"
+			(at 260.35 441.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 260.35 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS2553QDBVRQ1"
+			(at 260.35 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TPS2553QDBVRQ1"
+			(at 260.35 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2553QDBVRQ1?qs=5771e39Rz9FWoB7UBMhJ8g%3D%3D"
+			(at 260.35 841.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TPS2553QDBVRQ1"
+			(at 260.35 941.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps2553qdbvrq1/texas-instruments?utm_currency=USD&region=nac"
+			(at 260.35 1041.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fef44f6a-f4bd-4240-9369-4059b9450b55")
 		)
@@ -9293,7 +9276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "~"
 			(at 231.14 39.37 0)
 			(effects
 				(font
@@ -9302,7 +9285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0.1u 20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 231.14 39.37 0)
 			(effects
 				(font
@@ -9371,7 +9354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "~"
 			(at 228.6 59.69 0)
 			(effects
 				(font
@@ -9380,7 +9363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0.1u 20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 228.6 59.69 0)
 			(effects
 				(font
@@ -9480,7 +9463,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 231.14 43.18 0)
 		(unit 1)
@@ -9611,6 +9593,76 @@
 				(hide yes)
 			)
 		)
+		(property "Height" "0.55"
+			(at 172.72 457.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 172.72 557.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD204DQAR"
+			(at 172.72 657.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESD204DQAR"
+			(at 172.72 757.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD204DQAR?qs=r5DSvlrkXmLJ52LliQixbw%3D%3D"
+			(at 172.72 857.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ESD204DQAR"
+			(at 172.72 957.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/esd204dqar/texas-instruments?utm_currency=USD&region=nac"
+			(at 172.72 1057.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "cb9abe45-a60e-4e3b-bc6f-bf714fff0328")
 		)
@@ -9685,7 +9737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+		(property "Datasheet" "~"
 			(at 222.25 54.61 0)
 			(effects
 				(font
@@ -9694,7 +9746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 100n 1%"
+		(property "Description" "Resistor"
 			(at 222.25 54.61 0)
 			(effects
 				(font
@@ -9994,7 +10046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+		(property "Datasheet" "~"
 			(at 269.24 55.88 0)
 			(effects
 				(font
@@ -10003,7 +10055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 82k 1% 125mW"
+		(property "Description" "Resistor"
 			(at 269.24 55.88 0)
 			(effects
 				(font
@@ -10101,6 +10153,76 @@
 				(hide yes)
 			)
 		)
+		(property "Height" "0.55"
+			(at 172.72 492.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 172.72 592.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD204DQAR"
+			(at 172.72 692.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESD204DQAR"
+			(at 172.72 792.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD204DQAR?qs=r5DSvlrkXmLJ52LliQixbw%3D%3D"
+			(at 172.72 892.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ESD204DQAR"
+			(at 172.72 992.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/esd204dqar/texas-instruments?utm_currency=USD&region=nac"
+			(at 172.72 1092.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "e706efd1-06c0-45fc-ac0e-ae794c2b2fce")
 		)
@@ -10141,7 +10263,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 266.7 63.5 0)
 		(unit 1)
@@ -10243,7 +10364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jae.com/direct/topics/topics_file_download/?topics_id=64858&ext_no=04&_lang=en&v=2021052010521147606309"
+		(property "Datasheet" "https://www.hdmi.org/manufacturer/specification.aspx"
 			(at 250.825 125.73 0)
 			(effects
 				(font

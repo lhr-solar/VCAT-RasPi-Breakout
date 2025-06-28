@@ -1430,107 +1430,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND_7"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_7_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_7_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1808,7 +1707,7 @@
 	)
 	(rectangle
 		(start 19.05 15.24)
-		(end 91.44 182.88)
+		(end 92.71 186.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -1816,7 +1715,7 @@
 		(fill
 			(type none)
 		)
-		(uuid faec5b98-9bb3-4284-a2a7-f59f90a95669)
+		(uuid b18c66ab-06f7-4093-884d-c7c764f68dfb)
 	)
 	(text "USB ESD Protection"
 		(exclude_from_sim no)
@@ -1902,18 +1801,6 @@
 		(uuid "14026049-52ca-410e-9dfb-28f757455545")
 	)
 	(junction
-		(at 55.7722 92.6022)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d3f9e55-ea3b-47b9-9ce8-321c87ca7705")
-	)
-	(junction
-		(at 55.7722 51.9622)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d3983e9-72d4-47ae-ad7c-e48b37638895")
-	)
-	(junction
 		(at 219.71 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1944,12 +1831,6 @@
 		(uuid "4a073dc2-8f1c-4756-85d6-84ff391c6618")
 	)
 	(junction
-		(at 55.7722 133.2422)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a3dcf41-6ec3-411d-b6a4-b54afe6965f8")
-	)
-	(junction
 		(at 139.7 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1968,10 +1849,22 @@
 		(uuid "5539d724-2070-41e7-975c-be1b8bd85a96")
 	)
 	(junction
+		(at 55.88 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5718f7c4-a0ed-413a-837b-1a3f194d1c28")
+	)
+	(junction
 		(at 175.26 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57672fcb-fe85-4741-aa2e-0f0555cae76e")
+	)
+	(junction
+		(at 55.88 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a03b0da-fd19-4c09-9e4f-1c20f902f7a0")
 	)
 	(junction
 		(at 138.43 104.14)
@@ -1996,6 +1889,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69f9e90b-4a50-44b7-b6b2-2c77c6ecd889")
+	)
+	(junction
+		(at 55.88 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b37fa02-d3ab-4ae1-9167-f9c9e46403e2")
 	)
 	(junction
 		(at 228.6 69.85)
@@ -2147,6 +2046,38 @@
 		(color 0 0 0 0)
 		(uuid "fef8938e-a08c-4652-84e8-7bb5be2f4f17")
 	)
+	(no_connect
+		(at 71.12 82.55)
+		(uuid "1527b2f9-1063-4361-b6d5-11984c4a15e7")
+	)
+	(no_connect
+		(at 71.12 123.19)
+		(uuid "3245748b-a73b-4372-baa8-179698219b62")
+	)
+	(no_connect
+		(at 71.12 165.1)
+		(uuid "34ac6612-1043-485e-ac32-739055c389e7")
+	)
+	(no_connect
+		(at 71.12 44.45)
+		(uuid "8bc65f01-f271-46c9-aad6-b684a4fae878")
+	)
+	(no_connect
+		(at 71.12 162.56)
+		(uuid "c9a19d62-739c-4a84-a08e-c26971b7297d")
+	)
+	(no_connect
+		(at 71.12 85.09)
+		(uuid "d44e88ea-0c1b-417b-9e48-70605c3f0a50")
+	)
+	(no_connect
+		(at 71.12 41.91)
+		(uuid "f3d872cf-1b21-45c3-8e4f-bb02af302af7")
+	)
+	(no_connect
+		(at 71.12 125.73)
+		(uuid "fd2e382d-c69f-48f1-86c9-0766632f4ac9")
+	)
 	(wire
 		(pts
 			(xy 157.48 152.4) (xy 157.48 153.67)
@@ -2156,16 +2087,6 @@
 			(type default)
 		)
 		(uuid "01901fc4-7eea-4b3e-ae62-b11d0ad46704")
-	)
-	(wire
-		(pts
-			(xy 68.58 204.47) (xy 73.66 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02120e2c-d44c-43be-9e68-64262dc7c1e5")
 	)
 	(wire
 		(pts
@@ -2179,13 +2100,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.5322 120.5422) (xy 39.2622 120.5422)
+			(xy 72.39 133.35) (xy 72.39 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0308f491-eab3-4219-ab3d-b26321ebd3e2")
+		(uuid "050be6cb-d7ad-45f2-9c67-4a3d4b859f31")
+	)
+	(wire
+		(pts
+			(xy 26.67 125.73) (xy 40.64 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0590e0de-f6c3-495c-83c5-755c96756cfd")
 	)
 	(wire
 		(pts
@@ -2219,16 +2150,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 204.47) (xy 104.14 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06c1f9a9-0100-41be-8d9f-6e0895f3f898")
-	)
-	(wire
-		(pts
 			(xy 152.4 121.92) (xy 152.4 124.46)
 		)
 		(stroke
@@ -2246,26 +2167,6 @@
 			(type default)
 		)
 		(uuid "0af48352-3de3-4ef8-bd77-3b838296327c")
-	)
-	(wire
-		(pts
-			(xy 72.2822 120.5422) (xy 72.2822 133.2422)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b31c0ca-cb64-46c3-a6b2-1ea7fc3defb3")
-	)
-	(wire
-		(pts
-			(xy 26.5622 41.8022) (xy 40.5322 41.8022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e315471-06eb-437f-886d-41628ce2d238")
 	)
 	(wire
 		(pts
@@ -2329,16 +2230,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.5622 82.4422) (xy 40.5322 82.4422)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16197ce2-f45d-49bb-b7ab-f636839167dc")
-	)
-	(wire
-		(pts
 			(xy 219.71 104.14) (xy 220.98 104.14)
 		)
 		(stroke
@@ -2349,23 +2240,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.5622 123.0822) (xy 40.5322 123.0822)
+			(xy 39.37 80.01) (xy 39.37 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18208cf5-6fce-4ce6-85b7-8ed4bb6cfff4")
-	)
-	(wire
-		(pts
-			(xy 86.2522 74.8222) (xy 71.0122 74.8222)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a3c76c7-ecbb-4b13-9cbe-ac42f6bdeba7")
+		(uuid "1b28935a-8890-45a4-932d-dd6f518c73df")
 	)
 	(wire
 		(pts
@@ -2379,13 +2260,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.2822 39.2622) (xy 72.2822 51.9622)
+			(xy 39.37 39.37) (xy 39.37 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23ed73c9-4817-4198-8403-d4aa50f260bb")
+		(uuid "2053caa5-0329-4381-8611-ed93aebc9187")
 	)
 	(wire
 		(pts
@@ -2499,16 +2380,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.5322 39.2622) (xy 39.2622 39.2622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3977c35a-86ef-4180-8325-f0d8656bb66a")
-	)
-	(wire
-		(pts
 			(xy 228.6 152.4) (xy 228.6 153.67)
 		)
 		(stroke
@@ -2516,6 +2387,16 @@
 			(type default)
 		)
 		(uuid "3a26f091-962c-4971-bc8b-1771dd82a81e")
+	)
+	(wire
+		(pts
+			(xy 26.67 41.91) (xy 40.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0043cf-eb2f-428d-80de-6a10203174b4")
 	)
 	(wire
 		(pts
@@ -2549,6 +2430,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 92.71) (xy 55.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410bd8ae-fdb1-40da-8810-4e1fc85c7a2f")
+	)
+	(wire
+		(pts
 			(xy 223.52 60.96) (xy 233.68 60.96)
 		)
 		(stroke
@@ -2566,6 +2457,16 @@
 			(type default)
 		)
 		(uuid "417b0b16-1f6a-491b-b9ea-73be17924e21")
+	)
+	(wire
+		(pts
+			(xy 55.88 133.35) (xy 72.39 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fae228-b58b-49ab-84cc-b786ed3c36f9")
 	)
 	(wire
 		(pts
@@ -2589,13 +2490,23 @@
 	)
 	(wire
 		(pts
-			(xy 39.2622 39.2622) (xy 39.2622 51.9622)
+			(xy 71.12 115.57) (xy 86.36 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "453100e6-ecee-4cfa-a62c-990011ba4e1e")
+		(uuid "459885b9-fb1b-4b1a-a804-ac213e7e6810")
+	)
+	(wire
+		(pts
+			(xy 35.56 36.83) (xy 40.64 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487e1314-c5e2-4f7e-ad11-2e546ac9068e")
 	)
 	(wire
 		(pts
@@ -2629,26 +2540,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.4522 36.7222) (xy 40.5322 36.7222)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d08dcea-6870-43e7-b4be-3eb67d73b1f1")
-	)
-	(wire
-		(pts
-			(xy 35.4522 74.8222) (xy 40.5322 74.8222)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d5065d3-63f1-43c0-b38d-80616287d66a")
-	)
-	(wire
-		(pts
 			(xy 138.43 143.51) (xy 138.43 144.78)
 		)
 		(stroke
@@ -2679,13 +2570,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.2622 120.5422) (xy 39.2622 133.2422)
+			(xy 71.12 74.93) (xy 86.36 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "506c987b-ccd5-435f-98b1-91e7d2c840bb")
+		(uuid "4fc4a50c-ea85-4fb0-9793-be4134137ab4")
 	)
 	(wire
 		(pts
@@ -2719,13 +2610,43 @@
 	)
 	(wire
 		(pts
-			(xy 26.5622 125.6222) (xy 40.5322 125.6222)
+			(xy 35.56 34.29) (xy 40.64 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "544b0142-1d34-45a4-b4d9-58322877bfc1")
+		(uuid "54aec915-531f-4a1d-b9b4-9ddef762c145")
+	)
+	(wire
+		(pts
+			(xy 55.88 92.71) (xy 72.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567206ef-c6b7-4112-8de7-48a7a3df3775")
+	)
+	(wire
+		(pts
+			(xy 71.12 80.01) (xy 72.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5808f2c2-06a4-4376-9d17-6c612f9e3305")
+	)
+	(wire
+		(pts
+			(xy 35.56 115.57) (xy 40.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa54d96-2c78-432e-bffa-fd8205613652")
 	)
 	(wire
 		(pts
@@ -2759,6 +2680,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 44.45) (xy 40.64 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dbd7ffb-bde3-4fdb-8845-d4b308a5a883")
+	)
+	(wire
+		(pts
 			(xy 198.12 30.48) (xy 204.47 30.48)
 		)
 		(stroke
@@ -2776,16 +2707,6 @@
 			(type default)
 		)
 		(uuid "61fb2727-3d72-4c5d-906b-2fd755dc6a9a")
-	)
-	(wire
-		(pts
-			(xy 72.2822 51.9622) (xy 55.7722 51.9622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6212bcd1-9966-4174-aa29-a0ce40fa1a2e")
 	)
 	(wire
 		(pts
@@ -2819,16 +2740,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.2822 133.2422) (xy 55.7722 133.2422)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "666bfa3e-c4fe-4c86-ac87-5dc6d293b782")
-	)
-	(wire
-		(pts
 			(xy 167.64 80.01) (xy 157.48 80.01)
 		)
 		(stroke
@@ -2836,16 +2747,6 @@
 			(type default)
 		)
 		(uuid "6680aaac-2589-416e-9110-f5a103896461")
-	)
-	(wire
-		(pts
-			(xy 86.2522 115.4622) (xy 71.0122 115.4622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6769bd88-6200-436c-825c-ddfe129d4401")
 	)
 	(wire
 		(pts
@@ -2869,13 +2770,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 207.01) (xy 119.38 207.01)
+			(xy 39.37 52.07) (xy 55.88 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ce2e1f5-2415-4eb4-a5dd-b883bc53ff77")
+		(uuid "6bff5608-c18f-4867-9fd7-58c990090ed8")
 	)
 	(wire
 		(pts
@@ -2889,13 +2790,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.2622 133.2422) (xy 55.7722 133.2422)
+			(xy 71.12 77.47) (xy 86.36 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d97574f-b713-497d-a004-9888f61ec292")
+		(uuid "6de8985a-211b-4b4c-b7d7-3cb95d8b124d")
 	)
 	(wire
 		(pts
@@ -2979,36 +2880,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.2522 34.1822) (xy 71.0122 34.1822)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7898a995-cbe9-48c4-bfee-499b51b9e082")
-	)
-	(wire
-		(pts
-			(xy 71.0122 79.9022) (xy 72.2822 79.9022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c651375-db6c-4b8c-9c00-f30f56ac29de")
-	)
-	(wire
-		(pts
-			(xy 71.0122 36.7222) (xy 86.2522 36.7222)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e9f74db-eb9a-4024-9e48-2fba3d50f9b4")
-	)
-	(wire
-		(pts
 			(xy 139.7 35.56) (xy 139.7 30.48)
 		)
 		(stroke
@@ -3026,6 +2897,16 @@
 			(type default)
 		)
 		(uuid "7f80e37b-fb27-4263-97c6-c56b41d0d5df")
+	)
+	(wire
+		(pts
+			(xy 35.56 74.93) (xy 40.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8061ed44-43c5-4c12-ae62-52388b54e36d")
 	)
 	(wire
 		(pts
@@ -3059,6 +2940,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 118.11) (xy 86.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85981d4e-8b5a-41fd-9517-d21700c81fb8")
+	)
+	(wire
+		(pts
 			(xy 248.92 80.01) (xy 238.76 80.01)
 		)
 		(stroke
@@ -3076,6 +2967,16 @@
 			(type default)
 		)
 		(uuid "876cc5f9-f020-4ffd-b304-c29db4dfe79e")
+	)
+	(wire
+		(pts
+			(xy 71.12 34.29) (xy 86.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878bde53-8e51-49e1-88db-c09e9fcc40c6")
 	)
 	(wire
 		(pts
@@ -3109,16 +3010,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.0122 118.0022) (xy 86.2522 118.0022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b3f6ac4-5065-40d8-94b8-28cf3aeb6977")
-	)
-	(wire
-		(pts
 			(xy 228.6 143.51) (xy 228.6 144.78)
 		)
 		(stroke
@@ -3139,6 +3030,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 85.09) (xy 40.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9006face-a5be-4c85-869f-71b7abee7ce5")
+	)
+	(wire
+		(pts
 			(xy 228.6 80.01) (xy 238.76 80.01)
 		)
 		(stroke
@@ -3149,13 +3050,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.2622 51.9622) (xy 55.7722 51.9622)
+			(xy 72.39 80.01) (xy 72.39 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "957c3948-a98b-4557-b72b-3d9673328d80")
+		(uuid "9585756b-7b62-4ec4-9322-6ff125e9945b")
 	)
 	(wire
 		(pts
@@ -3189,13 +3090,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.0122 39.2622) (xy 72.2822 39.2622)
+			(xy 39.37 133.35) (xy 55.88 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "978005fe-14cb-4750-b05b-1fbd78d0bcea")
+		(uuid "97c9cae5-f295-426e-8a27-3ac89372d589")
 	)
 	(wire
 		(pts
@@ -3219,23 +3120,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.5622 84.9822) (xy 40.5322 84.9822)
+			(xy 40.64 120.65) (xy 39.37 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b646f7e-5d5f-444b-8b85-f37eb3fdc469")
-	)
-	(wire
-		(pts
-			(xy 35.4522 77.3622) (xy 40.5322 77.3622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b978e8b-a8fc-4f59-accf-88687c25993a")
+		(uuid "9ba3ac13-d521-402c-8f9a-c31ff3545833")
 	)
 	(wire
 		(pts
@@ -3246,16 +3137,6 @@
 			(type default)
 		)
 		(uuid "9be9d417-98e5-4ec7-baee-86e4640c0a51")
-	)
-	(wire
-		(pts
-			(xy 35.4522 115.4622) (xy 40.5322 115.4622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f238860-7bc4-40fe-a52f-8d45d366f6bd")
 	)
 	(wire
 		(pts
@@ -3309,33 +3190,23 @@
 	)
 	(wire
 		(pts
-			(xy 39.2622 92.6022) (xy 55.7722 92.6022)
+			(xy 26.67 123.19) (xy 40.64 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa184a32-2b0d-4682-919f-c1525a1cb55d")
+		(uuid "abba9b61-6a5c-4ae3-abcd-69fe35307dc9")
 	)
 	(wire
 		(pts
-			(xy 68.58 207.01) (xy 73.66 207.01)
+			(xy 40.64 80.01) (xy 39.37 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab037218-5e14-4ee3-8247-823471ab6bcb")
-	)
-	(wire
-		(pts
-			(xy 40.5322 79.9022) (xy 39.2622 79.9022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac36c4d7-ee4b-4cdd-aa98-6aa75e198760")
+		(uuid "ae80c0f6-4c3c-4e6a-b6b3-518bbe3d742a")
 	)
 	(wire
 		(pts
@@ -3419,16 +3290,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.0122 77.3622) (xy 86.2522 77.3622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4f295be-e5ee-4af1-9dca-21476384acdf")
-	)
-	(wire
-		(pts
 			(xy 149.86 38.1) (xy 152.4 38.1)
 		)
 		(stroke
@@ -3436,6 +3297,16 @@
 			(type default)
 		)
 		(uuid "b543794b-9b38-47f2-a526-f34c46820267")
+	)
+	(wire
+		(pts
+			(xy 71.12 39.37) (xy 72.39 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6532734-53e1-4b0e-a582-4245a02b87ed")
 	)
 	(wire
 		(pts
@@ -3459,13 +3330,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.4522 34.1822) (xy 40.5322 34.1822)
+			(xy 72.39 39.37) (xy 72.39 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b977e365-5a34-44c3-84c3-be61a3aa932a")
+		(uuid "b933b187-cf6f-4c4d-8d9b-067bb4b20b74")
 	)
 	(wire
 		(pts
@@ -3486,16 +3357,6 @@
 			(type default)
 		)
 		(uuid "b999ffcb-0b0b-482c-a557-3953e953fd46")
-	)
-	(wire
-		(pts
-			(xy 26.5622 44.3422) (xy 40.5322 44.3422)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "badf2ee1-8739-4e66-9e53-7c51d82d0d3b")
 	)
 	(wire
 		(pts
@@ -3559,13 +3420,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.2822 79.9022) (xy 72.2822 92.6022)
+			(xy 71.12 120.65) (xy 72.39 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c238c6ca-1ce1-4202-b1b0-1e9056fe93a7")
+		(uuid "c2e1920b-94a0-4879-b8c1-28029460b3e5")
 	)
 	(wire
 		(pts
@@ -3629,6 +3490,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 52.07) (xy 55.88 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf097343-39d6-4673-8451-54902669fdb0")
+	)
+	(wire
+		(pts
 			(xy 26.67 165.1) (xy 40.64 165.1)
 		)
 		(stroke
@@ -3636,6 +3507,16 @@
 			(type default)
 		)
 		(uuid "cfc1279b-4518-4f90-82a1-d41bc7a7828b")
+	)
+	(wire
+		(pts
+			(xy 35.56 77.47) (xy 40.64 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53b66ed-d62f-4bf5-9074-1d8eb7014478")
 	)
 	(wire
 		(pts
@@ -3656,6 +3537,16 @@
 			(type default)
 		)
 		(uuid "d80524dc-8ab6-4c4c-8061-145b580d246c")
+	)
+	(wire
+		(pts
+			(xy 40.64 39.37) (xy 39.37 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d835dbca-f8d5-4a55-853a-0516495d05f9")
 	)
 	(wire
 		(pts
@@ -3789,16 +3680,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.2622 79.9022) (xy 39.2622 92.6022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e88ed9de-f613-498a-be02-badf8ead2c89")
-	)
-	(wire
-		(pts
 			(xy 130.81 30.48) (xy 138.43 30.48)
 		)
 		(stroke
@@ -3836,16 +3717,6 @@
 			(type default)
 		)
 		(uuid "f09fd7df-4977-4654-ac23-a5acb9e87846")
-	)
-	(wire
-		(pts
-			(xy 72.2822 92.6022) (xy 55.7722 92.6022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f19b3b29-0a31-4ac0-88fe-e183a1774f95")
 	)
 	(wire
 		(pts
@@ -3889,6 +3760,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 120.65) (xy 39.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f771d293-5b34-4e05-9937-484ccdbac6b5")
+	)
+	(wire
+		(pts
 			(xy 138.43 38.1) (xy 138.43 30.48)
 		)
 		(stroke
@@ -3909,16 +3790,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.0122 120.5422) (xy 72.2822 120.5422)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8a62e05-de45-4393-92cf-d9636fc4da2f")
-	)
-	(wire
-		(pts
 			(xy 231.14 35.56) (xy 233.68 35.56)
 		)
 		(stroke
@@ -3926,16 +3797,6 @@
 			(type default)
 		)
 		(uuid "f8bd208a-c88c-41aa-9ce0-bbee9ea00f18")
-	)
-	(wire
-		(pts
-			(xy 35.4522 118.0022) (xy 40.5322 118.0022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fab0d563-d7a0-45b4-9016-a3b6d4b15aa6")
 	)
 	(wire
 		(pts
@@ -3969,6 +3830,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 82.55) (xy 40.64 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcabf98f-ae8b-4d3a-9aca-aa4592d86706")
+	)
+	(wire
+		(pts
 			(xy 147.32 69.85) (xy 147.32 71.12)
 		)
 		(stroke
@@ -3986,6 +3857,36 @@
 			(type default)
 		)
 		(uuid "fdee4f78-4fca-4aa2-8f36-ee5afe41de9d")
+	)
+	(wire
+		(pts
+			(xy 71.12 36.83) (xy 86.36 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff71222b-618d-4cbf-84cd-55d6d78ad97d")
+	)
+	(wire
+		(pts
+			(xy 35.56 118.11) (xy 40.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa397f0-ed89-444a-bcb4-9832ce6f39e3")
+	)
+	(label "SBU1_3"
+		(at 26.67 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0625bcf9-83b8-4367-add2-02b5dddd958b")
 	)
 	(label "SBU2_4"
 		(at 26.67 165.1 0)
@@ -4007,16 +3908,6 @@
 		)
 		(uuid "0fe79c4c-ef51-461c-b55e-36a623e0f61f")
 	)
-	(label "USB_1_PRT_N"
-		(at 86.2522 36.7222 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1918662d-774c-4505-b713-d7bc93077161")
-	)
 	(label "USB_3_PRT_P"
 		(at 135.89 124.46 0)
 		(effects
@@ -4027,15 +3918,25 @@
 		)
 		(uuid "1b88cda9-692a-458a-a8f9-b9e9ee63b330")
 	)
-	(label "SBU1_3"
-		(at 26.5622 123.0822 0)
+	(label "USB_2_PRT_P"
+		(at 86.36 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e880d2f-d984-424a-85e2-7c64568a20b3")
+	)
+	(label "SBU2_1"
+		(at 26.67 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "27eb8a52-8495-4eb4-9032-37f133beef82")
+		(uuid "23f283d9-7eff-44e5-b9ce-0e40ddaf225c")
 	)
 	(label "USB_2_PRT_P"
 		(at 217.17 50.8 0)
@@ -4047,6 +3948,16 @@
 		)
 		(uuid "285459aa-5076-40af-ad15-514137e170c9")
 	)
+	(label "USB_1_PRT_P"
+		(at 86.36 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c248932-49b7-46bf-9530-094a97b7a105")
+	)
 	(label "SBU1_3"
 		(at 142.24 132.08 0)
 		(effects
@@ -4056,6 +3967,26 @@
 			(justify left bottom)
 		)
 		(uuid "2cadf356-6c33-4664-968f-d7c74e832273")
+	)
+	(label "USB_3_PRT_N"
+		(at 86.36 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32739015-db2d-4200-85d7-e555ce2c814b")
+	)
+	(label "SBU1_2"
+		(at 26.67 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3860a130-ca55-42ea-8caa-02e306298ed8")
 	)
 	(label "SBU2_2"
 		(at 223.52 60.96 0)
@@ -4087,85 +4018,25 @@
 		)
 		(uuid "454ca7db-ac61-4187-a0a1-738693d2e5d7")
 	)
-	(label "SBU1_2"
-		(at 26.5622 82.4422 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48d6e79a-b29d-4b85-842d-76a28810ed73")
-	)
-	(label "USB_3_PRT_N"
-		(at 86.2522 118.0022 180)
+	(label "USB_2_PRT_N"
+		(at 86.36 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "51397ab7-3484-4a99-9090-f29fe41b47f3")
+		(uuid "5633693d-4f5e-4c3d-917f-160ac97f546a")
 	)
-	(label "USB_2_PRT_P"
-		(at 119.38 204.47 180)
+	(label "USB_1_PRT_N"
+		(at 86.36 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "54cfd89c-b4c2-40e1-a9f4-70cc7058fc6d")
-	)
-	(label "SBU2_3"
-		(at 26.5622 125.6222 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "586d6360-44db-486a-8144-e62c353c1d79")
-	)
-	(label "SBU2_1"
-		(at 26.5622 44.3422 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5893a776-0e48-4b6a-b25b-fdcb885d29ed")
-	)
-	(label "SBU2_2"
-		(at 26.5622 84.9822 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ab25f6c-a765-4444-8791-b336ad935321")
-	)
-	(label "SBU1_1"
-		(at 26.5622 41.8022 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5cca329e-a1a3-4e8e-b12b-fcb500f2e4da")
-	)
-	(label "USB_3_PRT_P"
-		(at 86.2522 115.4622 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6619166a-3cc2-42af-92e9-7f91d70e2ad6")
+		(uuid "6c87d53e-0e9d-4104-8171-416790af814d")
 	)
 	(label "USB_1_PRT_N"
 		(at 135.89 45.72 0)
@@ -4177,15 +4048,15 @@
 		)
 		(uuid "6f516d8b-7800-4965-b29d-b0691a11dbbc")
 	)
-	(label "USB_2_PRT_N"
-		(at 86.2522 77.3622 180)
+	(label "SBU2_2"
+		(at 26.67 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "82451aaa-2b4f-4bb9-b233-8f6f6ee9878a")
+		(uuid "7cf50e18-c5a9-4e5d-a8b3-e14c8132f04a")
 	)
 	(label "USB_1_PRT_P"
 		(at 135.89 50.8 0)
@@ -4237,26 +4108,6 @@
 		)
 		(uuid "a278c32d-655a-41be-b341-2d70ec07ca35")
 	)
-	(label "USB_2_PRT_P"
-		(at 86.2522 74.8222 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b8e4a5d6-6157-4416-a499-252473c90cc6")
-	)
-	(label "USB_1_PRT_P"
-		(at 86.2522 34.1822 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "be0f271a-7f39-4ad9-8ca5-20eae698801e")
-	)
 	(label "SBU2_4"
 		(at 223.52 134.62 0)
 		(effects
@@ -4276,6 +4127,26 @@
 			(justify left bottom)
 		)
 		(uuid "c2264e2e-6e8f-4365-a2f8-4b916cc22689")
+	)
+	(label "USB_3_PRT_P"
+		(at 86.36 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca0dc4ed-4628-4d9c-ab1e-3aa0146b601f")
+	)
+	(label "SBU2_3"
+		(at 26.67 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf719c0c-465b-4fbc-8939-282127bffc87")
 	)
 	(label "USB_4_PRT_P"
 		(at 217.17 124.46 0)
@@ -4297,6 +4168,16 @@
 		)
 		(uuid "df84e78e-3c4f-4e24-9eb5-6d54d78faa10")
 	)
+	(label "SBU1_1"
+		(at 26.67 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e25f76fc-8ccb-443c-ad1f-9e2f9c6ef4c8")
+	)
 	(label "USB_3_PRT_N"
 		(at 135.89 119.38 0)
 		(effects
@@ -4317,27 +4198,6 @@
 		)
 		(uuid "ea7af880-ce70-4b68-bcfa-d20e27945803")
 	)
-	(label "USB_2_PRT_N"
-		(at 119.38 207.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f83afab4-4349-48d1-818d-325c01e3dd5c")
-	)
-	(hierarchical_label "USB_1N"
-		(shape bidirectional)
-		(at 35.4522 36.7222 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "177ad6dc-5c3a-4820-8427-28f4e0fdb18c")
-	)
 	(hierarchical_label "VBUS_2"
 		(shape input)
 		(at 198.12 30.48 180)
@@ -4349,27 +4209,16 @@
 		)
 		(uuid "22985574-186e-415e-b7f9-e5e49c9b2954")
 	)
-	(hierarchical_label "USB_2N"
+	(hierarchical_label "USB_3P"
 		(shape bidirectional)
-		(at 68.58 207.01 180)
+		(at 35.56 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "22ef4b0c-4b6e-4d70-85f9-ed64b367bc7e")
-	)
-	(hierarchical_label "USB_2P"
-		(shape bidirectional)
-		(at 68.58 204.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e92e5e9-238f-4e84-b040-13ab5114caac")
+		(uuid "22f1535a-bc56-453d-8fa8-b729087d02b0")
 	)
 	(hierarchical_label "USB_4N"
 		(shape bidirectional)
@@ -4382,27 +4231,27 @@
 		)
 		(uuid "34f78b51-708b-4663-a40a-4b781ea75146")
 	)
-	(hierarchical_label "USB_3P"
+	(hierarchical_label "USB_1P"
 		(shape bidirectional)
-		(at 35.4522 115.4622 180)
+		(at 35.56 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "3850243b-5c03-468b-ba1d-37e001425d48")
+		(uuid "474dc033-3626-4ff8-b895-d75e98056493")
 	)
-	(hierarchical_label "USB_3N"
+	(hierarchical_label "USB_1N"
 		(shape bidirectional)
-		(at 35.4522 118.0022 180)
+		(at 35.56 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "39a6ba09-d766-480d-a0d6-12d66ca3b444")
+		(uuid "56c7ba05-bc36-4d4e-970d-de0fbe27d2cf")
 	)
 	(hierarchical_label "VBUS_4"
 		(shape input)
@@ -4414,6 +4263,17 @@
 			(justify right)
 		)
 		(uuid "69475011-a2af-4ddc-9043-39c2f82235e2")
+	)
+	(hierarchical_label "USB_3N"
+		(shape bidirectional)
+		(at 35.56 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b7ba2da-7b42-4cba-9d6e-68b246ff4cd7")
 	)
 	(hierarchical_label "USB_4P"
 		(shape bidirectional)
@@ -4437,6 +4297,17 @@
 		)
 		(uuid "8def92a6-f955-4c5e-bd92-608d17b08de4")
 	)
+	(hierarchical_label "USB_2P"
+		(shape bidirectional)
+		(at 35.56 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b4f345d-6625-41ad-97f7-64e5c5fb3d0a")
+	)
 	(hierarchical_label "VBUS_3"
 		(shape input)
 		(at 116.84 104.14 180)
@@ -4450,36 +4321,14 @@
 	)
 	(hierarchical_label "USB_2N"
 		(shape bidirectional)
-		(at 35.4522 77.3622 180)
+		(at 35.56 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ccda9769-4dd7-4738-8aaf-b8d1cca9c00f")
-	)
-	(hierarchical_label "USB_1P"
-		(shape bidirectional)
-		(at 35.4522 34.1822 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ddc4acc0-1e51-4773-909a-0059cbdff357")
-	)
-	(hierarchical_label "USB_2P"
-		(shape bidirectional)
-		(at 35.4522 74.8222 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fbcacd7d-8d61-4cc1-a50f-82ac45345a90")
+		(uuid "f81ad14b-346d-4299-a5b3-f8dd095cc232")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4647,7 +4496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/418/9/ENG_DS_1773178_3_A1-3474112.pdf"
+		(property "Datasheet" "~"
 			(at 127 104.14 0)
 			(effects
 				(font
@@ -4656,7 +4505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead 220Ω 100MHz"
+		(property "Description" "Ferrite bead"
 			(at 127 104.14 0)
 			(effects
 				(font
@@ -4724,7 +4573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/837/usb4215-3472997.pdf"
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 163.83 45.72 0)
 			(effects
 				(font
@@ -4912,7 +4761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/418/9/ENG_DS_1773178_3_A1-3474112.pdf"
+		(property "Datasheet" "~"
 			(at 208.28 30.48 0)
 			(effects
 				(font
@@ -4921,7 +4770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead 220Ω 100MHz"
+		(property "Description" "Ferrite bead"
 			(at 208.28 30.48 0)
 			(effects
 				(font
@@ -4949,140 +4798,6 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/556cd50d-7ae0-44b7-8ac9-f0bc160f8797"
 					(reference "FB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_7")
-		(lib_id "power:GND")
-		(at 55.7722 133.2422 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22c0d77d-2fe0-4ecc-8fbd-5ece4c41710a")
-		(property "Reference" "#PWR041"
-			(at 55.7722 139.5922 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.7722 138.3222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.7722 133.2422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.7722 133.2422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.7722 133.2422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbe7c8aa-c671-4725-86dd-b1f1c1194a4a")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/556cd50d-7ae0-44b7-8ac9-f0bc160f8797"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_7")
-		(lib_id "power:GND")
-		(at 55.7722 92.6022 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "232a93af-8a1c-4696-ae0a-a4940a737207")
-		(property "Reference" "#PWR022"
-			(at 55.7722 98.9522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.7722 97.6822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.7722 92.6022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.7722 92.6022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.7722 92.6022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bc8184e-7ce7-415e-a60f-b3e86bbf8d08")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/556cd50d-7ae0-44b7-8ac9-f0bc160f8797"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5124,7 +4839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "~"
 			(at 238.76 74.93 0)
 			(effects
 				(font
@@ -5133,7 +4848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0.1u 20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 238.76 74.93 0)
 			(effects
 				(font
@@ -5202,7 +4917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "~"
 			(at 212.09 107.95 0)
 			(effects
 				(font
@@ -5211,7 +4926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0.1u 20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 212.09 107.95 0)
 			(effects
 				(font
@@ -5281,7 +4996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "~"
 			(at 219.71 148.59 0)
 			(effects
 				(font
@@ -5290,7 +5005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 1M 1%"
+		(property "Description" "Resistor"
 			(at 219.71 148.59 0)
 			(effects
 				(font
@@ -5360,7 +5075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "~"
 			(at 219.71 74.93 0)
 			(effects
 				(font
@@ -5369,7 +5084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 1M 1%"
+		(property "Description" "Resistor"
 			(at 219.71 74.93 0)
 			(effects
 				(font
@@ -5397,6 +5112,72 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/556cd50d-7ae0-44b7-8ac9-f0bc160f8797"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "347e8d30-c536-4a4c-8aa2-c71f3533360e")
+		(property "Reference" "#PWR022"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fae752ed-3900-4283-9f93-64e48b886391")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/556cd50d-7ae0-44b7-8ac9-f0bc160f8797"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5438,7 +5219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "~"
 			(at 212.09 34.29 0)
 			(effects
 				(font
@@ -5447,7 +5228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0.1u 20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 212.09 34.29 0)
 			(effects
 				(font
@@ -5613,6 +5394,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 55.88 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45da1024-01a5-4238-820e-df28aee14b64")
+		(property "Reference" "#PWR041"
+			(at 55.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "364a4273-9048-4873-8c11-98b0fd0a5772")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/556cd50d-7ae0-44b7-8ac9-f0bc160f8797"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 130.81 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5712,7 +5559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/837/usb4215-3472997.pdf"
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 245.11 45.72 0)
 			(effects
 				(font
@@ -5835,7 +5682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "~"
 			(at 238.76 148.59 0)
 			(effects
 				(font
@@ -5844,7 +5691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0.1u 20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 238.76 148.59 0)
 			(effects
 				(font
@@ -5914,7 +5761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "~"
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -5923,7 +5770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 1M 1%"
+		(property "Description" "Resistor"
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -5958,7 +5805,7 @@
 	)
 	(symbol
 		(lib_id "ESD204DQAR:ESD204DQAR")
-		(at 40.5322 34.1822 0)
+		(at 40.64 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5967,7 +5814,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a35b861-75c1-4c58-a2aa-4ac381be437c")
 		(property "Reference" "D13"
-			(at 55.7722 26.5622 0)
+			(at 55.88 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5975,7 +5822,7 @@
 			)
 		)
 		(property "Value" "ESD204DQAR"
-			(at 55.7722 29.1022 0)
+			(at 55.88 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,7 +5830,7 @@
 			)
 		)
 		(property "Footprint" "Controls_Pi:ESD204DQAR"
-			(at 67.2022 129.1022 0)
+			(at 67.31 129.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,7 +5840,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/esd204"
-			(at 67.2022 229.1022 0)
+			(at 67.31 229.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,7 +5850,7 @@
 			)
 		)
 		(property "Description" "4-Channel Low-Capacitance Surge and ESD Protection Diode"
-			(at 40.5322 34.1822 0)
+			(at 40.64 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +5859,77 @@
 			)
 		)
 		(property "P/N" "ESD204DQAR"
-			(at 67.2022 629.1022 0)
+			(at 67.31 629.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 67.31 429.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 67.31 529.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD204DQAR"
+			(at 67.31 629.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESD204DQAR"
+			(at 67.31 729.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD204DQAR?qs=r5DSvlrkXmLJ52LliQixbw%3D%3D"
+			(at 67.31 829.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ESD204DQAR"
+			(at 67.31 929.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/esd204dqar/texas-instruments?utm_currency=USD&region=nac"
+			(at 67.31 1029.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6095,7 +6012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/418/9/ENG_DS_1773178_3_A1-3474112.pdf"
+		(property "Datasheet" "~"
 			(at 127 30.48 0)
 			(effects
 				(font
@@ -6104,7 +6021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead 220Ω 100MHz"
+		(property "Description" "Ferrite bead"
 			(at 127 30.48 0)
 			(effects
 				(font
@@ -6174,7 +6091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1012_X7R_OPENMODE_SMD-3316213.pdf"
+		(property "Datasheet" "~"
 			(at 228.6 148.59 0)
 			(effects
 				(font
@@ -6183,7 +6100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1n"
+		(property "Description" "Unpolarized capacitor"
 			(at 228.6 148.59 0)
 			(effects
 				(font
@@ -6250,7 +6167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 227.33 38.1 0)
 			(effects
 				(font
@@ -6259,7 +6176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 56k 1%"
+		(property "Description" "Resistor"
 			(at 227.33 38.1 0)
 			(effects
 				(font
@@ -6326,7 +6243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 146.05 109.22 0)
 			(effects
 				(font
@@ -6335,7 +6252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 56k 1%"
+		(property "Description" "Resistor"
 			(at 146.05 109.22 0)
 			(effects
 				(font
@@ -6363,73 +6280,6 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/556cd50d-7ae0-44b7-8ac9-f0bc160f8797"
 					(reference "R64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_7")
-		(lib_id "power:GND")
-		(at 55.7722 51.9622 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8694497a-5f22-47ab-b161-b5a52044471e")
-		(property "Reference" "#PWR095"
-			(at 55.7722 58.3122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.7722 57.0422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.7722 51.9622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.7722 51.9622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.7722 51.9622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0515bcd0-ad80-441d-97e7-220b696d5414")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/556cd50d-7ae0-44b7-8ac9-f0bc160f8797"
-					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -6666,7 +6516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 146.05 38.1 0)
 			(effects
 				(font
@@ -6675,7 +6525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 56k 1%"
+		(property "Description" "Resistor"
 			(at 146.05 38.1 0)
 			(effects
 				(font
@@ -6703,6 +6553,72 @@
 			(project ""
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/556cd50d-7ae0-44b7-8ac9-f0bc160f8797"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "955113a0-26cd-4347-8e8b-e37bc7643a49")
+		(property "Reference" "#PWR095"
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53912650-50b5-4e54-8c09-b81d327c3103")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730/556cd50d-7ae0-44b7-8ac9-f0bc160f8797"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -6745,7 +6661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1012_X7R_OPENMODE_SMD-3316213.pdf"
+		(property "Datasheet" "~"
 			(at 147.32 148.59 0)
 			(effects
 				(font
@@ -6754,7 +6670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1n"
+		(property "Description" "Unpolarized capacitor"
 			(at 147.32 148.59 0)
 			(effects
 				(font
@@ -6852,6 +6768,76 @@
 				(hide yes)
 			)
 		)
+		(property "Height" "0.55"
+			(at 67.31 549.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 67.31 649.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD204DQAR"
+			(at 67.31 749.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESD204DQAR"
+			(at 67.31 849.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD204DQAR?qs=r5DSvlrkXmLJ52LliQixbw%3D%3D"
+			(at 67.31 949.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ESD204DQAR"
+			(at 67.31 1049.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/esd204dqar/texas-instruments?utm_currency=USD&region=nac"
+			(at 67.31 1149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "2721a100-a113-40f4-907e-1199a9a6cf87")
 		)
@@ -6928,7 +6914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1012_X7R_OPENMODE_SMD-3316213.pdf"
+		(property "Datasheet" "~"
 			(at 228.6 74.93 0)
 			(effects
 				(font
@@ -6937,7 +6923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1n"
+		(property "Description" "Unpolarized capacitor"
 			(at 228.6 74.93 0)
 			(effects
 				(font
@@ -7006,7 +6992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "~"
 			(at 130.81 34.29 0)
 			(effects
 				(font
@@ -7015,7 +7001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0.1u 20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 130.81 34.29 0)
 			(effects
 				(font
@@ -7182,7 +7168,7 @@
 	)
 	(symbol
 		(lib_id "ESD204DQAR:ESD204DQAR")
-		(at 40.5322 74.8222 0)
+		(at 40.64 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7191,7 +7177,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa6b4ecf-f4a9-4246-97f3-4b8a5204bf4b")
 		(property "Reference" "D16"
-			(at 55.7722 67.2022 0)
+			(at 55.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,7 +7185,7 @@
 			)
 		)
 		(property "Value" "ESD204DQAR"
-			(at 55.7722 69.7422 0)
+			(at 55.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +7193,7 @@
 			)
 		)
 		(property "Footprint" "Controls_Pi:ESD204DQAR"
-			(at 67.2022 169.7422 0)
+			(at 67.31 169.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +7203,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/esd204"
-			(at 67.2022 269.7422 0)
+			(at 67.31 269.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7227,7 +7213,7 @@
 			)
 		)
 		(property "Description" "4-Channel Low-Capacitance Surge and ESD Protection Diode"
-			(at 40.5322 74.8222 0)
+			(at 40.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +7222,77 @@
 			)
 		)
 		(property "P/N" "ESD204DQAR"
-			(at 67.2022 669.7422 0)
+			(at 67.31 669.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 67.31 469.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 67.31 569.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD204DQAR"
+			(at 67.31 669.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESD204DQAR"
+			(at 67.31 769.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD204DQAR?qs=r5DSvlrkXmLJ52LliQixbw%3D%3D"
+			(at 67.31 869.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ESD204DQAR"
+			(at 67.31 969.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/esd204dqar/texas-instruments?utm_currency=USD&region=nac"
+			(at 67.31 1069.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +7376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "~"
 			(at 157.48 148.59 0)
 			(effects
 				(font
@@ -7329,7 +7385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0.1u 20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 157.48 148.59 0)
 			(effects
 				(font
@@ -7363,7 +7419,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_7")
 		(lib_id "power:GND")
 		(at 55.88 172.72 0)
 		(unit 1)
@@ -7463,7 +7518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 227.33 109.22 0)
 			(effects
 				(font
@@ -7472,7 +7527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 56k 1%"
+		(property "Description" "Resistor"
 			(at 227.33 109.22 0)
 			(effects
 				(font
@@ -7539,7 +7594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 146.05 111.76 0)
 			(effects
 				(font
@@ -7548,7 +7603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 56k 1%"
+		(property "Description" "Resistor"
 			(at 146.05 111.76 0)
 			(effects
 				(font
@@ -7615,7 +7670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 227.33 111.76 0)
 			(effects
 				(font
@@ -7624,7 +7679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 56k 1%"
+		(property "Description" "Resistor"
 			(at 227.33 111.76 0)
 			(effects
 				(font
@@ -7692,7 +7747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/418/9/ENG_DS_1773178_3_A1-3474112.pdf"
+		(property "Datasheet" "~"
 			(at 208.28 104.14 0)
 			(effects
 				(font
@@ -7701,7 +7756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead 220Ω 100MHz"
+		(property "Description" "Ferrite bead"
 			(at 208.28 104.14 0)
 			(effects
 				(font
@@ -7833,7 +7888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 227.33 35.56 0)
 			(effects
 				(font
@@ -7842,7 +7897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 56k 1%"
+		(property "Description" "Resistor"
 			(at 227.33 35.56 0)
 			(effects
 				(font
@@ -7909,7 +7964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "~"
 			(at 146.05 35.56 0)
 			(effects
 				(font
@@ -7918,7 +7973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 56k 1%"
+		(property "Description" "Resistor"
 			(at 146.05 35.56 0)
 			(effects
 				(font
@@ -7988,7 +8043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1012_X7R_OPENMODE_SMD-3316213.pdf"
+		(property "Datasheet" "~"
 			(at 147.32 74.93 0)
 			(effects
 				(font
@@ -7997,7 +8052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1n"
+		(property "Description" "Unpolarized capacitor"
 			(at 147.32 74.93 0)
 			(effects
 				(font
@@ -8032,7 +8087,7 @@
 	)
 	(symbol
 		(lib_id "ESD204DQAR:ESD204DQAR")
-		(at 40.5322 115.4622 0)
+		(at 40.64 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8041,7 +8096,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8af55fa-7361-4205-9902-632a9de9a580")
 		(property "Reference" "D17"
-			(at 55.7722 107.8422 0)
+			(at 55.88 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,7 +8104,7 @@
 			)
 		)
 		(property "Value" "ESD204DQAR"
-			(at 55.7722 110.3822 0)
+			(at 55.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,7 +8112,7 @@
 			)
 		)
 		(property "Footprint" "Controls_Pi:ESD204DQAR"
-			(at 67.2022 210.3822 0)
+			(at 67.31 210.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8067,7 +8122,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/esd204"
-			(at 67.2022 310.3822 0)
+			(at 67.31 310.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8077,7 +8132,7 @@
 			)
 		)
 		(property "Description" "4-Channel Low-Capacitance Surge and ESD Protection Diode"
-			(at 40.5322 115.4622 0)
+			(at 40.64 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8086,7 +8141,77 @@
 			)
 		)
 		(property "P/N" "ESD204DQAR"
-			(at 67.2022 710.3822 0)
+			(at 67.31 710.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 67.31 510.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 67.31 610.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD204DQAR"
+			(at 67.31 710.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESD204DQAR"
+			(at 67.31 810.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD204DQAR?qs=r5DSvlrkXmLJ52LliQixbw%3D%3D"
+			(at 67.31 910.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ESD204DQAR"
+			(at 67.31 1010.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/esd204dqar/texas-instruments?utm_currency=USD&region=nac"
+			(at 67.31 1110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,7 +8296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "~"
 			(at 138.43 148.59 0)
 			(effects
 				(font
@@ -8180,7 +8305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 1M 1%"
+		(property "Description" "Resistor"
 			(at 138.43 148.59 0)
 			(effects
 				(font
@@ -8249,7 +8374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "~"
 			(at 157.48 74.93 0)
 			(effects
 				(font
@@ -8258,7 +8383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0.1u 20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 157.48 74.93 0)
 			(effects
 				(font
@@ -8326,7 +8451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/837/usb4215-3472997.pdf"
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 163.83 119.38 0)
 			(effects
 				(font
@@ -8448,7 +8573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/837/usb4215-3472997.pdf"
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 245.11 119.38 0)
 			(effects
 				(font
@@ -8571,7 +8696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "~"
 			(at 130.81 107.95 0)
 			(effects
 				(font
@@ -8580,7 +8705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0.1u 20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 130.81 107.95 0)
 			(effects
 				(font
