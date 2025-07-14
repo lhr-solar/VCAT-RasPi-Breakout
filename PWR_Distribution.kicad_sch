@@ -1956,8 +1956,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 -5.08 0)
+			(property "Reference" "J1"
+				(at -0.635 8.89 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1965,14 +1965,14 @@
 				)
 			)
 			(property "Value" "CarPowerConnector"
-				(at 0 5.08 0)
+				(at -0.635 6.35 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1981,7 +1981,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500215?display=pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1991,6 +1991,15 @@
 				)
 			)
 			(property "Description" "Connection to the car's low power bus"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P/N" "436500215"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2016,7 +2025,7 @@
 				(pin power_out line
 					(at 7.62 2.54 180)
 					(length 5.08)
-					(name "+12V"
+					(name "+24V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2077,6 +2086,27 @@
 		)
 		(uuid 9f22f167-397c-4cdf-b8da-ed4bdb0333aa)
 	)
+	(text "UVLO: ~1.19 = 21 * (R8+R40)/(R7+R8+R40)\nOVP: ~1.19 = 25 * R40/(R7+R8+R40)"
+		(exclude_from_sim no)
+		(at 67.31 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "046aad96-bf3e-4e2c-a61c-2f728d963afc")
+	)
+	(text "These have been changed from 12V to 24V values\nR7: 100k -> 200k\nR8: 200 -> 2k\nR40: 1k -> 10k\nOVP = ~25V, UVLO = ~21V (?)\nD3: SD12 -> SD24C"
+		(exclude_from_sim no)
+		(at 22.606 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3813bb04-7a11-4761-b99f-934cdbd5c751")
+	)
 	(text "Est. max power draw \n= 15W (pi) + 3 * (1.5W) (USB lines) + 1.5W (HDMI) + 0.6W (CAN) \n= 21.6W (rest of board draws negligible power)\n"
 		(exclude_from_sim no)
 		(at 188.468 122.682 0)
@@ -2113,9 +2143,9 @@
 		)
 		(uuid "84a4577d-ffbb-4a51-b4e3-924767fd9de0")
 	)
-	(text "NEEDS TO CHANGE TO 24V"
+	(text "Someone plz double check\n"
 		(exclude_from_sim no)
-		(at 155.448 65.024 0)
+		(at 43.942 67.31 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2175,6 +2205,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c857f2f-7d0b-4fcb-91e4-666021d87a71")
+	)
+	(junction
+		(at 33.02 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30c41198-fc2e-4e95-8196-9482a040916d")
 	)
 	(junction
 		(at 45.72 116.84)
@@ -2241,6 +2277,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cdd21e6-722b-47ba-b8a5-027db26a9bc3")
+	)
+	(junction
+		(at 33.02 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6eecc71b-a361-4743-9b48-c75c6ebabd0e")
 	)
 	(junction
 		(at 134.62 34.29)
@@ -2361,6 +2403,16 @@
 			(type default)
 		)
 		(uuid "08a0e876-f1a9-48d8-a0d6-e342587d09b6")
+	)
+	(wire
+		(pts
+			(xy 24.13 127) (xy 33.02 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8db951-d06c-4a8c-bf3d-d3916c2c6207")
 	)
 	(wire
 		(pts
@@ -2641,6 +2693,16 @@
 			(type default)
 		)
 		(uuid "4c62498e-2b20-4e0b-be7c-e222b8766cc0")
+	)
+	(wire
+		(pts
+			(xy 24.13 134.62) (xy 33.02 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd16584-8224-4131-beb1-d07396efc53e")
 	)
 	(wire
 		(pts
@@ -3760,7 +3822,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "200k"
 			(at 69.088 44.323 0)
 			(effects
 				(font
@@ -4326,7 +4388,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12V PWR LED"
+		(property "Value" "24V PWR LED"
 			(at 212.5472 58.4962 90)
 			(effects
 				(font
@@ -5247,7 +5309,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "2k"
 			(at 69.85 54.6099 0)
 			(effects
 				(font
@@ -6385,7 +6447,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SD12_SOD323"
+		(property "Value" "SD24C_SOD323"
 			(at 54.356 36.322 90)
 			(effects
 				(font
@@ -6412,7 +6474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "12V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+		(property "Description" "24V, 450W Discrete Bidirectional TVS Diode, SOD-323-2"
 			(at 60.96 41.91 0)
 			(effects
 				(font
@@ -6421,7 +6483,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "PESD15VL1BA,115"
+		(property "P/N" "SD24C-01FTG"
 			(at 60.96 41.91 90)
 			(effects
 				(font
@@ -6675,7 +6737,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba105cdd-156f-4210-9145-80304cdb0ab6")
 		(property "Reference" "R40"
-			(at 69.85 62.865 0)
+			(at 69.85 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,8 +6745,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 69.85 65.405 0)
+		(property "Value" "10k"
+			(at 69.85 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7009,7 +7071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "10k"
 			(at 253.238 49.403 0)
 			(effects
 				(font
@@ -7379,7 +7441,7 @@
 		(dnp no)
 		(uuid "e1fcfba2-a79d-4dc7-a07e-58f686f0a3ec")
 		(property "Reference" "C6"
-			(at 24.13 129.5146 0)
+			(at 28.448 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7388,7 +7450,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 24.13 131.826 0)
+			(at 27.178 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7508,6 +7570,84 @@
 			(project ""
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 24.13 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4465d4c-5c8a-4c3d-a7ef-e6a6d57632a1")
+		(property "Reference" "C58"
+			(at 15.24 129.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 15.24 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 25.0952 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0805W106K500CC"
+			(at 24.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a9bef59-36b1-44ac-9b57-60fbba198c7e")
+		)
+		(pin "2"
+			(uuid "4f3ae894-eac5-400d-a44c-ff24ede12b20")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
+					(reference "C58")
 					(unit 1)
 				)
 			)
