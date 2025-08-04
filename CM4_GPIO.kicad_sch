@@ -12220,76 +12220,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.1"
-			(at 196.85 444.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 196.85 544.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74LVC1G07QSE-7"
-			(at 196.85 644.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-74LVC1G07QSE-7"
-			(at 196.85 744.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1G07QSE-7?qs=P1JMDcb91o6kX7wpGC%252Bbgg%3D%3D"
-			(at 196.85 844.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "74LVC1G07QSE-7"
-			(at 196.85 944.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74lvc1g07qse-7/diodes-incorporated?region=nac"
-			(at 196.85 1044.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "2efa9faa-0faf-4471-bbf6-a14ae8fb7851")
 		)
@@ -12448,16 +12378,6 @@
 		)
 		(property "P/N" "CL-SB-22B-12T"
 			(at 139.7 775.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Height" "3.5"
-			(at 139.7 575.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12791,22 +12711,6 @@
 		)
 		(property "P/N" "DF40C-100DS-0.4V"
 			(at 83.82 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" "Hirose"
-			(at 86.36 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" "2x DF40C-100DS-0.4V"
-			(at 86.36 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13676,16 +13580,6 @@
 		)
 		(property "P/N" "CL-SB-22B-12T"
 			(at 57.15 776.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Height" "3.5"
-			(at 57.15 576.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

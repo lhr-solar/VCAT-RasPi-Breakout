@@ -1775,7 +1775,7 @@
 			(color 255 255 255 0.0000)
 		)
 		(uuid "ba481c31-e70b-40cd-84a6-4c7235d9d730")
-		(property "Sheetname" "USB2.0 HS Hub"
+		(property "Sheetname" "USB2.0 high speed"
 			(at 133.35 33.6545 0)
 			(effects
 				(font

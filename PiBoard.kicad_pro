@@ -511,7 +511,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -547,61 +547,25 @@
           "show": false
         },
         {
-          "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
+          "group_by": true,
           "label": "P/N",
           "name": "P/N",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
-      "filter_string": "R",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
@@ -658,24 +622,12 @@
       "CM4 GPIO"
     ],
     [
-      "556cd50d-7ae0-44b7-8ac9-f0bc160f8797",
-      "USB_Ports"
-    ],
-    [
-      "6c0da867-5b8c-447f-9550-7a20ef911df0",
-      "USB Ports Power"
-    ],
-    [
-      "3331b697-92bd-4ef4-acc2-1494355e5630",
-      "USB2.0 Hub Power"
-    ],
-    [
       "576572c3-1ae4-4f9d-a2fe-756d060003c8",
       "RTC and Fan"
     ],
     [
       "ba481c31-e70b-40cd-84a6-4c7235d9d730",
-      "USB2.0 HS Hub"
+      "USB2.0 high speed"
     ],
     [
       "bb44eb34-b37d-4f19-ab49-17b4958492c8",

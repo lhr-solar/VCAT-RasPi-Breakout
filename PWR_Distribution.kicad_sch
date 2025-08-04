@@ -2107,7 +2107,7 @@
 		)
 		(uuid "3813bb04-7a11-4761-b99f-934cdbd5c751")
 	)
-	(text "Est. max power draw \n= 15W (pi) + 3 * (1.5W) (USB lines) + 1.5W (HDMI) + 0.6W (CAN) \n= 21.6W (rest of board draws negligible power)\n"
+	(text "Est. max power draw \n= 15W (pi) + 1.5W (HDMI) + 0.6W (CAN) \n= 21.6W (rest of board draws negligible power)\n"
 		(exclude_from_sim no)
 		(at 188.468 122.682 0)
 		(effects
@@ -5248,7 +5248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 81.28 109.22 0)
 			(effects
 				(font
@@ -5583,76 +5583,6 @@
 		)
 		(property "P/N" "LM76202QPWPRQ1"
 			(at 116.84 633.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.2"
-			(at 116.84 433.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 116.84 533.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LM76202QPWPRQ1"
-			(at 116.84 633.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-LM76202QPWPRQ1"
-			(at 116.84 733.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM76202QPWPRQ1?qs=B6kkDfuK7%2FDO3IObrBgfZg%3D%3D"
-			(at 116.84 833.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "LM76202QPWPRQ1"
-			(at 116.84 933.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lm76202qpwprq1/texas-instruments"
-			(at 116.84 1033.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,7 +6771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 38.1 130.81 0)
 			(effects
 				(font
@@ -6939,76 +6869,6 @@
 		)
 		(property "P/N" "AP64501QSP-13"
 			(at 77.47 709.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.63"
-			(at 77.47 509.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 77.47 609.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AP64501QSP-13"
-			(at 77.47 709.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-AP64501QSP-13"
-			(at 77.47 809.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP64501QSP-13?qs=IS%252B4QmGtzzqtXRaIlE2s%2FA%3D%3D"
-			(at 77.47 909.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 77.47 1009.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 77.47 1109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7467,7 +7327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 33.02 130.81 0)
 			(effects
 				(font
