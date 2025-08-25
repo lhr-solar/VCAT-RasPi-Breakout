@@ -2831,7 +2831,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "1b465059-fbfe-431c-bdbe-570f29f1b49b")
 		(property "Reference" "J13"
@@ -3272,7 +3272,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "4eacf42b-1342-4682-af12-5d52a805724a")
 		(property "Reference" "BT1"
