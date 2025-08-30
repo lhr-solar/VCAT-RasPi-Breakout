@@ -6191,6 +6191,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -6413,6 +6538,26 @@
 		)
 		(uuid "bb127cb8-70bb-42c5-a9a3-864a1934fdf0")
 	)
+	(text "More LEDS"
+		(exclude_from_sim no)
+		(at 133.096 119.634 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "c70c18c5-6ddd-4b4d-abc5-fe6f2191d790")
+	)
+	(text "fwd cur: ~2ma\nfwd volt: ~2V\nR: ~650-700"
+		(exclude_from_sim no)
+		(at 275.59 111.506 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce473683-c9f4-46c0-b160-354a6882a631")
+	)
 	(text "Hard Reset Button"
 		(exclude_from_sim no)
 		(at 221.488 103.378 0)
@@ -6422,6 +6567,16 @@
 			)
 		)
 		(uuid "dd196107-9c24-401b-ad82-35afdd61cb69")
+	)
+	(text "\"GPIO load should be kept\nbelow 50mA\""
+		(exclude_from_sim no)
+		(at 35.306 20.828 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "dd9fecc8-81da-4824-9e34-078bfeef6785")
 	)
 	(junction
 		(at 115.57 35.56)
@@ -6554,6 +6709,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78739830-4b74-483a-ae1f-e4410d721815")
+	)
+	(junction
+		(at 53.34 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c9ab527-3f13-44a4-a862-2147dbf788f3")
 	)
 	(junction
 		(at 45.72 129.54)
@@ -6718,10 +6879,6 @@
 		(uuid "17addfb1-c6cb-4e8b-b438-a087ff66e0fa")
 	)
 	(no_connect
-		(at 53.34 139.7)
-		(uuid "2940c6cd-4a45-4ddc-8688-0ee5672f31ca")
-	)
-	(no_connect
 		(at 53.34 111.76)
 		(uuid "2bebd258-d344-4354-afba-ab1ee9a041c8")
 	)
@@ -6736,10 +6893,6 @@
 	(no_connect
 		(at 114.3 111.76)
 		(uuid "4f8bac90-d08d-49f5-a598-f7f6a6cf2721")
-	)
-	(no_connect
-		(at 53.34 137.16)
-		(uuid "50348484-6437-46bd-af0f-1af331fa34ad")
 	)
 	(no_connect
 		(at 114.3 99.06)
@@ -7923,6 +8076,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 137.16) (xy 53.34 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ee8360-0fd3-490a-a864-18f4df93db77")
+	)
+	(wire
+		(pts
 			(xy 115.57 116.84) (xy 115.57 156.21)
 		)
 		(stroke
@@ -8260,6 +8423,16 @@
 			(type solid)
 		)
 		(uuid "a270b6ce-1512-4596-aa5e-8b05350948cf")
+	)
+	(wire
+		(pts
+			(xy 48.26 137.16) (xy 53.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5bbf3fc-38c1-4b56-b6ba-6c376db9cedb")
 	)
 	(wire
 		(pts
@@ -9990,6 +10163,71 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 48.26 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00d4f191-a3bf-4ab2-90ab-6093b1c0ded8")
+		(property "Reference" "#PWR05"
+			(at 52.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.8V"
+			(at 44.45 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c57bdab-149d-47cc-b294-8c9554778ca7")
+		)
+		(instances
+			(project ""
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11735,6 +11973,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 204.47 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ffcb788-ae62-4a85-a211-e03647705b02")
+		(property "Reference" "#PWR018"
+			(at 204.47 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.8V"
+			(at 204.216 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 204.47 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b15ac33d-3097-403e-9d9d-191431e0ffb0")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 233.68 110.49 0)
 		(unit 1)
@@ -12651,6 +12954,72 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 204.47 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db9ba81d-7e8e-48ce-ba9c-ec248e8692aa")
+		(property "Reference" "TP4"
+			(at 201.803 158.5722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 206.883 153.4922 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 199.39 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 204.47 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ee25671-1537-4ee4-903c-8f5dc09aae1e")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
+					(reference "TP4")
 					(unit 1)
 				)
 			)

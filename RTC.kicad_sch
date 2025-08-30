@@ -2052,6 +2052,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Something to do with mounting\n"
+		(exclude_from_sim no)
+		(at 228.854 97.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c689994-a04e-4fa2-94ea-0b0fcd199e81")
+	)
+	(text "Needs flyback diode"
+		(exclude_from_sim no)
+		(at 227.584 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2158242f-2ce5-4fc1-b476-fbdf7967dff9")
+	)
 	(text "FAN connector\n"
 		(exclude_from_sim no)
 		(at 240.03 113.03 0)

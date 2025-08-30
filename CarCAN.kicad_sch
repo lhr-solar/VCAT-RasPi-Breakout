@@ -20937,7 +20937,7 @@
 				)
 			)
 		)
-		(property "Value" "22 pF"
+		(property "Value" "26 pF"
 			(at 87.884 69.85 90)
 			(effects
 				(font
@@ -21321,7 +21321,7 @@
 				)
 			)
 		)
-		(property "Value" "22 pF"
+		(property "Value" "26 pF"
 			(at 87.884 59.69 90)
 			(effects
 				(font
