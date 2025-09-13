@@ -4458,6 +4458,16 @@
 		)
 		(uuid "0280a1b9-dc86-46da-8e20-06e943abdbe6")
 	)
+	(label "VBUS_Debug"
+		(at 184.15 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07ed816b-c88e-45c1-978c-b6ef4656fa8b")
+	)
 	(label "USB_Debug_P"
 		(at 86.36 124.46 180)
 		(effects
@@ -4815,6 +4825,17 @@
 			(justify right)
 		)
 		(uuid "e16616e2-983b-4c51-88cf-4587a35f3c2a")
+	)
+	(hierarchical_label "+5V_PWR"
+		(shape output)
+		(at 176.53 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2f54518-4c23-41f2-a379-283dbc14cb66")
 	)
 	(hierarchical_label "GLOBAL_EN"
 		(shape input)
@@ -7532,6 +7553,84 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7bdab0d-5cf3-41a6-9ce0-14bcdaa9bba2")
+		(property "Reference" "R36"
+			(at 182.372 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 181.102 110.998 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 180.34 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080582K0FKEAC"
+			(at 180.34 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d11571e7-72a1-4481-ad70-be688f459d55")
+		)
+		(pin "2"
+			(uuid "bff072ec-3f12-46c1-baee-5259cd3438af")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/ba481c31-e70b-40cd-84a6-4c7235d9d730"
+					(reference "R36")
 					(unit 1)
 				)
 			)
