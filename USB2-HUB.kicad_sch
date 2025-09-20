@@ -2534,6 +2534,26 @@
 		)
 		(uuid "738311f0-9e20-4fa4-bc0c-6ea89581a324")
 	)
+	(text "USB Hub is sourcing pwr, not CM-board"
+		(exclude_from_sim no)
+		(at 226.06 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "74697f8c-27dc-4e97-ae6a-baa09b7ce1a7")
+	)
+	(text "Need fuses"
+		(exclude_from_sim no)
+		(at 214.122 89.916 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "79e79220-741c-4c49-bf2d-be79e0fda9a1")
+	)
 	(text "56k pull up \nmeans 500mA"
 		(exclude_from_sim no)
 		(at 239.014 27.686 0)
@@ -2543,6 +2563,16 @@
 			)
 		)
 		(uuid "84ebd416-25fc-46e2-960e-26ee382b7aff")
+	)
+	(text "NC this"
+		(exclude_from_sim no)
+		(at 224.028 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85abf0ab-7b06-4838-acc9-a9c6c0b3ef75")
 	)
 	(text "ESD Protection"
 		(exclude_from_sim no)
