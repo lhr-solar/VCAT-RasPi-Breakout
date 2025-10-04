@@ -2694,6 +2694,18 @@
 		)
 		(uuid a4598152-33b0-485a-925c-8b8d0b23b853)
 	)
+	(rectangle
+		(start 193.04 44.45)
+		(end 240.03 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f0bbdcf3-e039-4976-93ca-135620f051fc)
+	)
 	(text "Est. max power draw (CM5) \n= 10W (pi) + 1.5W (HDMI) + 0.6W (CAN) \n= ~12.1W (rest of board draws negligible power)\n"
 		(exclude_from_sim no)
 		(at 195.072 122.936 0)
@@ -2718,6 +2730,17 @@
 			)
 		)
 		(uuid "05fd7a23-6a5c-48c9-a8c9-7b2ceeea9938")
+	)
+	(text "Display PWR"
+		(exclude_from_sim no)
+		(at 215.9 50.546 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+		)
+		(uuid "60268485-2716-45a7-9f07-5247ba9a654c")
 	)
 	(text "Est. max power draw \n= 15W (pi) + 1.5W (HDMI) + 0.6W (CAN) \n= 21.6W (rest of board draws negligible power)\n"
 		(exclude_from_sim no)
@@ -2808,10 +2831,10 @@
 	)
 	(text "Power"
 		(exclude_from_sim no)
-		(at 261.366 26.416 0)
+		(at 216.154 24.384 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
 				(thickness 0.508)
 				(bold yes)
 			)
@@ -3150,7 +3173,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 57.15) (xy 219.71 57.15)
+			(xy 215.9 67.31) (xy 219.71 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4090,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 57.15) (xy 231.14 57.15)
+			(xy 227.33 67.31) (xy 231.14 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4210,7 +4233,7 @@
 	)
 	(hierarchical_label "+5V_PWR"
 		(shape input)
-		(at 219.71 26.67 270)
+		(at 181.61 135.89 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4221,7 +4244,7 @@
 	)
 	(hierarchical_label "+24V_PWR"
 		(shape output)
-		(at 212.09 26.67 270)
+		(at 173.99 135.89 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4889,7 +4912,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 212.09 26.67 0)
+		(at 173.99 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4897,7 +4920,7 @@
 		(dnp no)
 		(uuid "20c06585-c41c-43aa-9717-ece1ff3ccac2")
 		(property "Reference" "#PWR083"
-			(at 212.09 30.48 0)
+			(at 173.99 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,7 +4929,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 209.296 22.606 0)
+			(at 171.196 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +4938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 26.67 0)
+			(at 173.99 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,7 +4947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 26.67 0)
+			(at 173.99 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,7 +4956,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 212.09 26.67 0)
+			(at 173.99 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,7 +6928,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 62.23 0)
+		(at 215.9 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6914,7 +6937,7 @@
 		(fields_autoplaced yes)
 		(uuid "886a6c7f-b842-4aad-bbc4-0b6acedf31de")
 		(property "Reference" "#PWR04"
-			(at 215.9 68.58 0)
+			(at 215.9 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,7 +6946,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 67.31 0)
+			(at 215.9 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6931,7 +6954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 62.23 0)
+			(at 215.9 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6940,7 +6963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 62.23 0)
+			(at 215.9 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,7 +6972,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 62.23 0)
+			(at 215.9 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7537,7 +7560,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 223.52 57.15 90)
+		(at 223.52 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7545,7 +7568,7 @@
 		(dnp no)
 		(uuid "ae82d65a-0145-4a4b-9eaa-677e53ed304b")
 		(property "Reference" "F1"
-			(at 223.52 52.324 90)
+			(at 223.52 62.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,15 +7576,15 @@
 			)
 		)
 		(property "Value" "1A"
-			(at 223.52 54.864 90)
+			(at 223.52 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 223.52 58.928 90)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 223.52 69.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +7593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 57.15 0)
+			(at 223.52 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +7602,16 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 223.52 57.15 0)
+			(at 223.52 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MFU0805FF01000P500"
+			(at 223.52 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7669,7 +7701,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 231.14 57.15 0)
+		(at 231.14 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7677,7 +7709,7 @@
 		(dnp no)
 		(uuid "b7f7bdf9-b287-467d-b7f5-058f62df7286")
 		(property "Reference" "#PWR0117"
-			(at 231.14 60.96 0)
+			(at 231.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7686,7 +7718,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 228.346 53.086 0)
+			(at 228.346 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +7727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 57.15 0)
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +7736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 57.15 0)
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7713,7 +7745,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 231.14 57.15 0)
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7869,7 +7901,7 @@
 	)
 	(symbol
 		(lib_id "UTSVT_Connectors:CarLVPowerConnector")
-		(at 208.28 59.69 0)
+		(at 208.28 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7877,7 +7909,7 @@
 		(dnp no)
 		(uuid "c1256695-dfe1-4b02-88c0-a193bc2a0fcf")
 		(property "Reference" "J2"
-			(at 207.645 54.61 0)
+			(at 207.645 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7885,7 +7917,7 @@
 			)
 		)
 		(property "Value" "Display Breakout"
-			(at 209.55 52.07 0)
+			(at 209.55 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7893,7 +7925,7 @@
 			)
 		)
 		(property "Footprint" "UTSVT_Connectors:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
-			(at 208.28 59.69 0)
+			(at 208.28 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7902,7 +7934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 59.69 0)
+			(at 208.28 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7911,7 +7943,7 @@
 			)
 		)
 		(property "Description" "Connector for the car's 24V power bus"
-			(at 208.28 59.69 0)
+			(at 208.28 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,7 +7952,7 @@
 			)
 		)
 		(property "P/N" ""
-			(at 208.28 59.69 0)
+			(at 208.28 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,7 +7977,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 219.71 26.67 0)
+		(at 181.61 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7953,7 +7985,7 @@
 		(dnp no)
 		(uuid "c32c86b8-e278-400f-8622-e0bd40df9541")
 		(property "Reference" "#PWR084"
-			(at 219.71 30.48 0)
+			(at 181.61 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7962,7 +7994,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 219.456 22.352 0)
+			(at 181.356 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,7 +8002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 26.67 0)
+			(at 181.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,7 +8011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 26.67 0)
+			(at 181.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7988,7 +8020,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 219.71 26.67 0)
+			(at 181.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)

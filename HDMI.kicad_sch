@@ -2821,7 +2821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON65P300X300X100-9N-D"
+		(property "Footprint" "Controls_Pi:SON65P300X300X100-9N-D"
 			(at 193.04 220.65 0)
 			(effects
 				(font
@@ -3377,7 +3377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls_Pi:DQA_R-PUSON-N10_"
+		(property "Footprint" "Controls_Pi:IC_TPD4E05U06QDQARQ1"
 			(at 132.08 148.26 0)
 			(effects
 				(font
@@ -3753,7 +3753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls_Pi:DQA_R-PUSON-N10_"
+		(property "Footprint" "Controls_Pi:IC_TPD4E05U06QDQARQ1"
 			(at 132.08 200.33 0)
 			(effects
 				(font
@@ -4052,7 +4052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls_Pi:DQA_R-PUSON-N10_"
+		(property "Footprint" "Controls_Pi:IC_TPD4E05U06QDQARQ1"
 			(at 132.08 173.66 0)
 			(effects
 				(font
