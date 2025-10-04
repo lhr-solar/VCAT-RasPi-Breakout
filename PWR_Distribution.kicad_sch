@@ -549,6 +549,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2670,16 +2806,6 @@
 		)
 		(uuid "c86f57f9-3d14-48b3-8e1b-38b493ebfe56")
 	)
-	(text "fuse here"
-		(exclude_from_sim no)
-		(at 223.266 56.134 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "eafbc36a-d80c-4302-9790-b91e8b7bc45d")
-	)
 	(text "Power"
 		(exclude_from_sim no)
 		(at 261.366 26.416 0)
@@ -2775,6 +2901,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e55ea4e-5b71-48a8-a6e5-044a2e0956a6")
+	)
+	(junction
+		(at 144.78 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "505d8dfd-3b11-464d-b6b4-fd7f66ade1a2")
 	)
 	(junction
 		(at 99.06 31.75)
@@ -3018,7 +3150,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 57.15) (xy 231.14 57.15)
+			(xy 215.9 57.15) (xy 219.71 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3245,6 +3377,16 @@
 			(type default)
 		)
 		(uuid "40029bf3-889e-4c92-854e-1092003cec87")
+	)
+	(wire
+		(pts
+			(xy 148.59 113.03) (xy 144.78 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d17b7f-9ae6-4ebf-9c10-483cbde0171e")
 	)
 	(wire
 		(pts
@@ -3948,6 +4090,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 57.15) (xy 231.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd6418b-d73c-4e04-a384-ff15a2450d57")
+	)
+	(wire
+		(pts
 			(xy 139.7 114.3) (xy 139.7 113.03)
 		)
 		(stroke
@@ -4077,17 +4229,6 @@
 			(justify right)
 		)
 		(uuid "ba0ce318-4444-4628-8f3a-546fc89c6385")
-	)
-	(hierarchical_label "+24V_PWR"
-		(shape output)
-		(at 231.14 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d10c56d4-fb2f-472e-a057-b653646fa099")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -4391,6 +4532,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 118.11 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0be9c6aa-1760-4aed-aabc-7edf7ab1c110")
+		(property "Reference" "#PWR0114"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 115.316 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a96c0f1c-48b3-4162-8b83-7ecea58a060a")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 48.26 67.31 0)
 		(mirror x)
@@ -4463,7 +4670,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 78.74 0)
+		(at 125.73 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4472,7 +4679,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fa00568-aa84-42ec-8cf5-91220c0768bb")
 		(property "Reference" "#PWR0116"
-			(at 124.46 85.09 0)
+			(at 125.73 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +4688,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 83.82 0)
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +4696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 78.74 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,7 +4705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 78.74 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +4714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 78.74 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,6 +4948,72 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20cc913b-8ad7-45f3-825e-f589997edd2e")
+		(property "Reference" "TP1"
+			(at 116.6368 81.7372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 116.6368 79.4258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de6d33e9-a275-4ff4-ab52-6524015fe645")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6764,7 +7037,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 124.46 78.74 0)
+		(at 125.73 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6772,7 +7045,7 @@
 		(dnp no)
 		(uuid "8d5925a7-c543-4f2d-9bbc-1263dd863fee")
 		(property "Reference" "TP3"
-			(at 125.9332 75.7428 0)
+			(at 127.2032 77.0128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6781,7 +7054,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 125.9332 78.0542 0)
+			(at 127.2032 79.3242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6790,7 +7063,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 129.54 78.74 0)
+			(at 130.81 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,7 +7072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 78.74 0)
+			(at 130.81 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6808,7 +7081,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 124.46 78.74 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,6 +7536,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 223.52 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae82d65a-0145-4a4b-9eaa-677e53ed304b")
+		(property "Reference" "F1"
+			(at 223.52 52.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1A"
+			(at 223.52 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 223.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "476f68dc-8ecf-46a9-8234-ef6af27f4979")
+		)
+		(pin "2"
+			(uuid "94f63df6-6a53-4d5a-9c92-88a500637bcb")
+		)
+		(instances
+			(project ""
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 172.72 40.64 0)
 		(unit 1)
@@ -7322,6 +7662,72 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 231.14 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7f7bdf9-b287-467d-b7f5-058f62df7286")
+		(property "Reference" "#PWR0117"
+			(at 231.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 228.346 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 231.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40c02a60-ea19-42e1-a9f4-10c1ffbd14dc")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -7841,6 +8247,72 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4097cfb-89a3-46e3-928a-87c4af053099")
+		(property "Reference" "TP2"
+			(at 150.0632 110.0328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 150.0632 112.3442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "186c1c20-9843-4e91-91ff-af4c3b386454")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
+					(reference "TP2")
 					(unit 1)
 				)
 			)

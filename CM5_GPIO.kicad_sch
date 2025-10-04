@@ -11997,6 +11997,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 21.59 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ada946a-ef7d-40ac-9eb6-b36a524798a9")
+		(property "Reference" "TP5"
+			(at 18.923 123.0122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 24.003 117.9322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 16.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 21.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "644c0ebb-bb16-4772-8de9-e5398d3c7c0d")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 241.3 72.39 0)
 		(unit 1)
@@ -12253,7 +12319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://storage.raspberrypi.com/product-information/hawl3l9kl3xwo8tj8e2msztrus1n?response-content-disposition=inline%3B%20filename%3D%22RP-008180-DS-cm5-datasheet.pdf%22%3B%20filename%2A%3DUTF-8%27%27RP-008180-DS-cm5-datasheet.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=product-information%2F20251004%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251004T180850Z&X-Amz-Expires=172800&X-Amz-SignedHeaders=host&X-Amz-Signature=be9dd03b4fc44e5a401ffdce01adaaf5f36a0d9794c56bc665f3d3971a12888a"
 			(at 219.71 116.84 0)
 			(effects
 				(font
@@ -14012,7 +14078,7 @@
 			(uuid "13473e4d-472b-49c8-9050-0b941fbe6d6b")
 		)
 		(instances
-			(project ""
+			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
 					(reference "#PWR07")
 					(unit 1)
@@ -14607,7 +14673,7 @@
 			(uuid "db6fc536-69f6-409f-906a-3a37a1625297")
 		)
 		(instances
-			(project ""
+			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
 					(reference "#PWR05")
 					(unit 1)
@@ -15438,6 +15504,72 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 21.59 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecbc0cad-8d96-42ac-a0ee-a26b4866c8bd")
+		(property "Reference" "#PWR0115"
+			(at 21.59 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 21.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 21.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab8966ab-190a-4cb4-baa0-a6d2090ddb02")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)

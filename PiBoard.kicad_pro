@@ -717,15 +717,15 @@
     ],
     [
       "353ee88d-a044-4c9d-80a8-948975426026",
-      "CM4 GPIO"
+      "CM5 GPIO"
     ],
     [
       "65247ae0-83ec-4f51-af4d-84b2c055b0d6",
-      "all_usb"
+      "USB-C"
     ],
     [
       "3504b936-9c0d-4baf-9c43-98590fac5230",
-      "hdmi_protected"
+      "HDMI"
     ],
     [
       "bb44eb34-b37d-4f19-ab49-17b4958492c8",
@@ -737,7 +737,7 @@
     ],
     [
       "2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1",
-      "HDMI and High Speed"
+      "High Speed"
     ]
   ],
   "text_variables": {}
