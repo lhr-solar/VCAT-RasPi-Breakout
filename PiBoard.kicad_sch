@@ -466,7 +466,7 @@
 	)
 	(text "Connectors\n-------\nHDMI (type E) port"
 		(exclude_from_sim no)
-		(at 134.874 71.882 0)
+		(at 62.992 113.284 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -477,7 +477,7 @@
 	)
 	(text "Connectors\n-------\nFusebox Connector"
 		(exclude_from_sim no)
-		(at 162.814 50.292 0)
+		(at 91.694 56.642 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -520,7 +520,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 39.37) (xy 194.31 39.37)
+			(xy 116.84 45.72) (xy 123.19 45.72)
 		)
 		(stroke
 			(width 0)
@@ -530,43 +530,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 34.29) (xy 115.57 35.56)
+			(xy 55.88 99.06) (xy 55.88 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1882cb77-38b9-4d35-8157-bfac65ba89f8")
-	)
-	(wire
-		(pts
-			(xy 96.52 121.92) (xy 96.52 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cba2a39-7153-4ae4-9f11-01cd8950cce8")
-	)
-	(wire
-		(pts
-			(xy 116.84 121.92) (xy 96.52 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "202cdfeb-e1bd-4147-81a0-1ed224215e35")
-	)
-	(wire
-		(pts
-			(xy 104.14 127) (xy 116.84 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "225672bf-801f-4921-9266-793a07f8fc2c")
 	)
 	(wire
 		(pts
@@ -577,16 +547,6 @@
 			(type default)
 		)
 		(uuid "24c2238e-fc3f-4b09-b944-49d6bb7b1a9d")
-	)
-	(wire
-		(pts
-			(xy 93.98 118.11) (xy 116.84 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "256dee3f-4a54-48ee-be70-19386c722ae5")
 	)
 	(wire
 		(pts
@@ -610,7 +570,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 67.31) (xy 118.11 67.31)
+			(xy 85.09 121.92) (xy 116.84 121.92)
 		)
 		(stroke
 			(width 0)
@@ -650,16 +610,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 35.56) (xy 118.11 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74a46fc8-c6a8-410c-85e9-b963653c6a8a")
-	)
-	(wire
-		(pts
 			(xy 106.68 91.44) (xy 106.68 96.52)
 		)
 		(stroke
@@ -667,6 +617,16 @@
 			(type default)
 		)
 		(uuid "7987af94-0d70-430b-ab82-889a2862c09a")
+	)
+	(wire
+		(pts
+			(xy 85.09 125.73) (xy 116.84 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e295a4-f242-40c7-a2a4-e397be8df05e")
 	)
 	(wire
 		(pts
@@ -690,13 +650,23 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 43.18) (xy 199.39 43.18)
+			(xy 116.84 49.53) (xy 128.27 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "95efb0c8-26a3-4833-b23b-47a656f0fbd0")
+	)
+	(wire
+		(pts
+			(xy 60.96 101.6) (xy 55.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972d3494-410b-463f-bc38-d8dc59044546")
 	)
 	(wire
 		(pts
@@ -710,7 +680,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 63.5) (xy 93.98 63.5)
+			(xy 85.09 118.11) (xy 116.84 118.11)
 		)
 		(stroke
 			(width 0)
@@ -730,16 +700,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 63.5) (xy 93.98 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5963f0a-a3a8-4846-bdf7-d8764ea7bbc3")
-	)
-	(wire
-		(pts
 			(xy 187.96 91.44) (xy 185.42 91.44)
 		)
 		(stroke
@@ -747,36 +707,6 @@
 			(type default)
 		)
 		(uuid "f217f6e9-9b6b-4282-96c7-34e71e6701ff")
-	)
-	(wire
-		(pts
-			(xy 118.11 57.15) (xy 109.22 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f563e087-987a-40cc-badc-b05bc5a52c45")
-	)
-	(label "Board_En"
-		(at 104.14 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "214839a6-0fe4-4f12-99ee-1984c5b9f3b9")
-	)
-	(label "Board_En"
-		(at 109.22 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "476136ad-9959-4dda-ad58-3d983589cacf")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -927,7 +857,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 199.39 43.18 0)
+		(at 128.27 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -936,7 +866,7 @@
 		(fields_autoplaced yes)
 		(uuid "3175b6e6-d529-4217-92eb-104921de78a6")
 		(property "Reference" "#PWR073"
-			(at 199.39 46.99 0)
+			(at 128.27 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -945,7 +875,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 199.39 38.1 0)
+			(at 128.27 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,7 +883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 43.18 0)
+			(at 128.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 43.18 0)
+			(at 128.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,7 +901,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 199.39 43.18 0)
+			(at 128.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +923,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 115.57 34.29 0)
+		(at 55.88 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1002,7 +932,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e5a4cfc-aa5b-46b8-8ddb-d589185f894a")
 		(property "Reference" "#PWR076"
-			(at 115.57 38.1 0)
+			(at 55.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +941,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 115.57 29.21 0)
+			(at 55.88 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 34.29 0)
+			(at 55.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,7 +958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 34.29 0)
+			(at 55.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,7 +967,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 115.57 34.29 0)
+			(at 55.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +1364,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 194.31 39.37 0)
+		(at 123.19 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1442,7 +1372,7 @@
 		(dnp no)
 		(uuid "a94f79c4-d941-4f8a-b958-a538b49e7a5a")
 		(property "Reference" "#PWR066"
-			(at 194.31 43.18 0)
+			(at 123.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,7 +1381,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 191.516 35.306 0)
+			(at 120.396 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,7 +1390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 39.37 0)
+			(at 123.19 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,7 +1399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 39.37 0)
+			(at 123.19 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 194.31 39.37 0)
+			(at 123.19 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1495,7 @@
 		)
 	)
 	(sheet
-		(at 161.29 33.02)
+		(at 90.17 39.37)
 		(size 26.67 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1581,7 +1511,7 @@
 		)
 		(uuid "0c1fd794-8ba7-4f58-ad3e-1ee234c84a43")
 		(property "Sheetname" "Power Distribution"
-			(at 161.29 32.3084 0)
+			(at 90.17 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,7 +1520,7 @@
 			)
 		)
 		(property "Sheetfile" "PWR_Distribution.kicad_sch"
-			(at 161.29 52.6546 0)
+			(at 90.17 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +1529,7 @@
 			)
 		)
 		(pin "+5V_PWR" output
-			(at 187.96 43.18 0)
+			(at 116.84 49.53 0)
 			(uuid "2d8b38a8-cad7-4f0c-b2ea-6998ad45f4d6")
 			(effects
 				(font
@@ -1609,7 +1539,7 @@
 			)
 		)
 		(pin "+24V_PWR" output
-			(at 187.96 39.37 0)
+			(at 116.84 45.72 0)
 			(uuid "e9cdbfa5-69bf-4edd-8bba-c636a60b9a16")
 			(effects
 				(font
@@ -1627,8 +1557,8 @@
 		)
 	)
 	(sheet
-		(at 118.11 33.02)
-		(size 34.036 41.148)
+		(at 60.96 96.52)
+		(size 24.13 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1643,7 +1573,7 @@
 		)
 		(uuid "2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1")
 		(property "Sheetname" "HDMI and High Speed"
-			(at 118.11 32.3084 0)
+			(at 60.96 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1652,7 +1582,7 @@
 			)
 		)
 		(property "Sheetfile" "HDMI.kicad_sch"
-			(at 118.11 74.7526 0)
+			(at 60.96 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1661,7 +1591,7 @@
 			)
 		)
 		(pin "+5V_PWR" input
-			(at 118.11 35.56 180)
+			(at 60.96 101.6 180)
 			(uuid "7cbedfdd-7904-4a1d-a877-d7a16b99edad")
 			(effects
 				(font
@@ -1671,33 +1601,33 @@
 			)
 		)
 		(pin "GLOBAL_EN" input
-			(at 118.11 57.15 180)
+			(at 85.09 125.73 0)
 			(uuid "fed0cdef-d92b-45a8-ad06-22ffd5988793")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "CC1" bidirectional
-			(at 118.11 63.5 180)
+			(at 85.09 118.11 0)
 			(uuid "54ef0070-5775-4974-b366-4c0eeca4532e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "CC2" bidirectional
-			(at 118.11 67.31 180)
+			(at 85.09 121.92 0)
 			(uuid "7ee1c851-8fdc-4838-8f3e-5b031887583b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -1793,7 +1723,7 @@
 			)
 		)
 		(pin "GLOBAL_EN" input
-			(at 116.84 127 180)
+			(at 116.84 125.73 180)
 			(uuid "597169eb-1f1a-4adf-bb4f-f34b09ddf75b")
 			(effects
 				(font
