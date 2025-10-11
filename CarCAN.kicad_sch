@@ -1877,7 +1877,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "kicad-embed://PS-105300-100-001.pdf"
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/1053091102/7693146"
 				(at 3.81 7.62 0)
 				(effects
 					(font
@@ -21193,7 +21193,7 @@
 				)
 			)
 		)
-		(property "Value" "26 pF"
+		(property "Value" "22 pF"
 			(at 37.084 127 90)
 			(effects
 				(font
@@ -21201,7 +21201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 40.64 119.6848 0)
 			(effects
 				(font
@@ -21345,7 +21345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 98.7552 133.35 0)
 			(effects
 				(font
@@ -21424,7 +21424,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 262.89 113.03 0)
 			(effects
 				(font
@@ -21509,7 +21509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 210.058 115.57 90)
 			(effects
 				(font
@@ -21577,7 +21577,7 @@
 				)
 			)
 		)
-		(property "Value" "26 pF"
+		(property "Value" "22 pF"
 			(at 37.084 116.84 90)
 			(effects
 				(font
@@ -21585,7 +21585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 40.64 109.5248 0)
 			(effects
 				(font
@@ -21805,7 +21805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://PS-105300-100-001.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/1053091102/7693146"
 			(at 229.87 106.68 0)
 			(effects
 				(font
@@ -21875,7 +21875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 191.262 99.06 90)
 			(effects
 				(font
@@ -22269,7 +22269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://PS-105300-100-001.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/1053091102/7693146"
 			(at 229.87 116.84 0)
 			(effects
 				(font
@@ -22484,7 +22484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 101.2952 91.44 0)
 			(effects
 				(font
@@ -23106,7 +23106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 261.112 104.14 90)
 			(effects
 				(font
@@ -23183,7 +23183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 92.71 126.238 90)
 			(effects
 				(font
@@ -23261,7 +23261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 150.8252 119.38 0)
 			(effects
 				(font

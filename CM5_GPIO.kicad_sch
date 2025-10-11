@@ -7217,7 +7217,7 @@
 	)
 	(text "FAN connector\n"
 		(exclude_from_sim no)
-		(at 253.492 114.3 0)
+		(at 256.54 120.904 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7248,6 +7248,16 @@
 			)
 		)
 		(uuid "37f26287-c0a8-4b80-9e22-826bf7f82ac5")
+	)
+	(text "*Prob will not have to\nbe placed\n"
+		(exclude_from_sim no)
+		(at 237.744 93.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d4c2580-63e9-440a-936c-129bf48eef7b")
 	)
 	(text "LEDS"
 		(exclude_from_sim no)
@@ -7384,9 +7394,9 @@
 		)
 		(uuid "c2ced694-0b52-4375-971b-ed3cc86aa23b")
 	)
-	(text "R2 : Pullup added for \nFans that don't have a \nstrong internal pullup "
+	(text "CM5IO: Pullup added for \nFans that don't have a \nstrong internal pullup "
 		(exclude_from_sim no)
-		(at 256.54 92.964 0)
+		(at 238.252 87.884 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7411,6 +7421,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "046f118d-5c63-462f-82d2-3447b7a1f1a0")
+	)
+	(junction
+		(at 238.76 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0583b049-4436-4795-9c75-b9d7d85003e1")
 	)
 	(junction
 		(at 167.64 25.4)
@@ -7641,7 +7657,7 @@
 		(uuid "bd2de35d-6825-4e87-a5d3-27f142859c5b")
 	)
 	(junction
-		(at 240.03 105.41)
+		(at 254 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbf92223-71e8-4f3c-b3e9-68dd44f8b14e")
@@ -7858,7 +7874,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 102.87) (xy 245.11 102.87)
+			(xy 257.81 104.14) (xy 259.08 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8098,7 +8114,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 105.41) (xy 240.03 105.41)
+			(xy 243.84 106.68) (xy 254 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8218,7 +8234,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 95.25) (xy 240.03 93.98)
+			(xy 254 96.52) (xy 254 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8338,7 +8354,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 110.49) (xy 245.11 110.49)
+			(xy 224.79 111.76) (xy 238.76 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8365,6 +8381,16 @@
 			(type default)
 		)
 		(uuid "36e43048-e2ba-4b70-a1cf-763de4deb229")
+	)
+	(wire
+		(pts
+			(xy 238.76 111.76) (xy 259.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3716b19a-2ea9-438a-801c-232fd4e40664")
 	)
 	(wire
 		(pts
@@ -8918,7 +8944,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 102.87) (xy 243.84 101.6)
+			(xy 257.81 104.14) (xy 257.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -9288,6 +9314,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 111.76) (xy 238.76 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc1e207-a922-4dde-9132-8406f3f72202")
+	)
+	(wire
+		(pts
 			(xy 119.38 59.69) (xy 105.41 59.69)
 		)
 		(stroke
@@ -9548,7 +9584,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 105.41) (xy 240.03 102.87)
+			(xy 254 106.68) (xy 254 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9648,7 +9684,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 107.95) (xy 243.84 107.95)
+			(xy 259.08 109.22) (xy 257.81 109.22)
 		)
 		(stroke
 			(width 0)
@@ -9978,7 +10014,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 107.95) (xy 243.84 111.76)
+			(xy 257.81 109.22) (xy 257.81 113.03)
 		)
 		(stroke
 			(width 0)
@@ -10038,7 +10074,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 105.41) (xy 245.11 105.41)
+			(xy 254 106.68) (xy 259.08 106.68)
 		)
 		(stroke
 			(width 0)
@@ -10590,7 +10626,7 @@
 		(uuid "c894a349-6a67-46a0-bcdb-931d2f76de67")
 	)
 	(label "FAN_PWM"
-		(at 229.87 105.41 0)
+		(at 243.84 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10782,7 +10818,7 @@
 		(uuid "e92f32a7-ac09-4caf-9258-2c53cd54ed3f")
 	)
 	(label "FAN_TACHO"
-		(at 229.87 110.49 0)
+		(at 224.79 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11188,7 +11224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 167.64 30.48 0)
 			(effects
 				(font
@@ -11275,7 +11311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 193.04 30.48 0)
 			(effects
 				(font
@@ -11337,7 +11373,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 111.76 0)
+		(at 257.81 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11345,7 +11381,7 @@
 		(dnp no)
 		(uuid "069c16a9-d45f-4e9f-a848-e00c8d2c3b4b")
 		(property "Reference" "#PWR037"
-			(at 243.84 118.11 0)
+			(at 257.81 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11354,7 +11390,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.967 116.1542 0)
+			(at 257.937 117.4242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11362,7 +11398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 111.76 0)
+			(at 257.81 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11371,7 +11407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 111.76 0)
+			(at 257.81 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11380,7 +11416,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 111.76 0)
+			(at 257.81 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11559,7 +11595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 154.94 116.078 90)
 			(effects
 				(font
@@ -11637,7 +11673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 154.94 75.438 90)
 			(effects
 				(font
@@ -11792,7 +11828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 180.34 30.48 0)
 			(effects
 				(font
@@ -11879,7 +11915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 203.962 39.37 90)
 			(effects
 				(font
@@ -12057,6 +12093,72 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 238.76 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d1d1f55-35b0-4822-982e-adc1db066007")
+		(property "Reference" "#PWR0118"
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 238.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 238.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67937d70-e73c-4cb7-aebb-2ef871acb2ae")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -13016,7 +13118,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 205.74 30.48 0)
 			(effects
 				(font
@@ -13160,7 +13262,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "700"
 			(at 142.748 40.513 0)
 			(effects
 				(font
@@ -13169,7 +13271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 139.192 39.37 90)
 			(effects
 				(font
@@ -13222,7 +13324,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 250.19 105.41 0)
+		(at 264.16 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13230,7 +13332,7 @@
 		(dnp no)
 		(uuid "6aeabf3a-c9eb-43e4-983c-5a4d5e9c1160")
 		(property "Reference" "J14"
-			(at 248.285 113.665 0)
+			(at 262.255 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13239,7 +13341,7 @@
 			)
 		)
 		(property "Value" "4x nano-fit"
-			(at 247.65 116.205 0)
+			(at 261.62 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13248,7 +13350,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 250.19 105.41 0)
+			(at 264.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13257,7 +13359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 105.41 0)
+			(at 264.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13266,7 +13368,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 105.41 0)
+			(at 264.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13275,7 +13377,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 250.19 105.41 0)
+			(at 264.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13284,7 +13386,7 @@
 			)
 		)
 		(property "Field5" "SHBM04B-SRSS-TB"
-			(at 250.19 105.41 0)
+			(at 264.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13293,7 +13395,7 @@
 			)
 		)
 		(property "Field6" "SHBM04B-SRSS-TB"
-			(at 250.19 105.41 0)
+			(at 264.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13302,7 +13404,7 @@
 			)
 		)
 		(property "Field7" "JST"
-			(at 250.19 105.41 0)
+			(at 264.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13311,7 +13413,7 @@
 			)
 		)
 		(property "Part Description" "4 pin vertical 1mm pitch connector"
-			(at 250.19 105.41 0)
+			(at 264.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13540,7 +13642,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 240.03 99.06 180)
+		(at 254 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13548,7 +13650,7 @@
 		(dnp no)
 		(uuid "8a19b1b1-dcc1-4d66-b6f9-7c58a7ad6b28")
 		(property "Reference" "R4"
-			(at 238.252 100.2284 0)
+			(at 252.222 101.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13556,8 +13658,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K 1%"
-			(at 238.252 97.917 0)
+		(property "Value" "10K"
+			(at 252.222 99.187 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13565,8 +13667,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 241.808 99.06 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 255.778 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13575,7 +13677,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 240.03 99.06 0)
+			(at 254 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13584,7 +13686,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 99.06 0)
+			(at 254 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13593,7 +13695,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 240.03 99.06 0)
+			(at 254 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13602,7 +13704,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 240.03 99.06 0)
+			(at 254 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13611,7 +13713,7 @@
 			)
 		)
 		(property "Field7" "Rohm"
-			(at 240.03 99.06 0)
+			(at 254 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13620,7 +13722,7 @@
 			)
 		)
 		(property "Field6" "MCR01MZPF1002"
-			(at 240.03 99.06 0)
+			(at 254 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13629,7 +13731,7 @@
 			)
 		)
 		(property "Part Description" "Resistor 10K M1005 1% 63mW"
-			(at 240.03 99.06 0)
+			(at 254 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13679,7 +13781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 165.862 39.37 90)
 			(effects
 				(font
@@ -13903,7 +14005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 191.262 39.37 90)
 			(effects
 				(font
@@ -14407,6 +14509,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 238.76 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8490bc7-a4c8-46c4-ac79-2b4e94bc15eb")
+		(property "Reference" "R27"
+			(at 236.982 107.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 236.982 105.537 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 240.538 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "Farnell"
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "Rohm"
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "MCR01MZPF1002"
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor 10K M1005 1% 63mW"
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dddce77-be26-4dae-ad6b-6a2aada9bc6b")
+		)
+		(pin "2"
+			(uuid "c93d50b8-b656-4c91-8109-0015192d936a")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 140.97 73.66 0)
 		(unit 1)
@@ -14490,7 +14706,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "700"
 			(at 155.448 40.513 0)
 			(effects
 				(font
@@ -14499,7 +14715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.892 39.37 90)
 			(effects
 				(font
@@ -14552,7 +14768,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 243.84 101.6 0)
+		(at 257.81 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14560,7 +14776,7 @@
 		(dnp no)
 		(uuid "bef3d4bd-f8ac-4d62-8997-ae0db182090f")
 		(property "Reference" "#PWR039"
-			(at 243.84 105.41 0)
+			(at 257.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14569,7 +14785,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 247.142 99.314 0)
+			(at 261.112 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14577,7 +14793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 101.6 0)
+			(at 257.81 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14586,7 +14802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 101.6 0)
+			(at 257.81 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14595,7 +14811,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 243.84 101.6 0)
+			(at 257.81 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14708,7 +14924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 159.7152 81.28 0)
 			(effects
 				(font
@@ -14761,7 +14977,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 240.03 93.98 0)
+		(at 254 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14770,7 +14986,7 @@
 		(fields_autoplaced yes)
 		(uuid "c514944f-ec09-4839-aec8-bf46509bc862")
 		(property "Reference" "#PWR045"
-			(at 240.03 97.79 0)
+			(at 254 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14779,7 +14995,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 240.03 88.9 0)
+			(at 254 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14787,7 +15003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 93.98 0)
+			(at 254 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14796,7 +15012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 93.98 0)
+			(at 254 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14805,7 +15021,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 240.03 93.98 0)
+			(at 254 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14852,7 +15068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 178.562 39.37 90)
 			(effects
 				(font
@@ -15152,7 +15368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 159.7152 121.92 0)
 			(effects
 				(font
@@ -15230,7 +15446,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 153.67 30.48 0)
 			(effects
 				(font
@@ -15383,7 +15599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 140.97 30.48 0)
 			(effects
 				(font
