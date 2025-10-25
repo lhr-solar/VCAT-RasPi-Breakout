@@ -8878,7 +8878,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "105450-0101"
+		(property "P/N" "221608-0001"
+			(at 36.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" "https://www.molex.com/en-us/products/part-detail/2216080001"
 			(at 36.83 82.55 0)
 			(effects
 				(font

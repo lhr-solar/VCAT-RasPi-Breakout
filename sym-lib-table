@@ -24,4 +24,5 @@
   (lib (name "utsvt_power")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Sharepoint/utsvt_power.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt_special")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Sharepoint/utsvt_special.kicad_sym")(options "")(descr ""))
   (lib (name "3568")(type "KiCad")(uri "${KIPRJMOD}/PiBoard_Lib/3568.kicad_sym")(options "")(descr ""))
+  (lib (name "NVMFWS1D7N04XMT1G")(type "KiCad")(uri "${KIPRJMOD}/PiBoard_Lib/NVMFWS1D7N04XMT1G.kicad_sym")(options "")(descr ""))
 )
