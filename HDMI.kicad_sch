@@ -1691,10 +1691,22 @@
 		(uuid "237c3933-48c7-48ba-aa42-ceb39cec3b9c")
 	)
 	(junction
+		(at 166.37 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25800d76-b0f2-4120-88f0-841b86d33ca1")
+	)
+	(junction
 		(at 105.41 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2706df68-25d9-4c50-9261-64d88f743e1c")
+	)
+	(junction
+		(at 196.85 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "290e20d8-f55b-445c-9fff-3a07e9d66285")
 	)
 	(junction
 		(at 184.15 104.14)
@@ -1799,16 +1811,8 @@
 		(uuid "fb89a8f4-79e3-4193-965f-872b1646c50b")
 	)
 	(no_connect
-		(at 166.37 130.81)
-		(uuid "af3a9091-4022-4c4b-8730-625de31ce570")
-	)
-	(no_connect
 		(at 196.85 125.73)
 		(uuid "b6c6cacd-22fe-41a9-8ed5-a408bc5ccc00")
-	)
-	(no_connect
-		(at 196.85 128.27)
-		(uuid "c18ba4ca-1846-4caa-9d57-bf94e1138a6c")
 	)
 	(wire
 		(pts
@@ -1989,6 +1993,16 @@
 			(type default)
 		)
 		(uuid "3e552e8c-563a-4bff-9e44-60008f2d7d9d")
+	)
+	(wire
+		(pts
+			(xy 166.37 128.27) (xy 166.37 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425bebd2-1f2e-4c66-b943-123d1a9c7e22")
 	)
 	(wire
 		(pts
@@ -2442,6 +2456,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 128.27) (xy 196.85 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8f4901-d9e5-4e49-83da-94aee6637b40")
+	)
+	(wire
+		(pts
 			(xy 157.48 137.16) (xy 157.48 138.43)
 		)
 		(stroke
@@ -2536,6 +2560,17 @@
 		)
 		(uuid "3148bd49-b7f5-4c2d-ad90-dbaceea434f2")
 	)
+	(hierarchical_label "HDMI0_D1_P"
+		(shape bidirectional)
+		(at 101.6 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c09f411-d1d3-4cda-a813-275658303042")
+	)
 	(hierarchical_label "HDMI0_D2_N"
 		(shape bidirectional)
 		(at 172.72 58.42 180)
@@ -2557,17 +2592,6 @@
 			(justify right)
 		)
 		(uuid "51a22d41-3430-493b-a64e-6c641b65d8ec")
-	)
-	(hierarchical_label "HDMI0_D0_P"
-		(shape bidirectional)
-		(at 101.6 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c5b038b-7752-4a30-8826-a395049197fe")
 	)
 	(hierarchical_label "HDMI0_CK_P"
 		(shape bidirectional)
@@ -2635,6 +2659,17 @@
 		)
 		(uuid "7d476728-72f5-4f57-8280-7d296be3fc9f")
 	)
+	(hierarchical_label "HDMI0_D1_N"
+		(shape bidirectional)
+		(at 101.6 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94a06de8-bdfe-4ff9-965e-528eff6e3443")
+	)
 	(hierarchical_label "HDMI0_D1_P"
 		(shape bidirectional)
 		(at 172.72 60.96 180)
@@ -2656,6 +2691,17 @@
 			(justify right)
 		)
 		(uuid "a43ece79-0303-4119-8491-4c4142d46917")
+	)
+	(hierarchical_label "HDMI0_D0_P"
+		(shape bidirectional)
+		(at 101.6 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abb138b5-094b-4042-b243-0f728d23e57c")
 	)
 	(hierarchical_label "HDMI0_D2_P"
 		(shape bidirectional)
@@ -2679,17 +2725,6 @@
 		)
 		(uuid "b6a5a7b8-faa9-4d3e-b8fa-cc6bac3d41a3")
 	)
-	(hierarchical_label "HDMI0_D1_P"
-		(shape bidirectional)
-		(at 101.6 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9303576-8fc2-4180-8d12-e3c76ed43999")
-	)
 	(hierarchical_label "HDMI0_D0_P"
 		(shape bidirectional)
 		(at 172.72 66.04 180)
@@ -2701,28 +2736,6 @@
 		)
 		(uuid "bc8d6ade-a615-4406-8272-14e4f8cd32fb")
 	)
-	(hierarchical_label "HDMI0_D1_N"
-		(shape bidirectional)
-		(at 101.6 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c63f786b-7ec0-4161-86af-907211bb6d8c")
-	)
-	(hierarchical_label "HDMI0_D0_N"
-		(shape bidirectional)
-		(at 101.6 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cbd8d9d1-1f2a-4f6d-af25-8831adaa493d")
-	)
 	(hierarchical_label "GLOBAL_EN"
 		(shape input)
 		(at 165.1 146.05 180)
@@ -2733,6 +2746,17 @@
 			(justify right)
 		)
 		(uuid "cf059757-eea7-4c5a-8787-5449ff2ac976")
+	)
+	(hierarchical_label "HDMI0_D0_N"
+		(shape bidirectional)
+		(at 101.6 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d21f6e93-1ef6-4913-8551-42cddf39a711")
 	)
 	(hierarchical_label "HDMI0_CEC"
 		(shape bidirectional)
@@ -3603,6 +3627,15 @@
 			)
 		)
 		(property "Description" "HDMI 1.4+ type D connector"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "467651001"
 			(at 186.69 76.2 0)
 			(effects
 				(font

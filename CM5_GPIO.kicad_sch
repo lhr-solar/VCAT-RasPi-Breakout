@@ -10162,7 +10162,7 @@
 		)
 		(uuid "ff8a028e-eb31-47a7-b856-544151c419d3")
 	)
-	(label "GPIO13"
+	(label "GPIO19"
 		(at 175.26 44.45 180)
 		(effects
 			(font
@@ -10170,7 +10170,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "12a2a4a3-4dba-4bfa-9131-a4e072e7d3e4")
+		(uuid "088bd889-5547-4de8-a785-ceb862dd916d")
 	)
 	(label "nPWR_LED"
 		(at 163.83 44.45 180)
@@ -10493,6 +10493,16 @@
 		)
 		(uuid "92fe2b7d-1e94-453f-8697-a0c3c493721d")
 	)
+	(label "GPIO13"
+		(at 200.66 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94318986-6cb9-44e6-b406-0d9abb0d981e")
+	)
 	(label "GPIO26"
 		(at 30.48 62.23 0)
 		(effects
@@ -10606,14 +10616,14 @@
 		(uuid "b75de6f3-4d4d-4cc2-b43b-0085d0e611ec")
 	)
 	(label "GPIO26"
-		(at 200.66 44.45 180)
+		(at 187.96 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c3ee6ab0-d967-4a07-9c9b-f20ecc01898f")
+		(uuid "c0b3bd2b-b3e8-4f59-8963-c877f29fd0b5")
 	)
 	(label "GPIO25"
 		(at 119.38 85.09 180)
@@ -10654,16 +10664,6 @@
 			(justify left bottom)
 		)
 		(uuid "ccc0b9c8-5cb7-4597-b8bf-053a91a00bac")
-	)
-	(label "GPIO19"
-		(at 187.96 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cdc0de4c-1778-4db8-8cda-371331291956")
 	)
 	(label "GPIO26"
 		(at 231.14 68.58 0)
