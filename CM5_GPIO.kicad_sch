@@ -7350,6 +7350,16 @@
 		)
 		(uuid "aeb18131-ec95-4ce9-8db6-568aa7ccc8fb")
 	)
+	(text "Jus for looks man"
+		(exclude_from_sim no)
+		(at 247.142 157.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b65224bd-12f2-4c68-81c2-3181529fea26")
+	)
 	(text "CM5 GPIO CONN"
 		(exclude_from_sim no)
 		(at 74.93 20.32 0)
