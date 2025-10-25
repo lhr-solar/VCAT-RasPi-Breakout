@@ -2262,6 +2262,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 133.35) (xy 166.37 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d52916-fa30-4f3b-b781-e76db91dc9d7")
+	)
+	(wire
+		(pts
 			(xy 100.33 113.03) (xy 105.41 113.03)
 		)
 		(stroke
@@ -2279,16 +2289,6 @@
 			(type default)
 		)
 		(uuid "bbe41661-3019-46de-b159-abab0df7a661")
-	)
-	(wire
-		(pts
-			(xy 166.37 146.05) (xy 166.37 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be1be709-e0a1-4681-a6bf-f9b6dea40183")
 	)
 	(wire
 		(pts
@@ -2349,16 +2349,6 @@
 			(type default)
 		)
 		(uuid "d89ecfa7-83ed-454b-98e1-e669683c2fb8")
-	)
-	(wire
-		(pts
-			(xy 166.37 134.62) (xy 166.37 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db679f0a-0bc3-4d1c-a45f-1f6bd363279a")
 	)
 	(wire
 		(pts
@@ -2912,83 +2902,6 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1/3504b936-9c0d-4baf-9c43-98590fac5230"
 					(reference "IC8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 166.37 138.43 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "037755e4-b2f9-4929-a8e8-a66d0bd9c0b3")
-		(property "Reference" "R23"
-			(at 162.306 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 162.306 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 164.592 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" ""
-			(at 166.37 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "61d8e253-ea2f-4c02-ae7e-4607d36618b7")
-		)
-		(pin "1"
-			(uuid "1eee3282-ef93-461c-8745-6eaaff3bd1a0")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1/3504b936-9c0d-4baf-9c43-98590fac5230"
-					(reference "R23")
 					(unit 1)
 				)
 			)
