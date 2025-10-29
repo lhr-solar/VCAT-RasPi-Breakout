@@ -464,7 +464,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Connectors\n-------\nHDMI (type E) port\nUSB C 3.0 (HUB)\nUSB C 2.0 (DBG)\nUSB C 2.0 (PWR)"
+	(text "Connectors\n-------\nHDMI (type D) port\nUSB C 3.0 (HUB)\nUSB C 2.0 (DBG)\nUSB C 2.0 (PWR)"
 		(exclude_from_sim no)
 		(at 88.646 111.76 0)
 		(effects
