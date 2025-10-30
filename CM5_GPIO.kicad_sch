@@ -7414,6 +7414,16 @@
 		)
 		(uuid "c9175079-7461-4e40-9aac-89f98516b0d6")
 	)
+	(text "Pull low"
+		(exclude_from_sim no)
+		(at 156.718 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d72079e7-133d-4834-becd-8200c315d9bc")
+	)
 	(text "RTC BATT"
 		(exclude_from_sim no)
 		(at 167.894 147.32 0)
@@ -12431,7 +12441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://storage.raspberrypi.com/product-information/hawl3l9kl3xwo8tj8e2msztrus1n?response-content-disposition=inline%3B%20filename%3D%22RP-008180-DS-cm5-datasheet.pdf%22%3B%20filename%2A%3DUTF-8%27%27RP-008180-DS-cm5-datasheet.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=product-information%2F20251004%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20251004T180850Z&X-Amz-Expires=172800&X-Amz-SignedHeaders=host&X-Amz-Signature=be9dd03b4fc44e5a401ffdce01adaaf5f36a0d9794c56bc665f3d3971a12888a"
+		(property "Datasheet" "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008180-DS-6-cm5-datasheet.pdf?disposition=inline"
 			(at 219.71 116.84 0)
 			(effects
 				(font
