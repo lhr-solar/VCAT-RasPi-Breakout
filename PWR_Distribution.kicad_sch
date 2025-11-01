@@ -23783,7 +23783,7 @@
 		(fields_autoplaced yes)
 		(uuid "37752177-c685-4a8f-9590-535ccbfdccbc")
 		(property "Reference" "C27"
-			(at 120.015 40.6399 0)
+			(at 120.65 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23791,8 +23791,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220u"
-			(at 120.015 43.1799 0)
+		(property "Value" "10u"
+			(at 120.65 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
