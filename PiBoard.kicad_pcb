@@ -2225,7 +2225,7 @@
 			(at -1.27 -2.77 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "91f8a0e6-569a-4b5c-9c84-5c82a9b916b9")
+			(uuid "da821045-24d1-46b1-a7cd-138400c85f88")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2236,7 +2236,7 @@
 		(property "Value" "2222"
 			(at -1.27 51.03 0)
 			(layer "F.Fab")
-			(uuid "29cbce47-a7e5-4386-a52b-3e64678c5d5c")
+			(uuid "736264e7-1867-4a0c-b3ad-1937a76bf188")
 			(effects
 				(font
 					(size 1 1)
@@ -2249,7 +2249,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2f4856a-0764-43e5-b5b0-e838fa839f47")
+			(uuid "b1c8ccb1-15ef-4c41-8a86-350bf8181c1e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2262,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb198ca6-7225-450f-bfc6-443a75595748")
+			(uuid "ba34b555-1084-43e4-8a17-71825835e1e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4693,7 +4693,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "db1adbed-9c54-47e1-85a1-e9691fad73fe")
+			(uuid "a26b8c9d-23b6-4aa0-b414-9f2eb06a5a0d")
 		)
 		(pad "S1" thru_hole circle
 			(at 2.4 -2.15 90)
@@ -4704,7 +4704,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "db1adbed-9c54-47e1-85a1-e9691fad73fe")
+			(uuid "80466789-d6ed-42a9-996a-b5b637b0766f")
 		)
 		(pad "S1" thru_hole circle
 			(at 2.4 2.15 90)
@@ -4715,7 +4715,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "db1adbed-9c54-47e1-85a1-e9691fad73fe")
+			(uuid "445f5230-4356-4735-8d5e-dcce75200178")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3D Models/219320-0001.stp"
@@ -21508,7 +21508,7 @@
 			(at 18.38 -5.08 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "3b2e883f-b1b6-477b-ae2a-f523188d283b")
+			(uuid "18713739-53b7-4070-be2e-25f9ec53d3b0")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -21519,7 +21519,7 @@
 		(property "Value" "ComputeModule5-CM5"
 			(at 16.52 0.19 0)
 			(layer "F.Fab")
-			(uuid "16e78491-88fe-4d84-a818-ee7efb0b845a")
+			(uuid "3f89f574-c1a4-4367-99f3-363a7708ba99")
 			(effects
 				(font
 					(size 1 1)
@@ -21532,7 +21532,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2847f77a-9fea-4d40-8a47-da47976ce019")
+			(uuid "02f0fc08-4fc7-491b-be6d-47bd53c47441")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21545,7 +21545,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02a4972c-7082-4fb8-8c26-a63e39abe284")
+			(uuid "1d9d0b0c-e9fc-4364-8f9a-e0ab81fb72e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23810,6 +23810,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -90)
+			)
+		)
+		(model "${KIPRJMOD}/3D Models/CM5-FAN-3007-B-5V 8000 RPM.step"
+			(offset
+				(xyz 16.5 24 5.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
