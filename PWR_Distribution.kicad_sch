@@ -25254,6 +25254,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "SMAF4751A"
+			(at 44.45 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16479629-beb0-4289-bcb3-e84e92a5844f")
 		)

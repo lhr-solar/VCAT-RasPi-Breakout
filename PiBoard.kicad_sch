@@ -464,9 +464,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Connectors\n-------\nHDMI (type D) port\nUSB C 3.0 (HUB)\nUSB C 2.0 (DBG)\nUSB C 2.0 (PWR)"
+	(text "Connectors\n-------\nHDMI port\nUSB A 3.0 (HUB)\nUSB C 2.0 (DBG)"
 		(exclude_from_sim no)
-		(at 88.646 111.76 0)
+		(at 89.154 110.236 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -735,7 +735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 215.9 102.87 0)
 			(effects
 				(font
@@ -1014,7 +1014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 215.9 121.92 0)
 			(effects
 				(font
@@ -1095,7 +1095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 215.9 109.22 0)
 			(effects
 				(font
@@ -1242,7 +1242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 215.9 115.57 0)
 			(effects
 				(font
