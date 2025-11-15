@@ -780,6 +780,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
@@ -1059,6 +1068,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
@@ -1132,6 +1150,15 @@
 			)
 		)
 		(property "Link" ""
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 215.9 109.22 0)
 			(effects
 				(font
@@ -1279,6 +1306,15 @@
 			)
 		)
 		(property "Link" ""
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 215.9 115.57 0)
 			(effects
 				(font

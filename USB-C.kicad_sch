@@ -4669,6 +4669,17 @@
 		)
 		(uuid "603048a2-6ef6-43e3-9154-b2406b5b94b4")
 	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 147.32 125.73 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76c75502-c8cf-471a-9515-559fcc123fd8")
+	)
 	(hierarchical_label "USB_HUB_TX1+"
 		(shape bidirectional)
 		(at 105.41 137.16 0)
@@ -4690,6 +4701,17 @@
 			(justify left)
 		)
 		(uuid "c4045c41-8786-48bb-9cfa-ac6f75d983f8")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 139.7 124.46 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9e89ebd-f22f-4278-8994-d31326d666f9")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4890,6 +4912,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 139.7 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "095e97da-0162-4fb3-ab32-5fe856333b16")
+		(property "Reference" "#PWR016"
+			(at 139.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 139.446 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94e57ce5-2b38-40e0-8181-43931a360abe")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1/65247ae0-83ec-4f51-af4d-84b2c055b0d6"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 63.5 57.15 90)
 		(unit 1)
@@ -4942,8 +5029,17 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "BMC-Q2CY0220H "
+		(property "P/N" "BLM31PG121SN1L"
 			(at 63.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 63.5 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5145,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "200"
 			(at 86.614 74.168 90)
 			(effects
 				(font
@@ -5084,8 +5180,17 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "SG73S1JTTD2000F"
 			(at 86.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 86.36 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5278,6 +5383,24 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 123.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TPS2557QDRBTQ1"
+			(at 123.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "810f394f-5524-4713-816f-5603167730aa")
 		)
@@ -5368,7 +5491,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01 "
+			(at 130.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 130.81 63.5 0)
 			(effects
 				(font
@@ -5577,6 +5709,24 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 26.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "RCC06031M00FKEA"
+			(at 26.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b4f5355-0799-468b-a0fc-5bad9ca6cb0a")
 		)
@@ -5647,6 +5797,15 @@
 			)
 		)
 		(property "P/N" "TPD4E05U06DQAR"
+			(at 73.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 73.66 129.54 0)
 			(effects
 				(font
@@ -5743,6 +5902,24 @@
 			)
 		)
 		(property "Description" "1-Channel ESD Protection for Super-Speed USB 3.0 Interface, SOD-523"
+			(at 73.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 73.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TPD1E05U06DYA"
 			(at 73.66 52.07 0)
 			(effects
 				(font
@@ -6083,7 +6260,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "RE0603BRE07120KL"
+			(at 91.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 91.44 46.99 0)
 			(effects
 				(font
@@ -6160,8 +6346,17 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW06035K10FKEC "
 			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 232.41 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +6433,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01 "
+			(at 53.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 53.34 60.96 0)
 			(effects
 				(font
@@ -6280,7 +6484,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "200"
 			(at 202.565 71.882 90)
 			(effects
 				(font
@@ -6316,8 +6520,17 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "SDR10EZPF1501"
+		(property "P/N" "SG73S1JTTD2000F"
 			(at 204.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 204.47 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,7 +6607,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LCGCK"
+		(property "P/N" "150060VS55040"
 			(at 133.35 99.06 90)
 			(effects
 				(font
@@ -6405,6 +6618,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 133.35 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 133.35 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,6 +6704,15 @@
 			)
 		)
 		(property "P/N" "TPD4E05U06DQAR"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 182.88 92.71 0)
 			(effects
 				(font
@@ -6583,7 +6814,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LCGCK"
+		(property "P/N" "LS Q976.01-N1Q2-1 "
 			(at 91.44 67.31 90)
 			(effects
 				(font
@@ -6594,6 +6825,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 91.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 91.44 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6737,6 +6977,24 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 31.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "06035C472K4T2A"
+			(at 31.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74085246-0103-4704-91ae-72d895d1c0b3")
 		)
@@ -6797,6 +7055,24 @@
 			)
 		)
 		(property "Description" "USB Type A connector"
+			(at 40.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 40.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0484050003"
 			(at 40.64 82.55 0)
 			(effects
 				(font
@@ -6966,7 +7242,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01 "
+			(at 213.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 213.36 73.66 0)
 			(effects
 				(font
@@ -7044,7 +7329,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LCGCK"
+		(property "P/N" "150060VS55040"
 			(at 196.85 69.85 90)
 			(effects
 				(font
@@ -7054,6 +7339,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 196.85 69.85 0)
 			(effects
 				(font
@@ -7131,6 +7425,15 @@
 			)
 		)
 		(property "P/N" "USB4215-03-A"
+			(at 251.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 251.46 91.44 0)
 			(effects
 				(font
@@ -7217,7 +7520,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "200"
 			(at 135.128 92.583 0)
 			(effects
 				(font
@@ -7253,7 +7556,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "SDR10EZPF1501"
+		(property "P/N" "SG73S1JTTD2000F"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 133.35 91.44 0)
 			(effects
 				(font
@@ -7405,6 +7717,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 73.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "ebf51db1-f08f-4a56-be9b-4dd52754bdc8")
 		)
@@ -7497,8 +7818,17 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW06035K10FKEC "
 			(at 232.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 232.41 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,6 +7846,71 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1/65247ae0-83ec-4f51-af4d-84b2c055b0d6"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea84d06c-24ee-4c1e-809d-f7e14e82debb")
+		(property "Reference" "#PWR017"
+			(at 147.32 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.812 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "049f4c7d-322d-4e7a-aa59-61cd8b8bd4b0")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1/65247ae0-83ec-4f51-af4d-84b2c055b0d6"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)

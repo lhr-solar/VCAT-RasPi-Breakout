@@ -21247,7 +21247,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C220J5HACTU"
+		(property "P/N" "0603N220F101CT"
+			(at 36.83 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 36.83 120.65 90)
 			(effects
 				(font
@@ -21391,7 +21400,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01 "
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 106.68 129.54 0)
 			(effects
 				(font
@@ -21470,7 +21488,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LSURCK "
+		(property "P/N" "LS Q976.01-N1Q2-1 "
 			(at 262.89 113.03 0)
 			(effects
 				(font
@@ -21481,6 +21499,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 262.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 262.89 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21555,8 +21582,17 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW1210120RFKEAHP"
+		(property "P/N" "CRCW0603120RFKEC  "
 			(at 208.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 208.28 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21631,7 +21667,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C220J5HACTU"
+		(property "P/N" "0603N220F101CT"
+			(at 36.83 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 36.83 110.49 90)
 			(effects
 				(font
@@ -21851,6 +21896,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 233.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9aa17f2f-cd25-4a16-8027-fa5ec268d153")
 		)
@@ -21884,7 +21938,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "1k"
 			(at 108.458 120.523 0)
 			(effects
 				(font
@@ -21920,7 +21974,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "SDR10EZPF2200"
+		(property "P/N" "CRCW06031K00FKEI  "
+			(at 106.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 106.68 119.38 0)
 			(effects
 				(font
@@ -21999,7 +22062,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW080510K0FKEAC"
+		(property "P/N" "CRCW060310K0FKEI  "
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 193.04 99.06 0)
 			(effects
 				(font
@@ -22076,6 +22148,15 @@
 			)
 		)
 		(property "P/N" ""
+			(at 200.66 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 200.66 120.65 0)
 			(effects
 				(font
@@ -22296,6 +22377,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 163.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3a818eda-1336-435e-9787-96b2ae6a57fb")
 		)
@@ -22393,6 +22483,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0cf7e4f5-948e-48d9-94d0-d15124f05461")
 		)
@@ -22462,6 +22561,15 @@
 			)
 		)
 		(property "P/N" "CDSOT23-T24CAN"
+			(at 226.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 226.06 121.92 0)
 			(effects
 				(font
@@ -22608,7 +22716,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01 "
+			(at 100.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 100.33 87.63 0)
 			(effects
 				(font
@@ -22822,6 +22939,15 @@
 			)
 		)
 		(property "P/N" "MCP2515T-E/ST"
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 72.39 109.22 0)
 			(effects
 				(font
@@ -23161,6 +23287,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 44.45 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d57b379-fbe8-4c54-9ccd-a886783b70bd")
 		)
@@ -23194,7 +23329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "100"
 			(at 264.668 105.283 0)
 			(effects
 				(font
@@ -23230,7 +23365,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "SDR10EZPF2200"
+		(property "P/N" "CRCW0603100RFKEA"
+			(at 262.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 262.89 104.14 0)
 			(effects
 				(font
@@ -23307,8 +23451,17 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW080510K0FKEAC"
+		(property "P/N" "CRCW060310K0FKEI  "
 			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 96.52 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23385,7 +23538,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01 "
+			(at 149.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 149.86 115.57 0)
 			(effects
 				(font

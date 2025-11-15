@@ -3866,6 +3866,24 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 166.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TPS2557QDRBTQ1"
+			(at 166.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "cc4a8fb9-86f1-48b6-ace3-52051842fd97")
 		)
@@ -4115,7 +4133,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "47uF"
 			(at 172.72 45.466 0)
 			(effects
 				(font
@@ -4151,7 +4169,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "GRM21BR61A476ME15L"
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 181.61 43.18 0)
 			(effects
 				(font
@@ -4258,7 +4285,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "200"
 			(at 213.106 122.682 90)
 			(effects
 				(font
@@ -4293,8 +4320,17 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "SG73S1JTTD2000F"
 			(at 213.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 213.36 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4407,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LCGCK"
+		(property "P/N" "LS Q976.01-N1Q2-1 "
 			(at 205.74 125.73 90)
 			(effects
 				(font
@@ -4382,6 +4418,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 205.74 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,6 +4504,15 @@
 			)
 		)
 		(property "P/N" "TPD4E05U06DQAR"
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 105.41 53.34 0)
 			(effects
 				(font
@@ -4559,7 +4613,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "560112116072"
+			(at 196.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 196.85 140.97 0)
 			(effects
 				(font
@@ -4636,8 +4699,17 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "BMC-Q2CY0220H "
+		(property "P/N" "BLM31PG121SN1L"
 			(at 175.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 175.26 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4706,6 +4778,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 201.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 201.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "06035C472K4T2A"
 			(at 201.93 111.76 0)
 			(effects
 				(font
@@ -4845,6 +4935,24 @@
 		)
 		(property "Description" "1-Channel ESD Protection for Super-Speed USB 3.0 Interface, SOD-523"
 			(at 167.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 167.64 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TPD1E05U06DYA"
+			(at 167.64 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,6 +5301,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "05188d20-e736-451a-95dc-7a097b2635d8")
 		)
@@ -5416,6 +5533,24 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 196.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "RCC06031M00FKEA"
+			(at 196.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd190781-3d81-4087-812e-f45fc96d299b")
 		)
@@ -5626,6 +5761,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "925eb626-daa1-4f1e-ac7d-4d91ca356e66")
 		)
@@ -5719,7 +5863,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01 "
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 157.48 133.35 0)
 			(effects
 				(font
@@ -5855,6 +6008,24 @@
 			)
 		)
 		(property "Description" "HDMI 1.4+ type A connector"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "2086581001"
 			(at 186.69 76.2 0)
 			(effects
 				(font

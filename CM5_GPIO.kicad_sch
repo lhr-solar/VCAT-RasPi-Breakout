@@ -7389,7 +7389,7 @@
 		)
 		(uuid "1cbedd27-e8d1-47ed-9e92-387c47fe21f4")
 	)
-	(text "fwd cur: ~2ma\nfwd volt: ~2V\nR: ~650-700"
+	(text "fwd cur: ~13ma\nfwd volt: ~2V\nR: ~100"
 		(exclude_from_sim no)
 		(at 152.4 21.082 0)
 		(effects
@@ -11358,6 +11358,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 146.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "700b396c-f55f-4540-90a5-490f53b16ef0")
 		)
@@ -11493,7 +11502,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LCGCK"
+		(property "P/N" "LS Q976.01-N1Q2-1 "
 			(at 167.64 30.48 90)
 			(effects
 				(font
@@ -11504,6 +11513,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 167.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 167.64 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11580,7 +11598,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LCGCK"
+		(property "P/N" "150060VS55040"
 			(at 193.04 30.48 90)
 			(effects
 				(font
@@ -11591,6 +11609,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 193.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 193.04 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11864,8 +11891,17 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW08051K00FKEAC "
+		(property "P/N" "CRCW06031K00FKEI  "
 			(at 154.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 154.94 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11942,8 +11978,17 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW08051K00FKEAC "
+		(property "P/N" "CRCW06031K00FKEI  "
 			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 154.94 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12028,6 +12073,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e54d1f3e-5b56-4933-b7e9-1c9ee91b5709")
 		)
@@ -12097,7 +12151,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LCGCK"
+		(property "P/N" "150060VS55040"
 			(at 180.34 30.48 90)
 			(effects
 				(font
@@ -12108,6 +12162,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 180.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 180.34 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12148,7 +12211,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "100"
 			(at 207.518 40.513 0)
 			(effects
 				(font
@@ -12184,7 +12247,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "ERJ-P06F7150V"
+		(property "P/N" "CRCW0603100RFKEA"
+			(at 205.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 205.74 39.37 0)
 			(effects
 				(font
@@ -12321,6 +12393,15 @@
 		)
 		(property "Description" "test point"
 			(at 21.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 21.59 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12536,6 +12617,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 186.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4e3042fe-b90f-4267-b5f9-412228f69dcf")
 		)
@@ -12607,6 +12697,15 @@
 		)
 		(property "P/N" "1086"
 			(at 182.88 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 182.88 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12716,6 +12815,24 @@
 			)
 		)
 		(property "Part Description" "	100 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "10164227-1001A1RLF"
 			(at 77.47 90.17 0)
 			(effects
 				(font
@@ -13387,7 +13504,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LCGCK"
+		(property "P/N" "150060VS55040"
 			(at 205.74 30.48 90)
 			(effects
 				(font
@@ -13398,6 +13515,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 205.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 205.74 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13504,7 +13630,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "100"
 			(at 142.748 40.513 0)
 			(effects
 				(font
@@ -13540,7 +13666,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW08051K00FKEAC "
+		(property "P/N" "CRCW0603100RFKEA"
+			(at 140.97 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 140.97 39.37 0)
 			(effects
 				(font
@@ -13582,7 +13717,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4x nano-fit"
+		(property "Value" "Fan Header"
 			(at 261.62 117.475 0)
 			(effects
 				(font
@@ -13656,6 +13791,24 @@
 			)
 		)
 		(property "Part Description" "4 pin vertical 1mm pitch connector"
+			(at 264.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 264.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "SHBM04B-SRSS-TB"
 			(at 264.16 106.68 0)
 			(effects
 				(font
@@ -13901,7 +14054,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 252.222 99.187 0)
 			(effects
 				(font
@@ -13982,6 +14135,24 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 254 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW060310K0FKEI  "
+			(at 254 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ffeb073f-b2ca-4064-9d76-3b87a515303a")
 		)
@@ -14015,7 +14186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "100"
 			(at 169.418 40.513 0)
 			(effects
 				(font
@@ -14051,7 +14222,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW08051K00FKEAC "
+		(property "P/N" "CRCW0603100RFKEA"
+			(at 167.64 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 167.64 39.37 0)
 			(effects
 				(font
@@ -14206,6 +14386,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 142.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e4a549c-9077-493f-92df-32d51b61e26a")
 		)
@@ -14239,7 +14428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "100"
 			(at 194.818 40.513 0)
 			(effects
 				(font
@@ -14275,7 +14464,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW08051K00FKEAC "
+		(property "P/N" "CRCW0603100RFKEA"
+			(at 193.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 193.04 39.37 0)
 			(effects
 				(font
@@ -14513,7 +14711,7 @@
 				)
 			)
 		)
-		(property "Value" "2222"
+		(property "Value" "RPI Pin-Header"
 			(at 248.92 19.6596 0)
 			(effects
 				(font
@@ -14549,6 +14747,15 @@
 			)
 		)
 		(property "P/N" "2222"
+			(at 247.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 247.65 45.72 0)
 			(effects
 				(font
@@ -14769,7 +14976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 236.982 105.537 0)
 			(effects
 				(font
@@ -14842,6 +15049,24 @@
 			)
 		)
 		(property "Part Description" "Resistor 10K M1005 1% 63mW"
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW060310K0FKEI  "
 			(at 238.76 106.68 0)
 			(effects
 				(font
@@ -14949,7 +15174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "100"
 			(at 155.448 40.513 0)
 			(effects
 				(font
@@ -14985,7 +15210,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW08051K00FKEAC "
+		(property "P/N" "CRCW0603100RFKEA"
+			(at 153.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 153.67 39.37 0)
 			(effects
 				(font
@@ -15194,7 +15428,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01 "
+			(at 158.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 158.75 77.47 0)
 			(effects
 				(font
@@ -15302,7 +15545,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "100"
 			(at 182.118 40.513 0)
 			(effects
 				(font
@@ -15338,7 +15581,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW08051K00FKEAC "
+		(property "P/N" "CRCW0603100RFKEA"
+			(at 180.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 180.34 39.37 0)
 			(effects
 				(font
@@ -15492,6 +15744,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ec4e5199-3574-447b-9d94-5fbfda183707")
 		)
@@ -15638,7 +15899,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01 "
+			(at 158.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 158.75 118.11 0)
 			(effects
 				(font
@@ -15716,7 +15986,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LSURCK"
+		(property "P/N" "150060VS55040"
 			(at 153.67 30.48 90)
 			(effects
 				(font
@@ -15727,6 +15997,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 153.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 153.67 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15803,6 +16082,15 @@
 				(hide yes)
 			)
 		)
+		(property "Data" ""
+			(at 26.67 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ee25671-1537-4ee4-903c-8f5dc09aae1e")
 		)
@@ -15869,7 +16157,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LCGCK"
+		(property "P/N" "150060VS55040"
 			(at 140.97 30.48 90)
 			(effects
 				(font
@@ -15880,6 +16168,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 140.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 140.97 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16032,6 +16329,15 @@
 			)
 		)
 		(property "P/N" "VSSAF522-M3/H"
+			(at 267.97 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
 			(at 267.97 107.95 90)
 			(effects
 				(font
@@ -16380,6 +16686,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 179.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
