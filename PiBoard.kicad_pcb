@@ -64258,6 +64258,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "and frank\nand akshay"
+		(at 92.75 112.375 0)
+		(layer "B.SilkS")
+		(uuid "4abd26de-062a-430e-a382-d965dc468f27")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "SOLIDWORKS Educational Product."
 		(at 61.4 166.453512 0)
 		(layer "Dwgs.User")
