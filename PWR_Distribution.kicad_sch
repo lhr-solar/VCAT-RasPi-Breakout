@@ -25551,7 +25551,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "87e68d8b-dc9b-4397-8ede-f5938e2e08b6")
 		(property "Reference" "Z1"
 			(at 43.18 33.02 90)

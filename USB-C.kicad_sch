@@ -7559,7 +7559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Controls_Pi:2193200001"
+		(property "Footprint" "UTSVT_Connectors:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 247.65 91.44 0)
 			(effects
 				(font
@@ -7586,7 +7586,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "2193200001"
+		(property "P/N" "USB4215-03-A"
 			(at 251.46 91.44 0)
 			(effects
 				(font
@@ -7604,7 +7604,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C19190851"
+		(property "JLC" "C37616412"
 			(at 251.46 91.44 0)
 			(effects
 				(font
