@@ -4855,7 +4855,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "db1adbed-9c54-47e1-85a1-e9691fad73fe")
+			(uuid "7d54ff24-a9c1-4d74-8767-79a74e146758")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105 90)
@@ -4867,7 +4867,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "db1adbed-9c54-47e1-85a1-e9691fad73fe")
+			(uuid "027e7314-ada9-4707-9582-74c906989fcd")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075 90)
@@ -4879,7 +4879,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "db1adbed-9c54-47e1-85a1-e9691fad73fe")
+			(uuid "f80a05ef-0632-4f5a-a815-5773f951df0b")
 		)
 		(embedded_fonts no)
 		(embedded_files
@@ -17713,13 +17713,14 @@
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor handsolder")
 		(property "Reference" "FB2"
-			(at 0 -1.55 90)
+			(at 0.0155 1.3375 90)
 			(layer "F.SilkS")
 			(uuid "95949c49-f6d5-4a3d-9be4-97debaa88f09")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
 				)
 			)
 		)
@@ -22600,13 +22601,14 @@
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor handsolder")
 		(property "Reference" "FB4"
-			(at 0 -1.55 0)
+			(at 0 -1.2625 0)
 			(layer "F.SilkS")
 			(uuid "d0436d3f-1549-4e40-9952-da4c2fd9dc65")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
 				)
 			)
 		)
@@ -23105,9 +23107,10 @@
 		(descr "Raspberry Pi 5 Compute Module")
 		(tags "Raspberry Pi 5 Compute Module")
 		(property "Reference" "Module2"
-			(at 18.38 -5.08 270)
+			(at 17.1525 -21.475 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "17caf7e1-a858-44db-b259-851ca901c8d1")
 			(effects
 				(font
@@ -26967,13 +26970,13 @@
 		(descr "SRP1050WA-100M")
 		(tags "Inductor")
 		(property "Reference" "L2"
-			(at 0 0 0)
+			(at -0.0015 -5.819 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "98da72d0-b17c-4782-82f8-534651f96f24")
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -29227,13 +29230,14 @@
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "Z1"
-			(at 0 -2.5 90)
+			(at 3.875 0.025 0)
 			(layer "F.SilkS")
 			(uuid "36f1a015-e8f3-4549-af1d-933d1e4e2b72")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
 				)
 			)
 		)
