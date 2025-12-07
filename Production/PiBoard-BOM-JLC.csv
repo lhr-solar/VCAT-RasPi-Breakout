@@ -1,5 +1,5 @@
 Reference,Value,Footprint,Qty,JLC
-"U1,U2",TPD1E05U06DYA,Diode_SMD:D_SOD-523,2,TPD1E05U06DYAR
+"U1,U2",TPD1E05U06DYA,Diode_SMD:D_SOD-523,2,C3702980
 "BT2,H1,H2,H3,H4,IC3,J1,J2,J3,J6,J8,J11,J12,J14,JP1,JP2,JP3,JP4,JP5,SW1,SW2,TP1,TP2,TP3,TP4,TP5","Battery_Cell,CarCANConnector,CarLVPowerConnector,Display Breakout,Fan Header,Jumper_2_Open,LM74502HDDFR,MountingHole,RPI Pin-Header,RTC Battery Conn,RTC Battery Port,SW_Push,TestPoint","Button_Switch_SMD:SW_SPST_B3SL-1002P,Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical,Controls_Pi:CONN02_530470210_MOL,MountingHole:MountingHole_3.2mm_M3,TestPoint:TestPoint_Pad_2.0x2.0mm,UTSVT_Connectors:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical,UTSVT_Power_SP:SOT65P280X110-8N",26,N/A
 "Q2,Q3",NVMFWS1D7N04XMT1G,Controls_Pi:NVMFWS3D0P04M8LT1G,2,C52190853
 J5,USB_C_Receptacle_USB2.0_16P,UTSVT_Connectors:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,1,C37616412
