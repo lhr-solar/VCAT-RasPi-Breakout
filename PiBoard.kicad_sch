@@ -1,13 +1,526 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e4d65698-b8ec-4bf6-9f2b-a5010377155a")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Connectors\n-------\nHDMI port\nUSB A 3.0 (HUB)\nUSB C 2.0 (DBG)"
+		(exclude_from_sim no)
+		(at 89.154 110.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1242c1b7-3bb4-4661-b6b4-a16c81df2714")
+	)
+	(text "Connectors\n-------\nFusebox Connector"
+		(exclude_from_sim no)
+		(at 87.884 71.882 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74e36807-fe81-4b39-962e-f66316017ded")
+	)
+	(text "Connectors\n-------\n2x CAN Connector"
+		(exclude_from_sim no)
+		(at 181.102 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b34183f-44ea-4ea3-91f6-39af0fb290e1")
+	)
+	(text "Connectors\n-------\n40way GPIO Conn\n\nWireless En Switch\nFlash Switch"
+		(exclude_from_sim no)
+		(at 149.352 123.698 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c1f38b9-9013-4c8e-b404-a4ceca28a3b9")
+	)
 	(wire
 		(pts
-			(xy 49.53 39.37) (xy 60.96 39.37)
+			(xy 170.18 100.33) (xy 177.8 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ab52fe-282b-4e33-873e-ec95c0a78d3d")
+	)
+	(wire
+		(pts
+			(xy 113.03 60.96) (xy 119.38 60.96)
 		)
 		(stroke
 			(width 0)
@@ -17,97 +530,127 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 125.73) (xy 43.18 125.73)
+			(xy 81.28 95.25) (xy 81.28 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f39d593-a9f6-40cc-8729-2a32eff58884")
+		(uuid "1882cb77-38b9-4d35-8157-bfac65ba89f8")
 	)
 	(wire
 		(pts
-			(xy 67.31 129.54) (xy 95.25 129.54)
+			(xy 170.18 104.14) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3401a30f-072f-4045-873d-3dfc6c64ab03")
+		(uuid "24c2238e-fc3f-4b09-b944-49d6bb7b1a9d")
 	)
 	(wire
 		(pts
-			(xy 100.33 33.02) (xy 111.76 33.02)
+			(xy 129.54 87.63) (xy 129.54 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3502b0f0-2591-45bc-8a72-330e70e6dc07")
+		(uuid "3201dec1-abbc-4528-8644-83b48599376f")
 	)
 	(wire
 		(pts
-			(xy 143.51 40.64) (xy 177.8 40.64)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "545bbd65-cbe6-494d-92ba-915196274950")
-	)
-	(wire
-		(pts
-			(xy 132.08 96.52) (xy 146.05 96.52)
+			(xy 170.18 96.52) (xy 177.8 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56b1f3e1-48e3-4428-b593-79dd777108f6")
+		(uuid "3a586a79-a655-45da-abb7-209316a480ef")
 	)
 	(wire
 		(pts
-			(xy 132.08 107.95) (xy 146.05 107.95)
+			(xy 110.49 118.11) (xy 133.35 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e369731-d1ef-4344-a604-c722ad8cde0b")
+		(uuid "48ad09ae-628f-4174-bcb1-78cacd59ef94")
 	)
 	(wire
 		(pts
-			(xy 83.82 91.44) (xy 95.25 91.44)
+			(xy 116.84 96.52) (xy 133.35 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6571d884-dd7e-45c6-9e49-6ff68ef31637")
+		(uuid "555a0d96-658d-41fe-beeb-a587ab358614")
 	)
 	(wire
 		(pts
-			(xy 143.51 36.83) (xy 177.8 36.83)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "67a41cdb-ea11-4305-846e-73a10f518c22")
-	)
-	(wire
-		(pts
-			(xy 132.08 100.33) (xy 146.05 100.33)
+			(xy 204.47 86.36) (xy 204.47 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87629ec4-8d7a-4525-b440-5ae153a38d85")
+		(uuid "56393a6f-dfa7-4911-80ca-3d6740afacb8")
 	)
 	(wire
 		(pts
-			(xy 49.53 43.18) (xy 60.96 43.18)
+			(xy 123.19 92.71) (xy 133.35 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707b9020-10ca-4fce-abe9-57d40e040338")
+	)
+	(wire
+		(pts
+			(xy 123.19 87.63) (xy 123.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7987af94-0d70-430b-ab82-889a2862c09a")
+	)
+	(wire
+		(pts
+			(xy 110.49 121.92) (xy 133.35 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e295a4-f242-40c7-a2a4-e397be8df05e")
+	)
+	(wire
+		(pts
+			(xy 116.84 87.63) (xy 116.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c618fc8-2080-4ba1-90c2-6e94821e45cd")
+	)
+	(wire
+		(pts
+			(xy 170.18 92.71) (xy 177.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e90fd68-2bce-4056-82fb-89c0867aeaa3")
+	)
+	(wire
+		(pts
+			(xy 113.03 64.77) (xy 124.46 64.77)
 		)
 		(stroke
 			(width 0)
@@ -117,107 +660,47 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 88.9) (xy 146.05 88.9)
+			(xy 86.36 97.79) (xy 81.28 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac3843bc-8c6e-4cb4-9745-2e330c7476c5")
+		(uuid "972d3494-410b-463f-bc38-d8dc59044546")
 	)
 	(wire
 		(pts
-			(xy 132.08 104.14) (xy 146.05 104.14)
+			(xy 133.35 88.9) (xy 129.54 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae6367c0-d117-40ca-b1a8-5ee331884541")
+		(uuid "9d540de5-a410-4d91-8c1b-376758a58a75")
 	)
 	(wire
 		(pts
-			(xy 132.08 92.71) (xy 146.05 92.71)
+			(xy 110.49 114.3) (xy 133.35 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1771e5f-b062-49b9-992d-c43dce3c6fd1")
+		(uuid "bb9e7e48-dd7f-48e8-bdf4-df1ccc04f3b4")
 	)
 	(wire
 		(pts
-			(xy 143.51 44.45) (xy 177.8 44.45)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "c48e1144-4360-412f-9d74-54f5d99e60b0")
-	)
-	(wire
-		(pts
-			(xy 83.82 95.25) (xy 95.25 95.25)
+			(xy 170.18 107.95) (xy 177.8 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c925ea31-b515-4a2a-bb0d-e8987f69dae0")
+		(uuid "c856f098-c0bb-49e8-b574-85a352527a02")
 	)
 	(wire
 		(pts
-			(xy 100.33 36.83) (xy 111.76 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d117149d-ef89-425a-9943-561e3ea28d45")
-	)
-	(wire
-		(pts
-			(xy 67.31 125.73) (xy 95.25 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d30cb919-4394-41b2-8f80-faee71058595")
-	)
-	(wire
-		(pts
-			(xy 31.75 121.92) (xy 43.18 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db0ae708-6ec6-4427-a58a-d41c142bbd11")
-	)
-	(wire
-		(pts
-			(xy 166.37 31.75) (xy 177.8 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddec13cf-f455-4e71-a06f-d521bbde6297")
-	)
-	(wire
-		(pts
-			(xy 31.75 118.11) (xy 43.18 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e01f7aef-6c0e-4391-907e-a3619dafdbf8")
-	)
-	(wire
-		(pts
-			(xy 134.62 125.73) (xy 146.05 125.73)
+			(xy 204.47 87.63) (xy 201.93 87.63)
 		)
 		(stroke
 			(width 0)
@@ -225,216 +708,871 @@
 		)
 		(uuid "f217f6e9-9b6b-4282-96c7-34e71e6701ff")
 	)
-	(wire
-		(pts
-			(xy 67.31 121.92) (xy 95.25 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f477a2a6-b56d-484a-84a4-1eba30839402")
-	)
-	(wire
-		(pts
-			(xy 177.8 48.26) (xy 166.37 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f563e087-987a-40cc-badc-b05bc5a52c45")
-	)
-	(text "Connectors\n-------\nHDMI (type E) port"
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 215.9 102.87 0)
+		(unit 1)
 		(exclude_from_sim no)
-		(at 179.832 57.912 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04f4fc88-85dd-4dab-976d-7a3e4ece3c8e")
+		(property "Reference" "H1"
+			(at 218.44 101.7016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "1242c1b7-3bb4-4661-b6b4-a16c81df2714")
+		(property "Value" "MountingHole"
+			(at 218.44 104.013 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "N/A"
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
 	)
-	(text "Connectors\n-------\n40way RPI\nJumpers"
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 116.84 87.63 0)
+		(unit 1)
 		(exclude_from_sim no)
-		(at 116.332 122.428 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30657c1c-f31a-4541-8153-870b09e04b1b")
+		(property "Reference" "#PWR080"
+			(at 116.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "9c1f38b9-9013-4c8e-b404-a4ceca28a3b9")
+		(property "Value" "+3.3V"
+			(at 116.84 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 116.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a4daf2e-63d3-4863-822f-699fdda8c523")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
 	)
-	(text "Connectors\n-------\nFAN\nBattery"
+	(symbol
+		(lib_id "power:+5V")
+		(at 124.46 64.77 0)
+		(unit 1)
 		(exclude_from_sim no)
-		(at 49.784 141.224 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3175b6e6-d529-4217-92eb-104921de78a6")
+		(property "Reference" "#PWR073"
+			(at 124.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "a5d36811-8987-446d-b7a7-46ccaf7b26b6")
+		(property "Value" "+5V"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcd884f2-9a00-43d4-9c85-671bf037323b")
+		)
+		(instances
+			(project ""
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
 	)
-	(text "Connectors\n-------\n4x USB (M8 port)\nmicroUSB"
+	(symbol
+		(lib_id "power:+5V")
+		(at 81.28 95.25 0)
+		(unit 1)
 		(exclude_from_sim no)
-		(at 114.808 52.832 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cfcb8281-6387-4e60-b4b4-050a992ba265")
-	)
-	(label "+3.3V_RAIL"
-		(at 31.75 125.73 0)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "3e5a4cfc-aa5b-46b8-8ddb-d589185f894a")
+		(property "Reference" "#PWR076"
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "0074da9a-04f6-4e91-8045-5210f09bd785")
+		(property "Value" "+5V"
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 81.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ef76c25-8a34-493e-8133-687b0f437c7b")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
 	)
-	(label "+5V_RAIL"
-		(at 100.33 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 215.9 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "457d5b6c-57ca-472b-8fb1-e8071587b2d5")
+		(property "Reference" "H4"
+			(at 218.44 120.7516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "08747490-1c2c-4766-a860-555a60d035f9")
+		(property "Value" "MountingHole"
+			(at 218.44 123.063 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "N/A"
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
 	)
-	(label "Board_En"
-		(at 76.2 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 215.9 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e7511e6-2f77-4b30-bb7e-ea6af77c64e2")
+		(property "Reference" "H2"
+			(at 218.44 108.0516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "214839a6-0fe4-4f12-99ee-1984c5b9f3b9")
+		(property "Value" "MountingHole"
+			(at 218.44 110.363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "N/A"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
 	)
-	(label "+5V_RAIL"
-		(at 60.96 43.18 180)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 204.47 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "4eac6d31-abff-42f4-8632-67ec6a488b56")
+		(property "Reference" "#PWR082"
+			(at 204.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify right bottom)
 		)
-		(uuid "2931b0ef-91ca-4421-9fea-8f109f467799")
+		(property "Value" "+3.3V"
+			(at 204.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7957b9fb-602a-4a71-b225-7819265a3d9c")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
 	)
-	(label "+12V_RAIL"
-		(at 31.75 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 215.9 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8aaacf12-b486-46be-be58-84d1c14da2e5")
+		(property "Reference" "H3"
+			(at 218.44 114.4016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "2c332efa-16f1-498e-afd2-3060a5c158b4")
+		(property "Value" "MountingHole"
+			(at 218.44 116.713 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "N/A"
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
 	)
-	(label "+5V_RAIL"
-		(at 166.37 31.75 0)
+	(symbol
+		(lib_id "power:+5V")
+		(at 123.19 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "8e2b1a87-e766-4082-bd98-fbac6ed026fc")
+		(property "Reference" "#PWR081"
+			(at 123.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "446bcf42-8906-4f2b-8afa-978edc688c4a")
+		(property "Value" "+5V"
+			(at 123.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 123.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0fb757e-f1e2-4768-afe3-e32a2bdd1898")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
 	)
-	(label "Board_En"
-		(at 166.37 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:+12V")
+		(at 119.38 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a94f79c4-d941-4f8a-b958-a538b49e7a5a")
+		(property "Reference" "#PWR066"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "476136ad-9959-4dda-ad58-3d983589cacf")
+		(property "Value" "+24V"
+			(at 116.586 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "241dcf50-8f5b-4333-a16b-17a59397fd98")
+		)
+		(instances
+			(project ""
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
 	)
-	(label "+5V_RAIL"
-		(at 31.75 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:+12V")
+		(at 129.54 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0e9d8f3-6096-4a1e-bbb9-364504ce039b")
+		(property "Reference" "#PWR055"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "9a36597a-066e-41e2-968d-f349ad5e72de")
-	)
-	(label "+3.3V_RAIL"
-		(at 100.33 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Value" "+24V"
+			(at 126.746 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "9b8217c1-55ac-4e79-906b-5f0c29428c26")
-	)
-	(label "+12V_RAIL"
-		(at 60.96 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Footprint" ""
+			(at 129.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify right bottom)
 		)
-		(uuid "ce47b950-acfb-47b4-b64d-4eb99b73eba2")
-	)
-	(label "+5V_RAIL"
-		(at 83.82 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Datasheet" ""
+			(at 129.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "d54c95b6-a271-4d9a-b113-1b08c75ad572")
-	)
-	(label "+3.3V_RAIL"
-		(at 134.62 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 129.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "dde568ab-193b-4294-a987-a8572286426d")
-	)
-	(label "+3.3V_RAIL"
-		(at 83.82 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(pin "1"
+			(uuid "fcd54b60-64f7-4a03-90c9-1d04ba520f4d")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
+					(reference "#PWR055")
+					(unit 1)
+				)
 			)
-			(justify left bottom)
 		)
-		(uuid "f2b4c339-970a-4f07-9532-f04c0d852f46")
 	)
 	(sheet
-		(at 30.48 33.02)
-		(size 19.05 15.24)
+		(at 86.36 54.61)
+		(size 26.67 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -445,7 +1583,7 @@
 		)
 		(uuid "0c1fd794-8ba7-4f58-ad3e-1ee234c84a43")
 		(property "Sheetname" "Power Distribution"
-			(at 30.48 32.3084 0)
+			(at 86.36 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -454,7 +1592,7 @@
 			)
 		)
 		(property "Sheetfile" "PWR_Distribution.kicad_sch"
-			(at 30.48 48.8446 0)
+			(at 86.36 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -463,24 +1601,24 @@
 			)
 		)
 		(pin "+5V_PWR" output
-			(at 49.53 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
+			(at 113.03 64.77 0)
 			(uuid "2d8b38a8-cad7-4f0c-b2ea-6998ad45f4d6")
-		)
-		(pin "+12V_PWR" output
-			(at 49.53 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
+		)
+		(pin "+24V_PWR" output
+			(at 113.03 60.96 0)
 			(uuid "e9cdbfa5-69bf-4edd-8bba-c636a60b9a16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
 		(instances
 			(project "PiBoard"
@@ -491,8 +1629,12 @@
 		)
 	)
 	(sheet
-		(at 177.8 29.21)
-		(size 24.13 31.75)
+		(at 86.36 92.71)
+		(size 24.13 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -502,8 +1644,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1")
-		(property "Sheetname" "HDMI and High Speed"
-			(at 177.8 28.4984 0)
+		(property "Sheetname" "High Speed"
+			(at 86.36 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -511,8 +1653,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "HDMI.kicad_sch"
-			(at 177.8 61.5446 0)
+		(property "Sheetfile" "CM5_HighSpeed.kicad_sch"
+			(at 86.36 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -520,55 +1662,45 @@
 				(justify left top)
 			)
 		)
-		(pin "USB2_N" bidirectional
-			(at 177.8 40.64 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "79c8531b-b14b-4c81-9825-500262de5ef6")
-		)
-		(pin "USBOTG_ID" input
-			(at 177.8 44.45 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6f407fde-6851-4194-97ea-3f13cab90de8")
-		)
-		(pin "USB2_P" bidirectional
-			(at 177.8 36.83 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f0f061dd-1d7f-44fe-84d9-96a241fe9d0c")
-		)
 		(pin "+5V_PWR" input
-			(at 177.8 31.75 180)
+			(at 86.36 97.79 180)
+			(uuid "7cbedfdd-7904-4a1d-a877-d7a16b99edad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7cbedfdd-7904-4a1d-a877-d7a16b99edad")
 		)
 		(pin "GLOBAL_EN" input
-			(at 177.8 48.26 180)
+			(at 110.49 121.92 0)
+			(uuid "fed0cdef-d92b-45a8-ad06-22ffd5988793")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "fed0cdef-d92b-45a8-ad06-22ffd5988793")
+		)
+		(pin "CC1" bidirectional
+			(at 110.49 114.3 0)
+			(uuid "54ef0070-5775-4974-b366-4c0eeca4532e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CC2" bidirectional
+			(at 110.49 118.11 0)
+			(uuid "7ee1c851-8fdc-4838-8f3e-5b031887583b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
 		(instances
 			(project "PiBoard"
@@ -579,8 +1711,12 @@
 		)
 	)
 	(sheet
-		(at 95.25 82.55)
-		(size 36.83 52.07)
+		(at 133.35 83.82)
+		(size 36.83 44.196)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -590,8 +1726,8 @@
 			(color 255 255 255 0.0000)
 		)
 		(uuid "353ee88d-a044-4c9d-80a8-948975426026")
-		(property "Sheetname" "CM4 GPIO"
-			(at 95.25 81.788 0)
+		(property "Sheetname" "CM5 GPIO"
+			(at 133.35 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -599,8 +1735,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CM4_GPIO.kicad_sch"
-			(at 94.996 135.89 0)
+		(property "Sheetfile" "CM5_GPIO.kicad_sch"
+			(at 133.096 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -609,114 +1745,114 @@
 			)
 		)
 		(pin "CAN_SPI_CS" output
-			(at 132.08 88.9 0)
+			(at 170.18 92.71 0)
+			(uuid "b2eb51db-6c97-4805-b465-1dd322867387")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b2eb51db-6c97-4805-b465-1dd322867387")
 		)
 		(pin "+5V_PWR" input
-			(at 95.25 91.44 180)
+			(at 133.35 92.71 180)
+			(uuid "d31e3583-8833-43ed-ba11-bcc94209746d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d31e3583-8833-43ed-ba11-bcc94209746d")
 		)
 		(pin "CAN_SPI_MOSI" output
-			(at 132.08 92.71 0)
+			(at 170.18 96.52 0)
+			(uuid "cf0c6320-09c5-418d-8223-4c60ab3b0ac2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cf0c6320-09c5-418d-8223-4c60ab3b0ac2")
 		)
 		(pin "CAN_SPI_MISO" input
-			(at 132.08 96.52 0)
+			(at 170.18 100.33 0)
+			(uuid "9ae1a358-6dfa-4d65-bd59-af2b4af187fb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9ae1a358-6dfa-4d65-bd59-af2b4af187fb")
 		)
 		(pin "CAN_SPI_CLK" output
-			(at 132.08 100.33 0)
+			(at 170.18 104.14 0)
+			(uuid "6b1f9d03-fdcc-4e69-98d9-123875063f07")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6b1f9d03-fdcc-4e69-98d9-123875063f07")
-		)
-		(pin "SCL0" output
-			(at 95.25 121.92 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7859903c-3776-4531-b540-438a98f42048")
-		)
-		(pin "SDA0" output
-			(at 95.25 125.73 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0fbc2b5c-f023-4c7c-97a5-473c906afc5c")
 		)
 		(pin "GLOBAL_EN" input
-			(at 95.25 129.54 180)
+			(at 133.35 121.92 180)
+			(uuid "597169eb-1f1a-4adf-bb4f-f34b09ddf75b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "597169eb-1f1a-4adf-bb4f-f34b09ddf75b")
-		)
-		(pin "nEXTRST" output
-			(at 132.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3cd1cd25-f8d3-4a8b-9d1d-557ebb94c9e7")
 		)
 		(pin "+3.3V_PWR" output
-			(at 95.25 95.25 180)
+			(at 133.35 96.52 180)
+			(uuid "f8d4d8a6-ac62-49d8-bdb9-638f9f6d996d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f8d4d8a6-ac62-49d8-bdb9-638f9f6d996d")
 		)
 		(pin "CAN_INTR" input
-			(at 132.08 104.14 0)
+			(at 170.18 107.95 0)
+			(uuid "7e431902-d45a-43b5-b281-7c8812d33e64")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7e431902-d45a-43b5-b281-7c8812d33e64")
+		)
+		(pin "+24V_PWR" input
+			(at 133.35 88.9 180)
+			(uuid "e4db79ab-df32-422e-885a-6f0fdffe3449")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CC1" bidirectional
+			(at 133.35 114.3 180)
+			(uuid "e16cd39a-c08d-4534-95d7-63d081b94354")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CC2" bidirectional
+			(at 133.35 118.11 180)
+			(uuid "5cb9165d-790a-459f-8e41-9e51b3178c26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
 		(instances
 			(project "PiBoard"
@@ -727,194 +1863,12 @@
 		)
 	)
 	(sheet
-		(at 43.18 113.03)
-		(size 24.13 30.48)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "576572c3-1ae4-4f9d-a2fe-756d060003c8")
-		(property "Sheetname" "RTC and Fan"
-			(at 43.18 112.3945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "RTC.kicad_sch"
-			(at 42.672 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SCL" input
-			(at 67.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7b545eb3-2acb-42e2-b3fb-8f82b23dd3a7")
-		)
-		(pin "SDA" input
-			(at 67.31 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2d356f1e-ae93-4cdd-b618-a2944e1b68f0")
-		)
-		(pin "GLOBAL_EN" input
-			(at 67.31 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6d2fa6ed-eb96-4836-b744-540b22e67008")
-		)
-		(pin "+3.3V_PWR" input
-			(at 43.18 125.73 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "956b9209-4776-49e2-8527-cb75116c7a1a")
-		)
-		(pin "+5V_PWR" input
-			(at 43.18 121.92 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "74467c48-7888-4aeb-8706-bb28bb6eaca7")
-		)
-		(pin "+12V_PWR" input
-			(at 43.18 118.11 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6fb28b4a-3a32-49b2-b676-98a1533269d7")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 111.76 29.21)
-		(size 31.75 26.67)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "ba481c31-e70b-40cd-84a6-4c7235d9d730")
-		(property "Sheetname" "USB2.0 HS Hub"
-			(at 111.76 28.5745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "USB2-HUB.kicad_sch"
-			(at 111.506 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "USB2_N" bidirectional
-			(at 143.51 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "86ef3055-660a-439d-94ae-f8d75f0d47b7")
-		)
-		(pin "USB2_P" bidirectional
-			(at 143.51 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8c5558bd-29c8-4a06-a629-6d5857d13a3f")
-		)
-		(pin "USBOTG" output
-			(at 143.51 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0c89425a-b42c-4c1e-bd59-5bc5a4b7966a")
-		)
-		(pin "+3.3V_PWR" input
-			(at 111.76 36.83 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bb2fb133-0745-4b0e-9e8d-a7758b5cfb54")
-		)
-		(pin "+5V_PWR" input
-			(at 111.76 33.02 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "37bee8cf-cf06-4213-bcf5-2eb54fdad6dc")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 146.05 78.74)
-		(size 24.13 50.8)
+		(at 177.8 83.82)
+		(size 24.13 43.942)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -925,7 +1879,7 @@
 		)
 		(uuid "bb44eb34-b37d-4f19-ab49-17b4958492c8")
 		(property "Sheetname" "CarCAN"
-			(at 146.05 78.0284 0)
+			(at 177.8 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -934,7 +1888,7 @@
 			)
 		)
 		(property "Sheetfile" "CarCAN.kicad_sch"
-			(at 146.05 130.1246 0)
+			(at 177.8 128.3466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -943,74 +1897,64 @@
 			)
 		)
 		(pin "+3.3V_PWR" input
-			(at 146.05 125.73 180)
+			(at 201.93 87.63 0)
+			(uuid "56bd8be4-944b-4be0-a76a-9a5e438f34f4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "56bd8be4-944b-4be0-a76a-9a5e438f34f4")
 		)
 		(pin "CAN_SPI_CLK" input
-			(at 146.05 100.33 180)
+			(at 177.8 104.14 180)
+			(uuid "32f10201-8709-44ef-bc3c-9e171d0d7db3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "32f10201-8709-44ef-bc3c-9e171d0d7db3")
 		)
 		(pin "CAN_SPI_CS" input
-			(at 146.05 88.9 180)
+			(at 177.8 92.71 180)
+			(uuid "cf6353cc-5539-4444-ba8b-8fb271682163")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cf6353cc-5539-4444-ba8b-8fb271682163")
 		)
 		(pin "CAN_SPI_MOSI" input
-			(at 146.05 92.71 180)
+			(at 177.8 96.52 180)
+			(uuid "56843c35-8eab-479c-a2f5-fe99d262cf1e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "56843c35-8eab-479c-a2f5-fe99d262cf1e")
 		)
 		(pin "CAN_SPI_MISO" output
-			(at 146.05 96.52 180)
+			(at 177.8 100.33 180)
+			(uuid "67a724e3-df77-4cd2-9d61-4991e70b8cf5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "67a724e3-df77-4cd2-9d61-4991e70b8cf5")
 		)
 		(pin "CAN_INTR" output
-			(at 146.05 104.14 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+			(at 177.8 107.95 180)
 			(uuid "a8c0a100-0f81-44ee-9678-aaf153f57acb")
-		)
-		(pin "CAN_RESET" input
-			(at 146.05 107.95 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d311a60c-b453-46f1-9869-3ecaaaf07f22")
 		)
 		(instances
 			(project "PiBoard"
@@ -1025,4 +1969,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
