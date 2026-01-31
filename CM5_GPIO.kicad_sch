@@ -7325,6 +7325,18 @@
 		)
 		(uuid "65a16adf-d7c3-4535-bf0f-ff79828ccd63")
 	)
+	(text "Change button P/N\nto PSOM"
+		(exclude_from_sim no)
+		(at 194.056 79.502 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "79b66cfa-ab29-468c-befc-1208ce5bdf8d")
+	)
 	(text "Global En"
 		(exclude_from_sim no)
 		(at 83.82 158.75 0)
@@ -7334,6 +7346,18 @@
 			)
 		)
 		(uuid "880a37ed-57c3-44b1-9226-17d0075a88a6")
+	)
+	(text "Fix"
+		(exclude_from_sim no)
+		(at 278.638 109.22 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "946fac0a-714a-417c-86e5-a624b55af0ee")
 	)
 	(text "For USB\nPD"
 		(exclude_from_sim no)
@@ -11010,7 +11034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3SL-1002P"
+		(property "Footprint" "CM5IO:TL3365AF180QG"
 			(at 146.05 68.58 0)
 			(effects
 				(font
@@ -11037,7 +11061,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "653-B3SL-1002P"
+		(property "P/N" "TL3365AF180QG"
 			(at 146.05 73.66 0)
 			(effects
 				(font
@@ -11055,7 +11079,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "N/A"
+		(property "JLC" "C2886926"
 			(at 146.05 73.66 0)
 			(effects
 				(font
@@ -11846,7 +11870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3SL-1002P"
+		(property "Footprint" "CM5IO:TL3365AF180QG"
 			(at 146.05 109.22 0)
 			(effects
 				(font
@@ -11873,7 +11897,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "653-B3SL-1002P"
+		(property "P/N" "TL3365AF180QG"
 			(at 146.05 114.3 0)
 			(effects
 				(font
@@ -11891,7 +11915,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "N/A"
+		(property "JLC" "C2886926"
 			(at 146.05 114.3 0)
 			(effects
 				(font
@@ -14095,7 +14119,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8a19b1b1-dcc1-4d66-b6f9-7c58a7ad6b28")
 		(property "Reference" "R4"
 			(at 252.222 101.4984 0)
@@ -14985,71 +15009,6 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 26.67 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ffcb788-ae62-4a85-a211-e03647705b02")
-		(property "Reference" "#PWR018"
-			(at 26.67 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1.8V"
-			(at 26.416 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 26.67 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b15ac33d-3097-403e-9d9d-191431e0ffb0")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -16156,90 +16115,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 26.67 163.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db9ba81d-7e8e-48ce-ba9c-ec248e8692aa")
-		(property "Reference" "TP4"
-			(at 24.003 166.1922 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 29.083 161.1122 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 21.59 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 21.59 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 26.67 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Data" ""
-			(at 26.67 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "N/A"
-			(at 26.67 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ee25671-1537-4ee4-903c-8f5dc09aae1e")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/353ee88d-a044-4c9d-80a8-948975426026"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 140.97 30.48 90)
 		(unit 1)
@@ -16428,7 +16303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VSSAF522-M3/H"
+		(property "Value" "SMF5.0A"
 			(at 271.272 106.426 0)
 			(effects
 				(font
@@ -16437,7 +16312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Passives:MMDL101T1G"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 263.525 107.95 0)
 			(effects
 				(font
@@ -16446,7 +16321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-General-Semiconductor/VSSAF522-M3-H?qs=UkDUCjYnTB00gpgD%2Fb%2Fw%252BA%3D%3D"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smf-datasheet?assetguid=7eb8a5b6-bdd0-4561-8f19-0c3cc6f9b2af"
 			(at 267.97 107.95 0)
 			(effects
 				(font
@@ -16464,7 +16339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufactuerer" "Vishay General Semiconductor "
+		(property "Manufactuerer" ""
 			(at 267.97 107.95 90)
 			(effects
 				(font
@@ -16473,7 +16348,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "VSSAF522-M3/H"
+		(property "P/N" "SMF5.0A"
 			(at 267.97 107.95 90)
 			(effects
 				(font
@@ -16491,7 +16366,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C20039242"
+		(property "JLC" "C193402"
 			(at 267.97 107.95 90)
 			(effects
 				(font
