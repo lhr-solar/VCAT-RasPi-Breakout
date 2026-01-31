@@ -595,10 +595,10 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "P/N",
           "name": "P/N",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -721,10 +721,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "JLC",
           "name": "JLC",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

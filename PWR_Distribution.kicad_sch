@@ -25422,7 +25422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589836786190225408"
 			(at 96.52 113.03 0)
 			(effects
 				(font
@@ -25440,7 +25440,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" " SRP1050WA-4R7M "
+		(property "P/N" "CYA0630-4.7UH"
 			(at 96.52 113.03 0)
 			(effects
 				(font
