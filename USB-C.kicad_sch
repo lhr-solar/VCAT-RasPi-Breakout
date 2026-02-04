@@ -3679,7 +3679,7 @@
 		)
 		(uuid "3d380f4f-da0c-4d42-a62d-63c9db5fdcf9")
 	)
-	(text "No UVLO or OVLO.\n\nMax Current = 5A\n"
+	(text "No UVLO or OVLO.\n\nMax Current = ~4.5A\n"
 		(exclude_from_sim no)
 		(at 173.99 153.67 0)
 		(effects
@@ -3769,6 +3769,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1427f8f3-af18-4f51-83a2-f5f512524a2f")
+	)
+	(junction
+		(at 232.41 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a925814-52a4-48a8-8645-41432b0525f8")
 	)
 	(junction
 		(at 67.31 39.37)
@@ -3963,6 +3969,12 @@
 		(uuid "eba73a29-d0cc-41e5-914d-8c91e1a49cad")
 	)
 	(junction
+		(at 172.72 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1045a1e-2537-479d-bfae-9904bd980bad")
+	)
+	(junction
 		(at 167.64 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4068,16 +4080,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 40.64) (xy 190.5 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06bb5f3c-5e3c-4cfa-a381-8f21b8285cf4")
-	)
-	(wire
-		(pts
 			(xy 119.38 26.67) (xy 118.11 26.67)
 		)
 		(stroke
@@ -4155,6 +4157,16 @@
 			(type default)
 		)
 		(uuid "0e2b6208-85d9-40f3-9340-1a927806cc30")
+	)
+	(wire
+		(pts
+			(xy 172.72 105.41) (xy 172.72 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d06561-4829-4d64-a455-9e968f061c1a")
 	)
 	(wire
 		(pts
@@ -4268,6 +4280,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 105.41) (xy 172.72 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fa00b0-81ee-47f0-ae94-b0482363abf4")
+	)
+	(wire
+		(pts
 			(xy 198.12 76.2) (xy 213.36 76.2)
 		)
 		(stroke
@@ -4338,6 +4360,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 115.57) (xy 184.15 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "405cebc1-972b-4b42-b4cb-0ed3f1a0307e")
+	)
+	(wire
+		(pts
 			(xy 242.57 88.9) (xy 241.3 88.9)
 		)
 		(stroke
@@ -4355,6 +4387,16 @@
 			(type default)
 		)
 		(uuid "40d24aaa-9672-4e65-93b4-9bfab9c1450b")
+	)
+	(wire
+		(pts
+			(xy 232.41 115.57) (xy 252.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f92d2c-34e9-4d24-8e95-8155c549f46c")
 	)
 	(wire
 		(pts
@@ -4378,6 +4420,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 105.41) (xy 232.41 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4245ca5a-d71b-4ce1-b654-25bc2b5ac257")
+	)
+	(wire
+		(pts
 			(xy 101.6 22.86) (xy 101.6 24.13)
 		)
 		(stroke
@@ -4398,7 +4450,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 115.57) (xy 252.73 115.57)
+			(xy 224.79 115.57) (xy 232.41 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4538,6 +4590,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 105.41) (xy 232.41 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8a527a-e715-4081-b032-26ba9c22535a")
+	)
+	(wire
+		(pts
 			(xy 210.82 40.64) (xy 214.63 40.64)
 		)
 		(stroke
@@ -4598,7 +4660,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 40.64) (xy 173.99 40.64)
+			(xy 168.91 40.64) (xy 190.5 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4818,7 +4880,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 115.57) (xy 184.15 115.57)
+			(xy 167.64 115.57) (xy 172.72 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6145,7 +6207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" ""
 			(at 167.64 119.38 0)
 			(effects
 				(font
@@ -6163,7 +6225,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01 "
+		(property "P/N" "MLASU168SB5105KTNA01"
 			(at 167.64 119.38 0)
 			(effects
 				(font
@@ -6181,7 +6243,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C14663"
+		(property "JLC" "C15849"
 			(at 167.64 119.38 0)
 			(effects
 				(font
@@ -7711,7 +7773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8000p"
+		(property "Value" "1n"
 			(at 242.062 131.8514 0)
 			(effects
 				(font
@@ -7729,7 +7791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" ""
 			(at 238.76 130.81 0)
 			(effects
 				(font
@@ -7747,7 +7809,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01 "
+		(property "P/N" "MLASU063SB7102KFNA01"
 			(at 238.76 130.81 0)
 			(effects
 				(font
@@ -7765,7 +7827,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C14663"
+		(property "JLC" "C1588"
 			(at 238.76 130.81 0)
 			(effects
 				(font
@@ -8035,7 +8097,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "PAT0603E4000BST1"
+		(property "P/N" "CRCW060310K0FKEI "
 			(at 238.76 110.49 0)
 			(effects
 				(font
@@ -8053,7 +8115,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C5841024"
+		(property "JLC" "C25804"
 			(at 238.76 110.49 0)
 			(effects
 				(font
@@ -8320,7 +8382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "549"
+		(property "Value" "590"
 			(at 231.14 132.08 0)
 			(effects
 				(font
@@ -8356,7 +8418,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "PAT0603E4000BST1"
+		(property "P/N" "CRCW0603590RFKEA"
 			(at 228.6 130.81 0)
 			(effects
 				(font
@@ -8374,7 +8436,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C5841024"
+		(property "JLC" "C2076662"
 			(at 228.6 130.81 0)
 			(effects
 				(font
@@ -9765,7 +9827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 253.6952 128.27 0)
 			(effects
 				(font
@@ -9774,7 +9836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" ""
 			(at 252.73 124.46 0)
 			(effects
 				(font
@@ -9792,7 +9854,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01 "
+		(property "P/N" "GRM21BR61H106KE43K"
 			(at 252.73 124.46 0)
 			(effects
 				(font
@@ -9810,7 +9872,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C14663"
+		(property "JLC" "C440198"
 			(at 252.73 124.46 0)
 			(effects
 				(font
@@ -9932,7 +9994,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 179.07 40.64 0)
+		(at 204.47 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9941,7 +10003,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3c1da6f-5cb8-4233-ab8d-7b4cb1ec19ef")
 		(property "Reference" "JP6"
-			(at 179.07 34.29 0)
+			(at 204.47 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,7 +10011,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 179.07 36.83 0)
+			(at 204.47 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,7 +10019,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 179.07 40.64 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,7 +10028,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 40.64 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,7 +10037,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 179.07 40.64 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9984,7 +10046,7 @@
 			)
 		)
 		(property "JLC" "N/A"
-			(at 179.07 40.64 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
