@@ -7461,18 +7461,6 @@
 		)
 		(uuid "65a16adf-d7c3-4535-bf0f-ff79828ccd63")
 	)
-	(text "Change button P/N\nto PSOM"
-		(exclude_from_sim no)
-		(at 194.056 79.502 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "79b66cfa-ab29-468c-befc-1208ce5bdf8d")
-	)
 	(text "Global En"
 		(exclude_from_sim no)
 		(at 83.82 158.75 0)
