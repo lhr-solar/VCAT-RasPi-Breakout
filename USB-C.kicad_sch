@@ -6244,7 +6244,7 @@
 		(dnp no)
 		(uuid "11f72196-ac4a-4fd4-846b-558a6d73f03b")
 		(property "Reference" "C21"
-			(at 168.402 119.38 0)
+			(at 158.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6253,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 168.402 121.6914 0)
+			(at 158.75 121.6914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7210,7 +7210,7 @@
 		(dnp no)
 		(uuid "420e6867-7a63-4261-80d1-6c6c4ba4a877")
 		(property "Reference" "R39"
-			(at 173.99 111.76 0)
+			(at 172.72 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7218,8 +7218,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 173.99 114.3 0)
+		(property "Value" "324K"
+			(at 172.72 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +7254,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "RT0603BRD07324KL"
 			(at 179.07 113.03 0)
 			(effects
 				(font
@@ -7272,7 +7272,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C861321"
 			(at 179.07 113.03 0)
 			(effects
 				(font
@@ -7924,7 +7924,7 @@
 		(dnp no)
 		(uuid "630861b0-301b-48fa-bdf1-b46be4ddebaf")
 		(property "Reference" "R37"
-			(at 173.99 127 0)
+			(at 172.72 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7932,8 +7932,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 173.99 129.54 0)
+		(property "Value" "100K"
+			(at 172.72 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +7968,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW0603100KFKEE"
 			(at 179.07 128.27 0)
 			(effects
 				(font
@@ -7986,7 +7986,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C25803"
 			(at 179.07 128.27 0)
 			(effects
 				(font
@@ -8725,7 +8725,7 @@
 		(dnp no)
 		(uuid "aafae1f1-d71a-4913-aa5a-2a690b0f2088")
 		(property "Reference" "R38"
-			(at 173.99 119.38 0)
+			(at 172.72 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8733,8 +8733,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 173.99 121.92 0)
+		(property "Value" "8.25K"
+			(at 172.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,7 +8769,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "RT0603BRB078K25L"
 			(at 179.07 120.65 0)
 			(effects
 				(font
@@ -8787,7 +8787,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C860536"
 			(at 179.07 120.65 0)
 			(effects
 				(font
@@ -10169,7 +10169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 270.002 129.3114 0)
 			(effects
 				(font
