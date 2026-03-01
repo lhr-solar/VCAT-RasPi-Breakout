@@ -6247,6 +6247,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at -43.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "572b3416-10dc-424b-a692-7c4d190a122a")
 		)

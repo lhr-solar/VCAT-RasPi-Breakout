@@ -22823,6 +22823,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 83.82 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0311287d-49b7-461b-86c0-6203539b082c")
 		)
@@ -22908,6 +22917,15 @@
 			)
 		)
 		(property "JLC" "N/A"
+			(at 29.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 29.21 41.91 0)
 			(effects
 				(font
@@ -23013,6 +23031,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 55.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af1e2ebd-e262-4c94-b64b-bb8ac015af2d")
 		)
@@ -23110,6 +23137,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 95.25 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e36cda5c-e8de-4bd8-acab-b3fbcff7279a")
 		)
@@ -23198,6 +23234,15 @@
 			)
 		)
 		(property "JLC" "C5841024"
+			(at 172.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 172.72 45.72 0)
 			(effects
 				(font
@@ -23361,6 +23406,15 @@
 			)
 		)
 		(property "JLC" "C28323"
+			(at 55.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 55.88 63.5 0)
 			(effects
 				(font
@@ -23606,6 +23660,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 152.4 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07b0ecb3-3ad1-4776-89a4-b4f87f0e0f22")
 		)
@@ -23759,6 +23822,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de6d33e9-a275-4ff4-ab52-6524015fe645")
 		)
@@ -23836,6 +23908,15 @@
 			)
 		)
 		(property "JLC" "C7432784"
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 165.1 109.22 0)
 			(effects
 				(font
@@ -23982,6 +24063,15 @@
 			)
 		)
 		(property "JLC" "C52190853"
+			(at 77.47 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 77.47 33.02 90)
 			(effects
 				(font
@@ -24174,6 +24264,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 118.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ff8f9c8f-76bd-456b-9598-81c5a1b6c452")
 		)
@@ -24328,6 +24427,15 @@
 			)
 		)
 		(property "JLC" "C338078"
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 129.54 111.76 0)
 			(effects
 				(font
@@ -24498,6 +24606,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 152.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34e4c8ed-846e-4120-843b-0c92dd463b48")
 		)
@@ -24637,6 +24754,15 @@
 			)
 		)
 		(property "JLC" "C52190853"
+			(at 97.79 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 97.79 33.02 90)
 			(effects
 				(font
@@ -24828,6 +24954,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f22b1544-e02f-4703-a650-7fdd04506f5d")
 		)
@@ -24917,6 +25052,15 @@
 			)
 		)
 		(property "JLC" "C2930115"
+			(at 107.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 107.95 111.76 0)
 			(effects
 				(font
@@ -25087,6 +25231,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 83.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21b700fe-db36-443b-a29e-63163e1cd791")
 		)
@@ -25167,6 +25320,15 @@
 			)
 		)
 		(property "JLC" "C7432784"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 177.8 109.22 0)
 			(effects
 				(font
@@ -25402,6 +25564,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 96.52 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4825f689-92f6-428d-acb8-0f40c326da25")
 		)
@@ -25491,6 +25662,15 @@
 			)
 		)
 		(property "JLC" "C107085"
+			(at 83.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 83.82 128.27 0)
 			(effects
 				(font
@@ -25729,6 +25909,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "465dd71d-c2e4-4ded-8f14-936f83fbd811")
 		)
@@ -25869,6 +26058,15 @@
 			)
 		)
 		(property "JLC" "C7083101"
+			(at 45.72 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 45.72 57.15 90)
 			(effects
 				(font
@@ -26162,6 +26360,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6915e8fe-e8f1-439a-a444-b7c2f64ea289")
 		)
@@ -26388,6 +26595,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 107.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b48fc3c5-d244-453d-857b-c2a53534eb24")
 		)
@@ -26551,6 +26767,15 @@
 			)
 		)
 		(property "JLC" "C2289"
+			(at 172.72 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 172.72 54.61 90)
 			(effects
 				(font
@@ -26786,6 +27011,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 114.3 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "751598e8-89a0-4294-bcf4-3da7afe3c3a7")
 		)
@@ -26872,6 +27106,15 @@
 			)
 		)
 		(property "JLC" "N/A"
+			(at 208.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 208.28 45.72 0)
 			(effects
 				(font
@@ -27091,6 +27334,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 224.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb572c2f-d670-4528-9da8-3ea6023c2195")
 		)
@@ -27177,6 +27429,15 @@
 			)
 		)
 		(property "JLC" "C25804"
+			(at 64.77 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 64.77 45.72 0)
 			(effects
 				(font
@@ -27281,6 +27542,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 41.91 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9bc3c05-8c70-4808-bc5e-e6de8462cf66")
 		)
@@ -27370,6 +27640,15 @@
 			)
 		)
 		(property "JLC" "C2071517"
+			(at 54.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 54.61 105.41 0)
 			(effects
 				(font
@@ -27552,6 +27831,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 148.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "186c1c20-9843-4e91-91ff-af4c3b386454")
 		)
@@ -27637,6 +27925,15 @@
 			)
 		)
 		(property "JLC" "C338078"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -27734,6 +28031,15 @@
 			)
 		)
 		(property "JLC" "C25811"
+			(at 104.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 104.14 55.88 0)
 			(effects
 				(font
@@ -27904,6 +28210,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 119.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95e57ed1-b551-43d5-909d-1501aecaaabe")
 		)
@@ -28058,6 +28373,15 @@
 			)
 		)
 		(property "JLC" "C440198"
+			(at 35.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 35.56 120.65 0)
 			(effects
 				(font
@@ -28334,7 +28658,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "N/A"
+		(property "JLC" "C5219202"
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 67.31 58.42 0)
 			(effects
 				(font
@@ -28514,6 +28847,15 @@
 			)
 		)
 		(property "JLC" "C440198"
+			(at 29.21 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 29.21 120.65 0)
 			(effects
 				(font
