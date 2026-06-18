@@ -3893,6 +3893,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 166.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "cc4a8fb9-86f1-48b6-ace3-52051842fd97")
 		)
@@ -4134,7 +4143,7 @@
 		(dnp no)
 		(uuid "2a3642b8-12e8-4209-b2ac-edf7c3573d0a")
 		(property "Reference" "C29"
-			(at 172.72 43.1546 0)
+			(at 175.26 43.6626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4152,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 172.72 45.466 0)
+			(at 175.26 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,6 +4206,15 @@
 			)
 		)
 		(property "JLC" "C16780"
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 181.61 43.18 0)
 			(effects
 				(font
@@ -4286,101 +4304,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 213.36 125.73 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36a62ed2-78d2-4f2f-bbd6-20e4c20f11a7")
-		(property "Reference" "R8"
-			(at 213.36 120.904 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200"
-			(at 213.106 122.682 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 213.36 123.952 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 213.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "SG73S1JTTD2000F"
-			(at 213.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Data" ""
-			(at 213.36 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "C8218"
-			(at 213.36 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a14fffa-7be0-46b4-9f2b-786de23c6742")
-		)
-		(pin "1"
-			(uuid "771cab44-6bda-4af0-96f5-7116ef265680")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1/3504b936-9c0d-4baf-9c43-98590fac5230"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 205.74 125.73 0)
 		(unit 1)
@@ -4462,6 +4385,15 @@
 			)
 		)
 		(property "JLC" "C2286"
+			(at 205.74 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 205.74 125.73 90)
 			(effects
 				(font
@@ -4558,6 +4490,15 @@
 			)
 		)
 		(property "JLC" "C138714"
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 105.41 53.34 0)
 			(effects
 				(font
@@ -4685,6 +4626,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 196.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fd2b5e05-49f8-44af-a2c4-d9a7cae694f5")
 		)
@@ -4772,6 +4722,15 @@
 			)
 		)
 		(property "JLC" "C1015"
+			(at 175.26 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 175.26 39.37 90)
 			(effects
 				(font
@@ -4868,6 +4827,15 @@
 			)
 		)
 		(property "JLC" "C696859"
+			(at 201.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 201.93 111.76 0)
 			(effects
 				(font
@@ -5033,6 +5001,15 @@
 			)
 		)
 		(property "JLC" "TPD1E05U06DYAR"
+			(at 167.64 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 167.64 44.45 90)
 			(effects
 				(font
@@ -5400,6 +5377,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "05188d20-e736-451a-95dc-7a097b2635d8")
 		)
@@ -5650,6 +5636,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 196.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd190781-3d81-4087-812e-f45fc96d299b")
 		)
@@ -5878,6 +5873,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "925eb626-daa1-4f1e-ac7d-4d91ca356e66")
 		)
@@ -5998,6 +6002,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuerer" ""
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0c80db7-9556-40d8-8183-9cd2cd5b8047")
 		)
@@ -6079,6 +6092,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 213.36 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e311a576-3bf3-455e-8bbc-112f4385708f")
+		(property "Reference" "R8"
+			(at 211.328 120.7516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "400"
+			(at 211.328 123.063 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 213.36 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PAT0603E4000BST1"
+			(at 213.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data" ""
+			(at 213.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C5841024"
+			(at 213.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
+			(at 213.36 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec086c74-6d1d-4aee-b809-c01bd346becc")
+		)
+		(pin "2"
+			(uuid "6f5a8e07-b12b-4c40-89d2-f5c9b633a9ee")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1/3504b936-9c0d-4baf-9c43-98590fac5230"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:HDMI_A_1.4")
 		(at 186.69 76.2 0)
 		(unit 1)
@@ -6152,6 +6270,15 @@
 			)
 		)
 		(property "JLC" "C916313"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuerer" ""
 			(at 186.69 76.2 0)
 			(effects
 				(font

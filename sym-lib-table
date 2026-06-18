@@ -27,4 +27,5 @@
   (lib (name "NVMFWS1D7N04XMT1G")(type "KiCad")(uri "${KIPRJMOD}/PiBoard_Lib/NVMFWS1D7N04XMT1G.kicad_sym")(options "")(descr ""))
   (lib (name "48405-0003")(type "KiCad")(uri "${KIPRJMOD}/PiBoard_Lib/48405-0003.kicad_sym")(options "")(descr ""))
   (lib (name "usb3.0")(type "KiCad")(uri "${KIPRJMOD}/PiBoard_Lib/usb3.0.kicad_sym")(options "")(descr ""))
+  (lib (name "LM73100")(type "KiCad")(uri "${KIPRJMOD}/PiBoard_Lib/LM73100RPWR.kicad_sym")(options "")(descr ""))
 )
